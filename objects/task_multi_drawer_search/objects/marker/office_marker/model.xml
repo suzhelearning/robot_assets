@@ -1,0 +1,19 @@
+<mujoco model="office_marker">
+  <asset>
+    <mesh name="office_marker_visual" file="visual/model.obj"/>
+    <texture name="office_marker_texture" type="2d" file="visual/Material.png"/>
+    <material name="office_marker_material" texture="office_marker_texture" specular="0.18" shininess="0.15"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="2" density="0"/></default>
+    <default class="collision"><geom group="3" density="0" rgba="0 0 0 0"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0"/></default>
+  </default>
+  <worldbody>
+    <body><body name="object">
+      <geom name="visual" type="mesh" mesh="office_marker_visual" material="office_marker_material" class="visual"/>
+      <geom name="reg_bbox" type="box" pos="0 0 0" size="0.00710 0.055 0.00786" class="region"/>
+      <geom type="capsule" fromto="0 -0.047 0 0 0.047 0" size="0.008" class="collision"/>
+    </body></body>
+  </worldbody>
+</mujoco>

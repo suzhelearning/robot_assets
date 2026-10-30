@@ -1,0 +1,99 @@
+{
+  "comparison": {
+    "action": "retain_both_paths",
+    "matching_relative_path_sha256_pairs": 984,
+    "matching_relative_path_size_pairs": 984,
+    "only_in_first": [],
+    "only_in_second": [],
+    "relative_file_sets_equal": true,
+    "removal_authority": false,
+    "result": "All 984 corresponding relative files have equal SHA-256 and byte counts; both full inventories have the same stable digest.",
+    "sha256_mismatches": [],
+    "size_mismatches": []
+  },
+  "directories": [
+    {
+      "file_set_and_content_sha256": "9d866f8162e2e6442351cf725f8eceb6868479be63f9c7a82fc6c8dc57d589a9",
+      "path": "assets/objects/task_mug_flip/mug",
+      "regular_file_count": 984,
+      "symlink_entry_count": 0,
+      "total_file_bytes": 45013713
+    },
+    {
+      "file_set_and_content_sha256": "9d866f8162e2e6442351cf725f8eceb6868479be63f9c7a82fc6c8dc57d589a9",
+      "path": "assets/objects/task_mug_tree/mug",
+      "regular_file_count": 984,
+      "symlink_entry_count": 0,
+      "total_file_bytes": 45013713
+    }
+  ],
+  "format": "spd_object_duplicates/v1",
+  "limitations": [
+    "Only the two listed mug directories were compared. No duplicate inference is made for other asset roots.",
+    "SHA-256 equality is the comparison criterion. File modes, ownership, timestamps, extended attributes and empty directories are outside the digest scope.",
+    "Identical bytes do not establish shared licensing, upstream authorship, equivalent task semantics, interchangeable path identities or permission to delete a copy.",
+    "Runtime code selects the two task-specific directories separately; saved scene fingerprints preserve original resource paths. Historical or external consumers are not fully enumerated."
+  ],
+  "method": {
+    "enumeration": "Recursively enumerate all Path.rglob(*) entries for which is_file() is true. These scanned trees have no symlink entries. Use each file path relative to its compared mug directory with POSIX separators. Compare the entire two relative-file path sets, not only their intersection.",
+    "file_hash": "SHA-256 of complete file bytes, streamed in 1,048,576-byte chunks.",
+    "report_encoding": "UTF-8 JSON, 2-space indentation, sorted object keys and deterministic arrays.",
+    "stable_digest": "Sort all relative POSIX file paths by Unicode lexical order. For each path append UTF-8(path), one NUL byte (0x00), the 64 lowercase ASCII hex characters of SHA-256(file bytes), and one LF byte (0x0a). Concatenate these records without a header or any extra bytes; SHA-256 the concatenation. The same relative path and content list must produce the same digest. Digest excludes the compared directory prefix, enabling equality comparison."
+  },
+  "path_coupling_evidence": [
+    {
+      "evidence": {
+        "lines": [
+          37,
+          38,
+          39,
+          52,
+          56,
+          57,
+          84,
+          152
+        ],
+        "path": "src/dex_scenes/randomization/assets/mugs.py",
+        "sha256": "ffb07afb6f55e4773062c23d7ac816bcfe6e837a2fdb442690424103d6b1d0fb"
+      },
+      "meaning": "mug_flip and mug_tree have separate task-specific roots, dynamic variants and model.xml consumers."
+    },
+    {
+      "evidence": {
+        "lines": [
+          53,
+          55,
+          63,
+          68
+        ],
+        "path": "src/simulation/models/model_builder.py",
+        "sha256": "3a7438fbea6f6fca2a497353db1a184dcd87a2877f24bd8b037677be800edc83"
+      },
+      "meaning": "Resource fingerprint identity includes canonical path as well as SHA-256."
+    },
+    {
+      "evidence": {
+        "lines": [
+          160,
+          162,
+          164,
+          166,
+          169,
+          170
+        ],
+        "path": "src/simulation/viewer.py",
+        "sha256": "79fec34a95c68518c8b23037ac05d2b0d64b134eae3ad39c4727adceee960899"
+      },
+      "meaning": "Restore checks the complete resource fingerprint; relocating an identical file can break recorded scenes."
+    }
+  ],
+  "related_usage_report_path": "assets/objects/provenance/reports/usage.json",
+  "scope": {
+    "comparison": "Every relative regular-file path and complete file SHA-256 in both task mug directories, recursively; not a broad duplicate scan.",
+    "paths": [
+      "assets/objects/task_mug_flip/mug",
+      "assets/objects/task_mug_tree/mug"
+    ],
+    "purpose": "Content identity evidence only; retain both directories. No move, removal, replacement, symlink, or runtime change is authorized."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "meshes": [
+    "aebf911ffec81278/000.obj",
+    "aebf911ffec81278/001.obj",
+    "aebf911ffec81278/002.obj",
+    "aebf911ffec81278/003.obj",
+    "aebf911ffec81278/004.obj",
+    "aebf911ffec81278/005.obj",
+    "aebf911ffec81278/006.obj",
+    "aebf911ffec81278/007.obj",
+    "aebf911ffec81278/008.obj",
+    "aebf911ffec81278/009.obj",
+    "aebf911ffec81278/010.obj",
+    "aebf911ffec81278/011.obj",
+    "aebf911ffec81278/012.obj",
+    "aebf911ffec81278/013.obj",
+    "aebf911ffec81278/014.obj",
+    "aebf911ffec81278/015.obj",
+    "aebf911ffec81278/016.obj",
+    "aebf911ffec81278/017.obj",
+    "aebf911ffec81278/018.obj",
+    "aebf911ffec81278/019.obj",
+    "aebf911ffec81278/020.obj",
+    "aebf911ffec81278/021.obj",
+    "aebf911ffec81278/022.obj",
+    "aebf911ffec81278/023.obj",
+    "aebf911ffec81278/024.obj",
+    "aebf911ffec81278/025.obj",
+    "aebf911ffec81278/026.obj",
+    "aebf911ffec81278/027.obj",
+    "aebf911ffec81278/028.obj",
+    "aebf911ffec81278/029.obj",
+    "aebf911ffec81278/030.obj",
+    "aebf911ffec81278/031.obj",
+    "aebf911ffec81278/032.obj",
+    "aebf911ffec81278/033.obj",
+    "aebf911ffec81278/034.obj",
+    "aebf911ffec81278/035.obj",
+    "aebf911ffec81278/036.obj",
+    "aebf911ffec81278/037.obj",
+    "aebf911ffec81278/038.obj",
+    "aebf911ffec81278/039.obj",
+    "aebf911ffec81278/040.obj",
+    "aebf911ffec81278/041.obj",
+    "aebf911ffec81278/042.obj",
+    "aebf911ffec81278/043.obj",
+    "aebf911ffec81278/044.obj",
+    "aebf911ffec81278/045.obj",
+    "aebf911ffec81278/046.obj",
+    "aebf911ffec81278/047.obj",
+    "aebf911ffec81278/048.obj",
+    "aebf911ffec81278/049.obj",
+    "aebf911ffec81278/050.obj",
+    "aebf911ffec81278/051.obj",
+    "aebf911ffec81278/052.obj",
+    "aebf911ffec81278/053.obj",
+    "aebf911ffec81278/054.obj",
+    "aebf911ffec81278/055.obj",
+    "aebf911ffec81278/056.obj",
+    "aebf911ffec81278/057.obj",
+    "aebf911ffec81278/058.obj",
+    "aebf911ffec81278/059.obj",
+    "aebf911ffec81278/060.obj"
+  ],
+  "bounds": [
+    [
+      -0.03218,
+      -0.031911,
+      -0.017652
+    ],
+    [
+      0.03218,
+      0.031911,
+      0.017652
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.03218,
+      -0.031911,
+      -0.017652
+    ],
+    [
+      0.03218,
+      0.031911,
+      0.017652
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 0.7884305086045795,
+    "max": 1.7807578312358938
+  }
+}

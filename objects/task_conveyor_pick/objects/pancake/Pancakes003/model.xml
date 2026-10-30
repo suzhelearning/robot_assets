@@ -1,0 +1,43 @@
+<mujoco model="model">
+  <option timestep="0.002" gravity="0.0 0.0 -9.81" />
+  <compiler angle="radian" />
+  <asset>
+    <mesh file="visual/Pancakes003.obj" name="Pancakes003_vis" scale="0.87375524 0.87375524 0.87375524" />
+    <texture file="visual/T_BC001.png" name="Pancakes003_material" type="2d" />
+    <material name="Pancakes003_material" rgba="1 1 1 1.0" texture="Pancakes003_material" shininess="0.3" specular="0.3" />
+    <mesh file="collision_coacd/Pancakes003_coacd_00.obj" name="conveyor_collision_coacd_000" scale="0.87375524 0.87375524 0.87375524" />
+    <mesh file="collision_coacd/Pancakes003_coacd_01.obj" name="conveyor_collision_coacd_001" scale="0.87375524 0.87375524 0.87375524" />
+    <mesh file="collision_coacd/Pancakes003_coacd_02.obj" name="conveyor_collision_coacd_002" scale="0.87375524 0.87375524 0.87375524" />
+    <mesh file="collision_coacd/Pancakes003_coacd_03.obj" name="conveyor_collision_coacd_003" scale="0.87375524 0.87375524 0.87375524" />
+    <mesh file="collision_coacd/Pancakes003_coacd_04.obj" name="conveyor_collision_coacd_004" scale="0.87375524 0.87375524 0.87375524" />
+  </asset>
+  <default>
+    <default class="visual">
+      <geom conaffinity="0" contype="0" group="1" type="mesh" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" density="1.0" solref="0.004 1" solimp="0.998 0.998 0.001" />
+    </default>
+    <default class="spawn">
+      <geom group="0" rgba="1 1 1 0.5" contype="0" conaffinity="0" />
+      <site group="0" rgba="1 1 1 0.5" />
+    </default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" mass="0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom mesh="Pancakes003_vis" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" friction="0.95 0.3 0.1" class="visual" material="Pancakes003_material" />
+        <geom class="region" name="reg_bbox" type="box" pos="-4.8598266e-05 1.3582525e-05 -3.3027948e-06" size="0.055 0.054909178 0.045222382" />
+        <geom name="conveyor_collision_coacd_000" class="collision" type="mesh" mesh="conveyor_collision_coacd_000" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0032" />
+        <geom name="conveyor_collision_coacd_001" class="collision" type="mesh" mesh="conveyor_collision_coacd_001" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0032" />
+        <geom name="conveyor_collision_coacd_002" class="collision" type="mesh" mesh="conveyor_collision_coacd_002" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0032" />
+        <geom name="conveyor_collision_coacd_003" class="collision" type="mesh" mesh="conveyor_collision_coacd_003" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0032" />
+        <geom name="conveyor_collision_coacd_004" class="collision" type="mesh" mesh="conveyor_collision_coacd_004" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0032" />
+      </body>
+    </body>
+  </worldbody>
+  <actuator />
+</mujoco>

@@ -1,0 +1,24 @@
+<mujoco model="pear_11">
+  <asset>
+    <mesh file="visual/model_normalized_0.obj" name="model_normalized_0_vis" scale="0.0900067123 0.0900067123 0.0900067123" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5" />
+    <texture type="2d" name="image0" file="visual/image0.png" />
+    <material name="material.105" texture="image0" specular="0.5" shininess="0.0" />
+  </asset>
+  <default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" density="1000.0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_0_vis" conaffinity="0" contype="0" group="1" material="material.105" />
+        <geom class="region" name="reg_bbox" type="box" pos="1.46326372e-13 3.35292606e-06 -1.01177961e-09" size="0.0259495457 0.045 0.0250792546" />
+        <geom name="put_relative_collision_proxy" class="collision" type="box" pos="1.46326162e-13 3.35292254e-06 -1.01178045e-09" size="0.0212786369 0.0368999768 0.0205649586" group="3" rgba="0 0.8 1 0.35" density="0" mass="0.024" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" />
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

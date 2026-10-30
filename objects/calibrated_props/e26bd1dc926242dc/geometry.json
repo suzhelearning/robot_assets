@@ -1,0 +1,83 @@
+{
+  "meshes": [
+    "e26bd1dc926242dc/000.obj",
+    "e26bd1dc926242dc/001.obj",
+    "e26bd1dc926242dc/002.obj",
+    "e26bd1dc926242dc/003.obj",
+    "e26bd1dc926242dc/004.obj",
+    "e26bd1dc926242dc/005.obj",
+    "e26bd1dc926242dc/006.obj",
+    "e26bd1dc926242dc/007.obj",
+    "e26bd1dc926242dc/008.obj",
+    "e26bd1dc926242dc/009.obj",
+    "e26bd1dc926242dc/010.obj",
+    "e26bd1dc926242dc/011.obj",
+    "e26bd1dc926242dc/012.obj",
+    "e26bd1dc926242dc/013.obj",
+    "e26bd1dc926242dc/014.obj",
+    "e26bd1dc926242dc/015.obj",
+    "e26bd1dc926242dc/016.obj",
+    "e26bd1dc926242dc/017.obj",
+    "e26bd1dc926242dc/018.obj",
+    "e26bd1dc926242dc/019.obj",
+    "e26bd1dc926242dc/020.obj",
+    "e26bd1dc926242dc/021.obj",
+    "e26bd1dc926242dc/022.obj",
+    "e26bd1dc926242dc/023.obj",
+    "e26bd1dc926242dc/024.obj",
+    "e26bd1dc926242dc/025.obj",
+    "e26bd1dc926242dc/026.obj",
+    "e26bd1dc926242dc/027.obj",
+    "e26bd1dc926242dc/028.obj",
+    "e26bd1dc926242dc/029.obj",
+    "e26bd1dc926242dc/030.obj",
+    "e26bd1dc926242dc/031.obj",
+    "e26bd1dc926242dc/032.obj",
+    "e26bd1dc926242dc/033.obj",
+    "e26bd1dc926242dc/034.obj",
+    "e26bd1dc926242dc/035.obj",
+    "e26bd1dc926242dc/036.obj",
+    "e26bd1dc926242dc/037.obj",
+    "e26bd1dc926242dc/038.obj",
+    "e26bd1dc926242dc/039.obj",
+    "e26bd1dc926242dc/040.obj",
+    "e26bd1dc926242dc/041.obj",
+    "e26bd1dc926242dc/042.obj",
+    "e26bd1dc926242dc/043.obj",
+    "e26bd1dc926242dc/044.obj",
+    "e26bd1dc926242dc/045.obj",
+    "e26bd1dc926242dc/046.obj"
+  ],
+  "bounds": [
+    [
+      -0.02652107,
+      -0.0725,
+      -0.011999536752
+    ],
+    [
+      0.02652107,
+      0.0725,
+      0.011999536752
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.02652107,
+      -0.0725,
+      -0.011999536752
+    ],
+    [
+      0.02652107,
+      0.0725,
+      0.011999536752
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 1.7939465090978755,
+    "max": 4.6886120039204835
+  }
+}

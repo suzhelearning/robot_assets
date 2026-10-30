@@ -1,0 +1,3173 @@
+{
+  "format": "spd_object_source_gaps/v1",
+  "gaps": [
+    {
+      "derivative_ids": [
+        "abc_bottles"
+      ],
+      "evidence": [
+        {
+          "path": "assets/objects/abc_bottles/manifest.json",
+          "sha256": "5f8582c015cbf09f9ecaeb58a9146858fe23abe16090c37699adeeb08d450d5b"
+        }
+      ],
+      "id": "generation:abc_bottles",
+      "missing_fields": [
+        "generation_command",
+        "generation_environment",
+        "historical_generator_revision",
+        "complete_historical_input_manifest",
+        "generator_file"
+      ],
+      "note": "Current inventory hashes identify present files; they do not reconstruct historical generation. Current generator source, where known, is recorded separately.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/abc_bottles"
+        }
+      ],
+      "source_ids": [
+        "derived:abc_bottles"
+      ]
+    },
+    {
+      "derivative_ids": [
+        "conveyor_calibrated"
+      ],
+      "evidence": [],
+      "id": "generation:conveyor_calibrated",
+      "missing_fields": [
+        "generation_command",
+        "generation_environment",
+        "historical_generator_revision",
+        "complete_historical_input_manifest",
+        "generator_file",
+        "transformation_recipe",
+        "input_output_mapping"
+      ],
+      "note": "Current inventory hashes identify present files; they do not reconstruct historical generation. Current generator source, where known, is recorded separately.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_conveyor_pick/conveyor_belt/calibrated"
+        }
+      ],
+      "source_ids": [
+        "derived:conveyor"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_bins/README.md",
+          "sha256": "f0e6f288dba50f775b0eb995ad948b990869ed77aa8be2689d0a1717455ba87d"
+        }
+      ],
+      "id": "source:bins:low_poly_plastic_crate:collision",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_bins/low_poly_plastic_crate_collision"
+        }
+      ],
+      "source_ids": [
+        "bins:low_poly_plastic_crate:collision"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_bins/README.md",
+          "sha256": "f0e6f288dba50f775b0eb995ad948b990869ed77aa8be2689d0a1717455ba87d"
+        }
+      ],
+      "id": "source:bins:stackable_box:collision",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_bins/stackable_box_collision"
+        }
+      ],
+      "source_ids": [
+        "bins:stackable_box:collision"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_multi_drawer_search/drawer/short_cabinet/README.md",
+          "sha256": "ae6e651e58cf4623eebe05fd6acfdf129af18b2ffa40f01e1325cc4fee590c17"
+        },
+        {
+          "path": "assets/objects/task_multi_drawer_search/drawer/short_cabinet/LICENSE",
+          "sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6"
+        }
+      ],
+      "id": "source:cabinet:short_cabinet",
+      "missing_fields": [
+        "original_author"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/drawer/short_cabinet"
+        }
+      ],
+      "source_ids": [
+        "cabinet:short_cabinet"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_dishrack/README.md",
+          "sha256": "93637d0687a83611237611df79042c0ec6cd7d97a4da908263df80ca8c90dac4"
+        }
+      ],
+      "id": "source:dishrack:dish_rack:default",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_0"
+        }
+      ],
+      "source_ids": [
+        "dishrack:dish_rack:default"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_dishrack/README.md",
+          "sha256": "93637d0687a83611237611df79042c0ec6cd7d97a4da908263df80ca8c90dac4"
+        }
+      ],
+      "id": "source:dishrack:dish_rack:variants",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_1"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_10"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_11"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_12"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_2"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_3"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_4"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_5"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_6"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_7"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_8"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/dish_rack/dish_rack_9"
+        }
+      ],
+      "source_ids": [
+        "dishrack:dish_rack:variants"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_dishrack/README.md",
+          "sha256": "93637d0687a83611237611df79042c0ec6cd7d97a4da908263df80ca8c90dac4"
+        }
+      ],
+      "id": "source:dishrack:plate:default",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_0"
+        }
+      ],
+      "source_ids": [
+        "dishrack:plate:default"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_dishrack/README.md",
+          "sha256": "93637d0687a83611237611df79042c0ec6cd7d97a4da908263df80ca8c90dac4"
+        }
+      ],
+      "id": "source:dishrack:plate:variants",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_1"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_10"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_11"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_12"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_13"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_14"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_15"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_16"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_17"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_18"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_19"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_2"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_20"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_3"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_4"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_5"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_6"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_7"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_8"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack/plate/plate_9"
+        }
+      ],
+      "source_ids": [
+        "dishrack:plate:variants"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:apple",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/apple"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:apple"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:boxed_drink",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/boxed_drink"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:boxed_drink"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:boxed_food",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/boxed_food"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:boxed_food"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:can",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/can"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:can"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:canned_food",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/canned_food"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:canned_food"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:dish_brush",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/dish_brush"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:dish_brush"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:lemon",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/lemon"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:lemon"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:measuring_cup",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/measuring_cup"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:measuring_cup"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:orange",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/orange"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:orange"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:peeler",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/peeler"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:peeler"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:pizza_cutter",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/pizza_cutter"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:pizza_cutter"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:potato",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/potato"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:potato"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:reamer",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/reamer"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:reamer"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:rolling_pin",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/rolling_pin"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:rolling_pin"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:tomato",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/tomato"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:tomato"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:tongs",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/tongs"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:tongs"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:whisk",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/whisk"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:whisk"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:drawer:unknown:wooden_spoon",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/wooden_spoon"
+        }
+      ],
+      "source_ids": [
+        "drawer:unknown:wooden_spoon"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:can",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/can"
+        }
+      ],
+      "source_ids": [
+        "inhand:can"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:cheese_grater",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/cheese_grater"
+        }
+      ],
+      "source_ids": [
+        "inhand:cheese_grater"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:cream_cheese_stick",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/cream_cheese_stick"
+        }
+      ],
+      "source_ids": [
+        "inhand:cream_cheese_stick"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:dish_brush",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/dish_brush"
+        }
+      ],
+      "source_ids": [
+        "inhand:dish_brush"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:ladle",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/ladle"
+        }
+      ],
+      "source_ids": [
+        "inhand:ladle"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:pizza_cutter",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/pizza_cutter"
+        }
+      ],
+      "source_ids": [
+        "inhand:pizza_cutter"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:rolling_pin",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/rolling_pin"
+        }
+      ],
+      "source_ids": [
+        "inhand:rolling_pin"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:salt_and_pepper_shaker",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/salt_and_pepper_shaker"
+        }
+      ],
+      "source_ids": [
+        "inhand:salt_and_pepper_shaker"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:water_bottle",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/water_bottle"
+        }
+      ],
+      "source_ids": [
+        "inhand:water_bottle"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_inhand_transfer/README.md",
+          "sha256": "04b928711f091189ee415ada98f608062879b32f101f7aaf8ddf941d8f1ff696"
+        }
+      ],
+      "id": "source:inhand:whisk",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer/whisk"
+        }
+      ],
+      "source_ids": [
+        "inhand:whisk"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_nuts_bolts/README.md",
+          "sha256": "71cccbdd4fe5416d8c964f035bfd4560a24edbc8afac6f6c162caecefea10d7c"
+        },
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:nuts:generated-upstream",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "exact",
+          "path": "assets/objects/task_nuts_bolts/m20_nut_watertight.obj"
+        },
+        {
+          "match": "exact",
+          "path": "assets/objects/task_nuts_bolts/m20_bolt_watertight.obj"
+        }
+      ],
+      "source_ids": [
+        "nuts:generated-upstream"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_multi_drawer_search/objects/OFFICE_ATTRIBUTIONS.md",
+          "sha256": "a23931f2d55a8639ffaa5939eaf2671822db8ddc35ecff90c67335a76244b2ff"
+        }
+      ],
+      "id": "source:office:scissors/scissors_gso",
+      "missing_fields": [
+        "original_author"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/scissors/scissors_gso"
+        }
+      ],
+      "source_ids": [
+        "office:scissors/scissors_gso"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_multi_drawer_search/objects/OFFICE_ATTRIBUTIONS.md",
+          "sha256": "a23931f2d55a8639ffaa5939eaf2671822db8ddc35ecff90c67335a76244b2ff"
+        }
+      ],
+      "id": "source:office:tape_roll/tape_roll_gso",
+      "missing_fields": [
+        "original_author"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search/objects/tape_roll/tape_roll_gso"
+        }
+      ],
+      "source_ids": [
+        "office:tape_roll/tape_roll_gso"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        },
+        {
+          "path": "assets/objects/assets_robocasa/download_assets.sh",
+          "sha256": "96581df4ec581be887debff35b6f12fdfb2b6f27785342eb17017a992d87c4ab"
+        }
+      ],
+      "id": "source:package:assets_robocasa",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/assets_robocasa"
+        }
+      ],
+      "source_ids": [
+        "package:assets_robocasa"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:ball_sorting_toy",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/ball_sorting_toy"
+        }
+      ],
+      "source_ids": [
+        "package:ball_sorting_toy"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:bin",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/bin"
+        }
+      ],
+      "source_ids": [
+        "package:bin"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:blocks",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/blocks"
+        }
+      ],
+      "source_ids": [
+        "package:blocks"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:bowl",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/bowl"
+        }
+      ],
+      "source_ids": [
+        "package:bowl"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:brush",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/brush"
+        }
+      ],
+      "source_ids": [
+        "package:brush"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:brush_flat",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/brush_flat"
+        }
+      ],
+      "source_ids": [
+        "package:brush_flat"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:building_blocks",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/building_blocks"
+        }
+      ],
+      "source_ids": [
+        "package:building_blocks"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:chess",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/chess"
+        }
+      ],
+      "source_ids": [
+        "package:chess"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:cup_stacking",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/cup_stacking"
+        }
+      ],
+      "source_ids": [
+        "package:cup_stacking"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:dishrack",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/dishrack"
+        }
+      ],
+      "source_ids": [
+        "package:dishrack"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:drawer",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/drawer"
+        }
+      ],
+      "source_ids": [
+        "package:drawer"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:dustpan",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/dustpan"
+        }
+      ],
+      "source_ids": [
+        "package:dustpan"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:garbage_can",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/garbage_can"
+        }
+      ],
+      "source_ids": [
+        "package:garbage_can"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:hand_brush_smooth",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/hand_brush_smooth"
+        }
+      ],
+      "source_ids": [
+        "package:hand_brush_smooth"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:jenga",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/jenga"
+        }
+      ],
+      "source_ids": [
+        "package:jenga"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:letters",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/letters"
+        }
+      ],
+      "source_ids": [
+        "package:letters"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:marker",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/marker"
+        }
+      ],
+      "source_ids": [
+        "package:marker"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:mug",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/mug"
+        }
+      ],
+      "source_ids": [
+        "package:mug"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:mug_tree",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/mug_tree"
+        }
+      ],
+      "source_ids": [
+        "package:mug_tree"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:new_brush",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/new_brush"
+        }
+      ],
+      "source_ids": [
+        "package:new_brush"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:paper_ball",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/paper_ball"
+        }
+      ],
+      "source_ids": [
+        "package:paper_ball"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:plate",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/plate"
+        }
+      ],
+      "source_ids": [
+        "package:plate"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_bins",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_bins"
+        }
+      ],
+      "source_ids": [
+        "package:task_bins"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_chess",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_chess"
+        }
+      ],
+      "source_ids": [
+        "package:task_chess"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_conveyor_pick",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_conveyor_pick"
+        }
+      ],
+      "source_ids": [
+        "package:task_conveyor_pick"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_dishrack",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_dishrack"
+        }
+      ],
+      "source_ids": [
+        "package:task_dishrack"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_grab_clutter",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_grab_clutter"
+        }
+      ],
+      "source_ids": [
+        "package:task_grab_clutter"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_inhand_transfer",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_inhand_transfer"
+        }
+      ],
+      "source_ids": [
+        "package:task_inhand_transfer"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_mug_flip",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip"
+        }
+      ],
+      "source_ids": [
+        "package:task_mug_flip"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_mug_tree",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree"
+        }
+      ],
+      "source_ids": [
+        "package:task_mug_tree"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_multi_drawer_search",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_multi_drawer_search"
+        }
+      ],
+      "source_ids": [
+        "package:task_multi_drawer_search"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_nuts_bolts",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_nuts_bolts"
+        }
+      ],
+      "source_ids": [
+        "package:task_nuts_bolts"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_put_relative",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_put_relative"
+        }
+      ],
+      "source_ids": [
+        "package:task_put_relative"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:task_water_bottles",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_water_bottles"
+        }
+      ],
+      "source_ids": [
+        "package:task_water_bottles"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:package:tray",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/tray"
+        }
+      ],
+      "source_ids": [
+        "package:tray"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:task_conveyor_pick:unknown:conveyor_belt",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_conveyor_pick/conveyor_belt"
+        }
+      ],
+      "source_ids": [
+        "task_conveyor_pick:unknown:conveyor_belt"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:task_conveyor_pick:unknown:objects",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_conveyor_pick/objects"
+        }
+      ],
+      "source_ids": [
+        "task_conveyor_pick:unknown:objects"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:task_grab_clutter:unknown:objects",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_grab_clutter/objects"
+        }
+      ],
+      "source_ids": [
+        "task_grab_clutter:unknown:objects"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_mug_flip/README.md",
+          "sha256": "5f157ffbe1b43b74ec898282ae4547377fcb36536585be3af96e4e1cf46759fe"
+        }
+      ],
+      "id": "source:task_mug_flip:default",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_0"
+        }
+      ],
+      "source_ids": [
+        "task_mug_flip:default"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_mug_flip/README.md",
+          "sha256": "5f157ffbe1b43b74ec898282ae4547377fcb36536585be3af96e4e1cf46759fe"
+        }
+      ],
+      "id": "source:task_mug_flip:variants",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_1"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_10"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_11"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_12"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_13"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_14"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_15"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_16"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_17"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_18"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_2"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_3"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_4"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_5"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_6"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_7"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_8"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_flip/mug/mug_9"
+        }
+      ],
+      "source_ids": [
+        "task_mug_flip:variants"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_mug_tree/README.md",
+          "sha256": "2d91d6c59db6ba1191d52f8c72490fe6597ad9a581ce5e3cfa3d8ecf1f06c5a3"
+        }
+      ],
+      "id": "source:task_mug_tree:default",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_0"
+        }
+      ],
+      "source_ids": [
+        "task_mug_tree:default"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_mug_tree/README.md",
+          "sha256": "2d91d6c59db6ba1191d52f8c72490fe6597ad9a581ce5e3cfa3d8ecf1f06c5a3"
+        }
+      ],
+      "id": "source:task_mug_tree:variants",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_1"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_10"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_11"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_12"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_13"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_14"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_15"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_16"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_17"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_18"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_2"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_3"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_4"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_5"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_6"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_7"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_8"
+        },
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_mug_tree/mug/mug_9"
+        }
+      ],
+      "source_ids": [
+        "task_mug_tree:variants"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:task_put_relative:unknown:objects",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_put_relative/objects"
+        }
+      ],
+      "source_ids": [
+        "task_put_relative:unknown:objects"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:task_water_bottles:unknown:bottle",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_water_bottles/bottle"
+        }
+      ],
+      "source_ids": [
+        "task_water_bottles:unknown:bottle"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:task_water_bottles:unknown:garbage_can",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_water_bottles/garbage_can"
+        }
+      ],
+      "source_ids": [
+        "task_water_bottles:unknown:garbage_can"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_chess/tin_box/README.md",
+          "section": "tin_2",
+          "sha256": "1f1d4734f904ab236a17d51466d564ed6973da25d82d8b6a74e8664ee679abd1"
+        }
+      ],
+      "id": "source:tin:2",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P1",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_chess/tin_box/tin_2"
+        }
+      ],
+      "source_ids": [
+        "tin:2"
+      ]
+    },
+    {
+      "derivative_ids": [
+        "calibrated_collision"
+      ],
+      "evidence": [
+        {
+          "path": "assets/objects/calibrated_collision/adaptive_probe.json",
+          "sha256": "ffdd916e9163a6ca59dd28d2dfbaadc031e130bed17abe1435029629e977dbe4"
+        },
+        {
+          "path": "assets/objects/calibrated_collision/coacd.json",
+          "sha256": "a31c9706a7048e09e6319c79f42e24cb4a66dce3fb59cdde2d2ce9606147fa2e"
+        },
+        {
+          "path": "assets/objects/calibrated_collision/manifest.json",
+          "sha256": "a506cb43ae7856e9556a465894c6370047cad9f3282ffdfe5650b8c0f342c3cb"
+        },
+        {
+          "path": "assets/objects/calibrated_collision/parts.json",
+          "sha256": "655258f90bbb6b3c8204a823f3ae8d0cbdc1fa006c707f1a3e4fc8c7f52dc5fa"
+        },
+        {
+          "path": "assets/objects/calibrated_collision/racks.json",
+          "sha256": "a5be9134b326897ae1dc6e1375e1e060c410dfcb0ed796673444c2a28d8bf5e8"
+        },
+        {
+          "path": "assets/objects/calibrated_collision/surface_probe.json",
+          "sha256": "d29a6f02ad669073a8a96af2bcf3d4bf4530071ac15e354d98c897b01a1dafe5"
+        },
+        {
+          "path": "assets/objects/calibrated_props/marker_manifest.json",
+          "sha256": "41a02ea8bafa3b3a0eb11f3f9c18a680cbd345f1fb095afd575d83b381c917ad"
+        }
+      ],
+      "id": "generation:calibrated_collision",
+      "missing_fields": [
+        "generation_command",
+        "generation_environment",
+        "historical_generator_revision",
+        "complete_historical_input_manifest"
+      ],
+      "note": "Current inventory hashes identify present files; they do not reconstruct historical generation. Current generator source, where known, is recorded separately.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/calibrated_collision"
+        }
+      ],
+      "source_ids": [
+        "derived:calibrated_collision"
+      ]
+    },
+    {
+      "derivative_ids": [
+        "calibrated_props"
+      ],
+      "evidence": [
+        {
+          "path": "assets/objects/calibrated_props/manifest.json",
+          "sha256": "a10dfc14b23bf462bd66ccee5a322e119117540fc28b8466021874f2465bb4f4"
+        },
+        {
+          "path": "assets/objects/calibrated_props/marker_manifest.json",
+          "sha256": "41a02ea8bafa3b3a0eb11f3f9c18a680cbd345f1fb095afd575d83b381c917ad"
+        }
+      ],
+      "id": "generation:calibrated_props",
+      "missing_fields": [
+        "generation_command",
+        "generation_environment",
+        "historical_generator_revision",
+        "complete_historical_input_manifest"
+      ],
+      "note": "Current inventory hashes identify present files; they do not reconstruct historical generation. Current generator source, where known, is recorded separately.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/calibrated_props"
+        }
+      ],
+      "source_ids": [
+        "derived:calibrated_props"
+      ]
+    },
+    {
+      "derivative_ids": [
+        "detail_textures"
+      ],
+      "evidence": [
+        {
+          "path": "assets/objects/detail_textures/manifest.json",
+          "sha256": "e1e09ffdfd43fc273afd95bdf646a400ebca8d64aa5638a063d6879c6fec5ac6"
+        }
+      ],
+      "id": "generation:detail_textures",
+      "missing_fields": [
+        "generation_command",
+        "generation_environment",
+        "historical_generator_revision",
+        "complete_historical_input_manifest"
+      ],
+      "note": "Current inventory hashes identify present files; they do not reconstruct historical generation. Current generator source, where known, is recorded separately.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/detail_textures"
+        }
+      ],
+      "source_ids": [
+        "derived:detail_textures"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "installer:identity",
+      "missing_fields": [
+        "installer_implementation",
+        "installation_timestamp"
+      ],
+      "note": "No stamp-writer implementation or installation event is established by the local evidence examined.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/.spd_sim_asset_packages"
+        }
+      ],
+      "source_ids": []
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "packages:archive-verification",
+      "missing_fields": [
+        "retained_archive_bytes",
+        "archive_sha256_independent_verification"
+      ],
+      "note": "Original manifest archive digests are recorded verbatim. Matching installed stamps are not independent archive verification.",
+      "package_ids": [
+        "assets_robocasa",
+        "ball_sorting_toy",
+        "bin",
+        "blocks",
+        "bowl",
+        "brush",
+        "brush_flat",
+        "building_blocks",
+        "chess",
+        "cup_stacking",
+        "dishrack",
+        "drawer",
+        "dustpan",
+        "flexible_gripper",
+        "garbage_can",
+        "hand_brush_smooth",
+        "i2rt_yam",
+        "jenga",
+        "letters",
+        "marker",
+        "mug",
+        "mug_tree",
+        "new_brush",
+        "paper_ball",
+        "plate",
+        "task_bins",
+        "task_chess",
+        "task_conveyor_pick",
+        "task_dishrack",
+        "task_grab_clutter",
+        "task_inhand_transfer",
+        "task_mug_flip",
+        "task_mug_tree",
+        "task_multi_drawer_search",
+        "task_nuts_bolts",
+        "task_put_relative",
+        "task_water_bottles",
+        "tray"
+      ],
+      "priority": "P2",
+      "scopes": [],
+      "source_ids": []
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_robocasa/download_assets.sh",
+          "sha256": "96581df4ec581be887debff35b6f12fdfb2b6f27785342eb17017a992d87c4ab"
+        }
+      ],
+      "id": "robocasa:helper-packs",
+      "missing_fields": [
+        "helper_archive_sha256",
+        "per_model_upstream_attribution"
+      ],
+      "note": "Helper lists two Box URLs without SHA256. Full collections are not present at helper root; task-local categories cannot inherit a blanket license.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [],
+      "source_ids": [
+        "package:assets_robocasa"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/abc_bottles/manifest.json",
+          "sha256": "5f8582c015cbf09f9ecaeb58a9146858fe23abe16090c37699adeeb08d450d5b"
+        }
+      ],
+      "id": "source:derived:abc_bottles",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "complete_input_source_attribution"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/abc_bottles"
+        }
+      ],
+      "source_ids": [
+        "derived:abc_bottles"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/calibrated_collision/manifest.json",
+          "sha256": "a506cb43ae7856e9556a465894c6370047cad9f3282ffdfe5650b8c0f342c3cb"
+        }
+      ],
+      "id": "source:derived:calibrated_collision",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "complete_input_source_attribution"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/calibrated_collision"
+        }
+      ],
+      "source_ids": [
+        "derived:calibrated_collision"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/calibrated_props/manifest.json",
+          "sha256": "a10dfc14b23bf462bd66ccee5a322e119117540fc28b8466021874f2465bb4f4"
+        }
+      ],
+      "id": "source:derived:calibrated_props",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "complete_input_source_attribution"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/calibrated_props"
+        }
+      ],
+      "source_ids": [
+        "derived:calibrated_props"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "source:derived:conveyor",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "complete_input_source_attribution"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/task_conveyor_pick/conveyor_belt/calibrated"
+        }
+      ],
+      "source_ids": [
+        "derived:conveyor"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/detail_textures/manifest.json",
+          "sha256": "e1e09ffdfd43fc273afd95bdf646a400ebca8d64aa5638a063d6879c6fec5ac6"
+        }
+      ],
+      "id": "source:derived:detail_textures",
+      "missing_fields": [
+        "original_author",
+        "original_license"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [
+        {
+          "match": "subtree",
+          "path": "assets/objects/detail_textures"
+        }
+      ],
+      "source_ids": [
+        "derived:detail_textures"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_chess/tin_box/README.md",
+          "section": "tin_0",
+          "sha256": "1f1d4734f904ab236a17d51466d564ed6973da25d82d8b6a74e8664ee679abd1"
+        }
+      ],
+      "id": "source:tin:0",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [],
+      "source_ids": [
+        "tin:0"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_chess/tin_box/README.md",
+          "section": "tin_1",
+          "sha256": "1f1d4734f904ab236a17d51466d564ed6973da25d82d8b6a74e8664ee679abd1"
+        }
+      ],
+      "id": "source:tin:1",
+      "missing_fields": [
+        "original_author",
+        "original_license",
+        "original_model_source_url"
+      ],
+      "note": "Only applies to paths where this source record wins catalog scope resolution. Missing evidence is not a legal conclusion.",
+      "package_ids": [],
+      "priority": "P2",
+      "scopes": [],
+      "source_ids": [
+        "tin:1"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "absent-package:flexible_gripper",
+      "missing_fields": [
+        "local_package_tree",
+        "installed_stamp"
+      ],
+      "note": "Declared package absent under assets/objects; no download is requested or implied.",
+      "package_ids": [
+        "flexible_gripper"
+      ],
+      "priority": "P3",
+      "scopes": [],
+      "source_ids": []
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/assets_manifest.json",
+          "sha256": "54138e2ffc6d72fad0a14fde292385c9c4c0cf62fd5933fd24421fbdda7910db"
+        }
+      ],
+      "id": "absent-package:i2rt_yam",
+      "missing_fields": [
+        "local_package_tree",
+        "installed_stamp"
+      ],
+      "note": "Declared package absent under assets/objects; no download is requested or implied.",
+      "package_ids": [
+        "i2rt_yam"
+      ],
+      "priority": "P3",
+      "scopes": [],
+      "source_ids": []
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_chess/tin_box/README.md",
+          "section": "tin_0",
+          "sha256": "1f1d4734f904ab236a17d51466d564ed6973da25d82d8b6a74e8664ee679abd1"
+        }
+      ],
+      "id": "absent-source:tin:0",
+      "missing_fields": [
+        "local_declared_variant"
+      ],
+      "note": "README declaration retained separately from installation state; declared_asset_path is not a file evidence reference.",
+      "package_ids": [],
+      "priority": "P3",
+      "scopes": [],
+      "source_ids": [
+        "tin:0"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_chess/tin_box/README.md",
+          "section": "tin_1",
+          "sha256": "1f1d4734f904ab236a17d51466d564ed6973da25d82d8b6a74e8664ee679abd1"
+        }
+      ],
+      "id": "absent-source:tin:1",
+      "missing_fields": [
+        "local_declared_variant"
+      ],
+      "note": "README declaration retained separately from installation state; declared_asset_path is not a file evidence reference.",
+      "package_ids": [],
+      "priority": "P3",
+      "scopes": [],
+      "source_ids": [
+        "tin:1"
+      ]
+    },
+    {
+      "derivative_ids": [],
+      "evidence": [
+        {
+          "path": "assets/objects/task_bins/README.md",
+          "sha256": "f0e6f288dba50f775b0eb995ad948b990869ed77aa8be2689d0a1717455ba87d"
+        },
+        {
+          "path": "assets/objects/task_multi_drawer_search/objects/OFFICE_ATTRIBUTIONS.md",
+          "sha256": "a23931f2d55a8639ffaa5939eaf2671822db8ddc35ecff90c67335a76244b2ff"
+        }
+      ],
+      "id": "licenses:cc-full-text",
+      "missing_fields": [
+        "local_full_license_text"
+      ],
+      "note": "Local files declare CC BY 4.0 and preserve source attribution; canonical license URL is indexed, not fabricated full license text.",
+      "package_ids": [],
+      "priority": "P3",
+      "scopes": [],
+      "source_ids": [
+        "bins:low_poly_plastic_crate",
+        "bins:stackable_box",
+        "office:calculator/desk_calculator",
+        "office:eraser/worn_eraser",
+        "office:marker/office_marker",
+        "office:notebook/spiral_notebook",
+        "office:pencil_sharpener/table_sharpener",
+        "office:scissors/scissors_gso",
+        "office:stapler/red_stapler",
+        "office:tape_roll/tape_roll_gso"
+      ]
+    }
+  ],
+  "limitations": [
+    "Evidence-completeness report only; priorities are research ordering, not legal conclusions, deployment approval or removal advice.",
+    "Source gap scopes use winner-only catalog coverage semantics, excluding more-specific known exceptions.",
+    "Absence from examined local evidence does not establish absence everywhere."
+  ],
+  "priority_definitions": {
+    "P1": "Original source/author/license or unknown derivative recipe to research first",
+    "P2": "Reproducibility, historical input chain or archive/install evidence to complete",
+    "P3": "Declared-but-absent optional artifacts or documentation completeness"
+  },
+  "schema": {
+    "evidence": "Existing local evidence supporting recorded facts, each with current file SHA256.",
+    "foreign_keys": "source_ids, package_ids and derivative_ids resolve to catalog.json collections; empty arrays mean not applicable.",
+    "missing_fields": "Machine-readable names for evidence not currently established; they are not legal assertions.",
+    "scopes": "Repository-relative POSIX scope predicates; source_ids additionally restrict a gap to winning source records. Scopes may overlap intentionally when distinct missing fields are reported."
+  },
+  "scope": {
+    "catalog_path": "assets/objects/provenance/catalog.json",
+    "root": "assets/objects",
+    "snapshot_date": "2026-10-22"
+  },
+  "summary": {
+    "by_priority": {
+      "P1": 87,
+      "P2": 13,
+      "P3": 5
+    },
+    "gap_records": 105
+  }
+}

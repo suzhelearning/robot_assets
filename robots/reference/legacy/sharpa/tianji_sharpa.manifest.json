@@ -1,0 +1,105 @@
+{
+  "system_version": "v1",
+  "robot_config": "tianji_sharpa",
+  "joint_names": [
+    "Joint1_L",
+    "Joint2_L",
+    "Joint3_L",
+    "Joint4_L",
+    "Joint5_L",
+    "Joint6_L",
+    "Joint7_L",
+    "Joint1_R",
+    "Joint2_R",
+    "Joint3_R",
+    "Joint4_R",
+    "Joint5_R",
+    "Joint6_R",
+    "Joint7_R",
+    "left_thumb_CMC_FE",
+    "left_thumb_CMC_AA",
+    "left_thumb_MCP_FE",
+    "left_thumb_MCP_AA",
+    "left_thumb_IP",
+    "left_index_MCP_FE",
+    "left_index_MCP_AA",
+    "left_index_PIP",
+    "left_index_DIP",
+    "left_middle_MCP_FE",
+    "left_middle_MCP_AA",
+    "left_middle_PIP",
+    "left_middle_DIP",
+    "left_ring_MCP_FE",
+    "left_ring_MCP_AA",
+    "left_ring_PIP",
+    "left_ring_DIP",
+    "left_pinky_CMC",
+    "left_pinky_MCP_FE",
+    "left_pinky_MCP_AA",
+    "left_pinky_PIP",
+    "left_pinky_DIP",
+    "right_thumb_CMC_FE",
+    "right_thumb_CMC_AA",
+    "right_thumb_MCP_FE",
+    "right_thumb_MCP_AA",
+    "right_thumb_IP",
+    "right_index_MCP_FE",
+    "right_index_MCP_AA",
+    "right_index_PIP",
+    "right_index_DIP",
+    "right_middle_MCP_FE",
+    "right_middle_MCP_AA",
+    "right_middle_PIP",
+    "right_middle_DIP",
+    "right_ring_MCP_FE",
+    "right_ring_MCP_AA",
+    "right_ring_PIP",
+    "right_ring_DIP",
+    "right_pinky_CMC",
+    "right_pinky_MCP_FE",
+    "right_pinky_MCP_AA",
+    "right_pinky_PIP",
+    "right_pinky_DIP"
+  ],
+  "mounts": {
+    "revision": "nominal-tianji-tcp-sharpa-flange-v1",
+    "calibration_status": "simulation_nominal_not_hardware_calibrated",
+    "description": "Coincident Tianji TCP and official Sharpa with-flange root frames; no measured adapter transform. Simulation only.",
+    "left": {
+      "parent_body": "TCP_Link_L",
+      "remove_subtree": "marker_tianji_l",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "right": {
+      "parent_body": "TCP_Link_R",
+      "remove_subtree": "marker_tianji_r",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "model_sha256": "74e798858362c0bdfee452be80def6c4fd60fc647c079f568924071999e5f77e",
+  "base_sha256": "d56f10b469da8d7b39dd32c2df4b2c593f215ed0422642554663f5a1f4dfb3e7",
+  "vendor_sha256": {
+    "left": "82e6c554fe85597707288ddd8dcea54795d941a839b12b3b676ec391efc75174",
+    "right": "e2cdce4a9631d25b28e7e4425567efd1ba9f6f7db305f14f353b5d0d1171d6fc"
+  }
+}

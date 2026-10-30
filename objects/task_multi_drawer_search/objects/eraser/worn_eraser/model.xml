@@ -1,0 +1,19 @@
+<mujoco model="office_eraser">
+  <asset>
+    <mesh name="office_eraser_visual" file="visual/model.obj" scale="1 1 1.35364"/>
+    <texture name="office_eraser_texture" type="2d" file="visual/Material0.png"/>
+    <material name="office_eraser_material" texture="office_eraser_texture" specular="0.08" shininess="0.05"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="2" density="0"/></default>
+    <default class="collision"><geom group="3" density="0" rgba="0 0 0 0"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0"/></default>
+  </default>
+  <worldbody>
+    <body><body name="object">
+      <geom name="visual" type="mesh" mesh="office_eraser_visual" material="office_eraser_material" class="visual"/>
+      <geom name="reg_bbox" type="box" pos="0 0 0" size="0.01935 0.03250 0.008" class="region"/>
+      <geom type="box" pos="0 0 0" size="0.019 0.032 0.008" class="collision"/>
+    </body></body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,47 @@
+{
+  "meshes": [
+    "4495c955ce9cca46/000.obj",
+    "4495c955ce9cca46/001.obj",
+    "4495c955ce9cca46/002.obj",
+    "4495c955ce9cca46/003.obj",
+    "4495c955ce9cca46/004.obj",
+    "4495c955ce9cca46/005.obj",
+    "4495c955ce9cca46/006.obj",
+    "4495c955ce9cca46/007.obj",
+    "4495c955ce9cca46/008.obj",
+    "4495c955ce9cca46/009.obj",
+    "4495c955ce9cca46/010.obj"
+  ],
+  "bounds": [
+    [
+      -0.031309,
+      -0.017385,
+      -0.017398
+    ],
+    [
+      0.031309,
+      0.017385,
+      0.017398
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.031309,
+      -0.017385,
+      -0.017398
+    ],
+    [
+      0.031309,
+      0.017385,
+      0.017398
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 817,
+    "p95": 0.32604016966314925,
+    "max": 0.6430387773472405
+  }
+}

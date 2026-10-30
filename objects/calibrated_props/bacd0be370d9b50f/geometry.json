@@ -1,0 +1,56 @@
+{
+  "meshes": [
+    "bacd0be370d9b50f/000.obj",
+    "bacd0be370d9b50f/001.obj",
+    "bacd0be370d9b50f/002.obj",
+    "bacd0be370d9b50f/003.obj",
+    "bacd0be370d9b50f/004.obj",
+    "bacd0be370d9b50f/005.obj",
+    "bacd0be370d9b50f/006.obj",
+    "bacd0be370d9b50f/007.obj",
+    "bacd0be370d9b50f/008.obj",
+    "bacd0be370d9b50f/009.obj",
+    "bacd0be370d9b50f/010.obj",
+    "bacd0be370d9b50f/011.obj",
+    "bacd0be370d9b50f/012.obj",
+    "bacd0be370d9b50f/013.obj",
+    "bacd0be370d9b50f/014.obj",
+    "bacd0be370d9b50f/015.obj",
+    "bacd0be370d9b50f/016.obj",
+    "bacd0be370d9b50f/017.obj",
+    "bacd0be370d9b50f/018.obj",
+    "bacd0be370d9b50f/019.obj"
+  ],
+  "bounds": [
+    [
+      -0.030081270234778138,
+      -0.04500000080000001,
+      -0.011250000200000002
+    ],
+    [
+      0.030081270234778138,
+      0.04500000080000001,
+      0.011250000200000002
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.030081270234778138,
+      -0.04500000080000001,
+      -0.011250000200000002
+    ],
+    [
+      0.030081270234778138,
+      0.04500000080000001,
+      0.011250000200000002
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 493,
+    "p95": 0.4906300657134745,
+    "max": 0.7048552004152767
+  }
+}

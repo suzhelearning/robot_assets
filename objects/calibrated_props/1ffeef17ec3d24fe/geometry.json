@@ -1,0 +1,100 @@
+{
+  "meshes": [
+    "1ffeef17ec3d24fe/000.obj",
+    "1ffeef17ec3d24fe/001.obj",
+    "1ffeef17ec3d24fe/002.obj",
+    "1ffeef17ec3d24fe/003.obj",
+    "1ffeef17ec3d24fe/004.obj",
+    "1ffeef17ec3d24fe/005.obj",
+    "1ffeef17ec3d24fe/006.obj",
+    "1ffeef17ec3d24fe/007.obj",
+    "1ffeef17ec3d24fe/008.obj",
+    "1ffeef17ec3d24fe/009.obj",
+    "1ffeef17ec3d24fe/010.obj",
+    "1ffeef17ec3d24fe/011.obj",
+    "1ffeef17ec3d24fe/012.obj",
+    "1ffeef17ec3d24fe/013.obj",
+    "1ffeef17ec3d24fe/014.obj",
+    "1ffeef17ec3d24fe/015.obj",
+    "1ffeef17ec3d24fe/016.obj",
+    "1ffeef17ec3d24fe/017.obj",
+    "1ffeef17ec3d24fe/018.obj",
+    "1ffeef17ec3d24fe/019.obj",
+    "1ffeef17ec3d24fe/020.obj",
+    "1ffeef17ec3d24fe/021.obj",
+    "1ffeef17ec3d24fe/022.obj",
+    "1ffeef17ec3d24fe/023.obj",
+    "1ffeef17ec3d24fe/024.obj",
+    "1ffeef17ec3d24fe/025.obj",
+    "1ffeef17ec3d24fe/026.obj",
+    "1ffeef17ec3d24fe/027.obj",
+    "1ffeef17ec3d24fe/028.obj",
+    "1ffeef17ec3d24fe/029.obj",
+    "1ffeef17ec3d24fe/030.obj",
+    "1ffeef17ec3d24fe/031.obj",
+    "1ffeef17ec3d24fe/032.obj",
+    "1ffeef17ec3d24fe/033.obj",
+    "1ffeef17ec3d24fe/034.obj",
+    "1ffeef17ec3d24fe/035.obj",
+    "1ffeef17ec3d24fe/036.obj",
+    "1ffeef17ec3d24fe/037.obj",
+    "1ffeef17ec3d24fe/038.obj",
+    "1ffeef17ec3d24fe/039.obj",
+    "1ffeef17ec3d24fe/040.obj",
+    "1ffeef17ec3d24fe/041.obj",
+    "1ffeef17ec3d24fe/042.obj",
+    "1ffeef17ec3d24fe/043.obj",
+    "1ffeef17ec3d24fe/044.obj",
+    "1ffeef17ec3d24fe/045.obj",
+    "1ffeef17ec3d24fe/046.obj",
+    "1ffeef17ec3d24fe/047.obj",
+    "1ffeef17ec3d24fe/048.obj",
+    "1ffeef17ec3d24fe/049.obj",
+    "1ffeef17ec3d24fe/050.obj",
+    "1ffeef17ec3d24fe/051.obj",
+    "1ffeef17ec3d24fe/052.obj",
+    "1ffeef17ec3d24fe/053.obj",
+    "1ffeef17ec3d24fe/054.obj",
+    "1ffeef17ec3d24fe/055.obj",
+    "1ffeef17ec3d24fe/056.obj",
+    "1ffeef17ec3d24fe/057.obj",
+    "1ffeef17ec3d24fe/058.obj",
+    "1ffeef17ec3d24fe/059.obj",
+    "1ffeef17ec3d24fe/060.obj",
+    "1ffeef17ec3d24fe/061.obj",
+    "1ffeef17ec3d24fe/062.obj",
+    "1ffeef17ec3d24fe/063.obj"
+  ],
+  "bounds": [
+    [
+      -0.022298,
+      -0.142237,
+      -0.02177308572
+    ],
+    [
+      0.022298,
+      0.142237,
+      0.02177308572
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.022298,
+      -0.142237,
+      -0.02177308572
+    ],
+    [
+      0.022298,
+      0.142237,
+      0.02177308572
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": false,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 1.8626181047136754,
+    "max": 5.475899231076952
+  }
+}

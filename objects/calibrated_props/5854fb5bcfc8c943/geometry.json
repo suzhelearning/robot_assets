@@ -1,0 +1,98 @@
+{
+  "meshes": [
+    "5854fb5bcfc8c943/000.obj",
+    "5854fb5bcfc8c943/001.obj",
+    "5854fb5bcfc8c943/002.obj",
+    "5854fb5bcfc8c943/003.obj",
+    "5854fb5bcfc8c943/004.obj",
+    "5854fb5bcfc8c943/005.obj",
+    "5854fb5bcfc8c943/006.obj",
+    "5854fb5bcfc8c943/007.obj",
+    "5854fb5bcfc8c943/008.obj",
+    "5854fb5bcfc8c943/009.obj",
+    "5854fb5bcfc8c943/010.obj",
+    "5854fb5bcfc8c943/011.obj",
+    "5854fb5bcfc8c943/012.obj",
+    "5854fb5bcfc8c943/013.obj",
+    "5854fb5bcfc8c943/014.obj",
+    "5854fb5bcfc8c943/015.obj",
+    "5854fb5bcfc8c943/016.obj",
+    "5854fb5bcfc8c943/017.obj",
+    "5854fb5bcfc8c943/018.obj",
+    "5854fb5bcfc8c943/019.obj",
+    "5854fb5bcfc8c943/020.obj",
+    "5854fb5bcfc8c943/021.obj",
+    "5854fb5bcfc8c943/022.obj",
+    "5854fb5bcfc8c943/023.obj",
+    "5854fb5bcfc8c943/024.obj",
+    "5854fb5bcfc8c943/025.obj",
+    "5854fb5bcfc8c943/026.obj",
+    "5854fb5bcfc8c943/027.obj",
+    "5854fb5bcfc8c943/028.obj",
+    "5854fb5bcfc8c943/029.obj",
+    "5854fb5bcfc8c943/030.obj",
+    "5854fb5bcfc8c943/031.obj",
+    "5854fb5bcfc8c943/032.obj",
+    "5854fb5bcfc8c943/033.obj",
+    "5854fb5bcfc8c943/034.obj",
+    "5854fb5bcfc8c943/035.obj",
+    "5854fb5bcfc8c943/036.obj",
+    "5854fb5bcfc8c943/037.obj",
+    "5854fb5bcfc8c943/038.obj",
+    "5854fb5bcfc8c943/039.obj",
+    "5854fb5bcfc8c943/040.obj",
+    "5854fb5bcfc8c943/041.obj",
+    "5854fb5bcfc8c943/042.obj",
+    "5854fb5bcfc8c943/043.obj",
+    "5854fb5bcfc8c943/044.obj",
+    "5854fb5bcfc8c943/045.obj",
+    "5854fb5bcfc8c943/046.obj",
+    "5854fb5bcfc8c943/047.obj",
+    "5854fb5bcfc8c943/048.obj",
+    "5854fb5bcfc8c943/049.obj",
+    "5854fb5bcfc8c943/050.obj",
+    "5854fb5bcfc8c943/051.obj",
+    "5854fb5bcfc8c943/052.obj",
+    "5854fb5bcfc8c943/053.obj",
+    "5854fb5bcfc8c943/054.obj",
+    "5854fb5bcfc8c943/055.obj",
+    "5854fb5bcfc8c943/056.obj",
+    "5854fb5bcfc8c943/057.obj",
+    "5854fb5bcfc8c943/058.obj",
+    "5854fb5bcfc8c943/059.obj",
+    "5854fb5bcfc8c943/060.obj",
+    "5854fb5bcfc8c943/061.obj"
+  ],
+  "bounds": [
+    [
+      -0.027701626332744,
+      -0.01960690682457,
+      -0.056905265274623994
+    ],
+    [
+      0.027701626332744,
+      0.01960690682457,
+      0.056905265274623994
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.027701626332744,
+      -0.01960690682457,
+      -0.056905265274623994
+    ],
+    [
+      0.027701626332744,
+      0.01960690682457,
+      0.056905265274623994
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": false,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 2.9847167344819567,
+    "max": 8.265339555706161
+  }
+}

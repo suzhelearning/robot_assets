@@ -1,0 +1,265 @@
+{
+  "schema": "spd-scene-layout-migration/v1",
+  "date": "2026-10-22",
+  "path_base": "repository root",
+  "xml_transformation": "none; all 50 XML files moved byte-for-byte",
+  "active_templates": "assets/scenes/templates",
+  "historical_snapshots": {
+    "directory": "assets/scenes/reference/legacy_yam",
+    "original_directory": "assets/scenes",
+    "original_object_directory": "assets/objects",
+    "status": "Historical local snapshots; not verified as pristine upstream files; not registered for runtime loading. Relative paths retain their original context and do not promise standalone loading from the archive directory."
+  },
+  "files": [
+    {
+      "old_path": "assets/scenes/balls_sort.xml",
+      "new_path": "assets/scenes/templates/balls_sort.xml",
+      "sha256": "0502d77b0878e60f0260a5f588ea483bc7738b709349dbd865de84c0203ae262"
+    },
+    {
+      "old_path": "assets/scenes/blocks_restack.xml",
+      "new_path": "assets/scenes/templates/blocks_restack.xml",
+      "sha256": "f0157f44ccd9de515142bcb9a7ea80760484d19b6df23f531f51c08fd211ab26"
+    },
+    {
+      "old_path": "assets/scenes/blocks_tower.xml",
+      "new_path": "assets/scenes/templates/blocks_tower.xml",
+      "sha256": "a50df8732567255930ff1ef9a5c816c8fc937c32a9432e528d48d0c6d549462c"
+    },
+    {
+      "old_path": "assets/scenes/bottles_place.xml",
+      "new_path": "assets/scenes/templates/bottles_place.xml",
+      "sha256": "ab33480aff2ff0581233c6e499bae93b97cace59dcac3ed7dfd4321102b9f2a9"
+    },
+    {
+      "old_path": "assets/scenes/bottles_throw.xml",
+      "new_path": "assets/scenes/templates/bottles_throw.xml",
+      "sha256": "262c35254c8b8ad1f36700fa5f52d6549b651da5d679fc4dbfc680bb5e84ef55"
+    },
+    {
+      "old_path": "assets/scenes/chess_setup.xml",
+      "new_path": "assets/scenes/templates/chess_setup.xml",
+      "sha256": "22551f31539d01efa891cf4f8aa180aa468b5cb2dcd03f72a15a07d295f830a4"
+    },
+    {
+      "old_path": "assets/scenes/chess_setup_flexible.xml",
+      "new_path": "assets/scenes/templates/chess_setup_flexible.xml",
+      "sha256": "3e1d67003d97600aa108aaef50f75d0750cfeca550d765777ea1be406ef1523a"
+    },
+    {
+      "old_path": "assets/scenes/cleaning_sweep.xml",
+      "new_path": "assets/scenes/templates/cleaning_sweep.xml",
+      "sha256": "5e6ab2c8f2c169cf419c18eaa77d275b5599a1593995b3b612fb8db36c8c0eb7"
+    },
+    {
+      "old_path": "assets/scenes/clutter_pick_target.xml",
+      "new_path": "assets/scenes/templates/clutter_pick_target.xml",
+      "sha256": "ae3ee25222dab3dbe1a3beb054cf1aff21b5e88e7d5611a600e203d831147419"
+    },
+    {
+      "old_path": "assets/scenes/conveyor_pick.xml",
+      "new_path": "assets/scenes/templates/conveyor_pick.xml",
+      "sha256": "1b570d295438472c13da083d4e31aa860e483f182401654822886670a8b4158b"
+    },
+    {
+      "old_path": "assets/scenes/counting_into_box.xml",
+      "new_path": "assets/scenes/templates/counting_into_box.xml",
+      "sha256": "59606c737ad7cfa125622c5b133e757cfd69e3f132c19031352ed881758d70b1"
+    },
+    {
+      "old_path": "assets/scenes/drawers_markers.xml",
+      "new_path": "assets/scenes/templates/drawers_markers.xml",
+      "sha256": "163617b0270e490950381f24599469d3fdf25bf2ba51b996d480220b7f00efa7"
+    },
+    {
+      "old_path": "assets/scenes/drawers_search.xml",
+      "new_path": "assets/scenes/templates/drawers_search.xml",
+      "sha256": "5bbeb7466abc5ae2f7f1e2c238cb1d3915dacbf4ec0b5e048b425f3ad2d0dca9"
+    },
+    {
+      "old_path": "assets/scenes/handover_tool.xml",
+      "new_path": "assets/scenes/templates/handover_tool.xml",
+      "sha256": "0874754b87558fd276b600f3d11c9993904e2173e6402c91f9d8566b17fd40fd"
+    },
+    {
+      "old_path": "assets/scenes/letters_spell.xml",
+      "new_path": "assets/scenes/templates/letters_spell.xml",
+      "sha256": "7df289bdc7680008cc27474c1ca096edaa6c1212d35fe851a236337fb31bc551"
+    },
+    {
+      "old_path": "assets/scenes/markers_arrange.xml",
+      "new_path": "assets/scenes/templates/markers_arrange.xml",
+      "sha256": "3b659cc9447cb3adf548c6459b949dd16a9b94706579cb4ea9f4dfef71ad239a"
+    },
+    {
+      "old_path": "assets/scenes/mugs_hang.xml",
+      "new_path": "assets/scenes/templates/mugs_hang.xml",
+      "sha256": "217af8b8062b87933aa4779b7f434a12d3dcf89aac63cc1ada894a75e42f4b45"
+    },
+    {
+      "old_path": "assets/scenes/mugs_upright.xml",
+      "new_path": "assets/scenes/templates/mugs_upright.xml",
+      "sha256": "0ad5fe080c3b894b183a393382fce523a22d718e92e8ccea0600c155e9a975ee"
+    },
+    {
+      "old_path": "assets/scenes/placement_relative.xml",
+      "new_path": "assets/scenes/templates/placement_relative.xml",
+      "sha256": "5cf1832afc1c21bc91bd07feb11da76e271301e1c164c7d6c82448ca26ee6997"
+    },
+    {
+      "old_path": "assets/scenes/plates_rack.xml",
+      "new_path": "assets/scenes/templates/plates_rack.xml",
+      "sha256": "2f12864f49e1f9b271853702975e2bc283b233973f650e2e34814eee28ae95aa"
+    },
+    {
+      "old_path": "assets/scenes/pouring_transfer.xml",
+      "new_path": "assets/scenes/templates/pouring_transfer.xml",
+      "sha256": "d61a0c0b6ef0ce8e0c3fc0cc67d5d32cb95584c658034662b8654365ce989e59"
+    },
+    {
+      "old_path": "assets/scenes/sorting_colored_blocks.xml",
+      "new_path": "assets/scenes/templates/sorting_colored_blocks.xml",
+      "sha256": "fb26a45e148d204c73ef26c07bc266042bf94d80ef4cdb54280d296b4bddb96d"
+    },
+    {
+      "old_path": "assets/scenes/sorting_nuts_bolts.xml",
+      "new_path": "assets/scenes/templates/sorting_nuts_bolts.xml",
+      "sha256": "950d49df3b2a86d4d382c5706a43fedf1c26050476c2eeceb908ba563ff946a2"
+    },
+    {
+      "old_path": "assets/scenes/tray_balance.xml",
+      "new_path": "assets/scenes/templates/tray_balance.xml",
+      "sha256": "30ed4db56c304ef9b8bf069991141c6197d4256ec8eb955568a91356856dce6e"
+    },
+    {
+      "old_path": "assets/scenes/workspace_empty.xml",
+      "new_path": "assets/scenes/templates/workspace_empty.xml",
+      "sha256": "162e4be023b4a6002961e75119fd681ced3ca9547e3bbeffb5bcf9b700f98e3f"
+    },
+    {
+      "old_path": "assets/scenes/yam_ball_sorting_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_ball_sorting_scene.xml",
+      "sha256": "235f09a76d3d59e94ef467c83a9aacc052ef575ad0fa0ec4dd3e4cc96965ec89"
+    },
+    {
+      "old_path": "assets/scenes/yam_ball_tray_balancing_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_ball_tray_balancing_scene.xml",
+      "sha256": "51112115a5829ae24bfc3f74ece804f3faeff7e4378669e6ea8985f8eab21261"
+    },
+    {
+      "old_path": "assets/scenes/yam_bimanual_empty.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_bimanual_empty.xml",
+      "sha256": "d56bfa690d56ae35f08d2f36fdaaf0ae7f60dc37454b00ab3e0dabaaebdafe58"
+    },
+    {
+      "old_path": "assets/scenes/yam_blocks_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_blocks_scene.xml",
+      "sha256": "f9baefc0d4b25110396ed56114fcef0e6543aad91593a2995e1dd670a3bcb656"
+    },
+    {
+      "old_path": "assets/scenes/yam_bottles_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_bottles_scene.xml",
+      "sha256": "3a2488872543e5934aa943df8c56d06013ad51b15f60000565ae1af683f7e619"
+    },
+    {
+      "old_path": "assets/scenes/yam_building_blocks_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_building_blocks_scene.xml",
+      "sha256": "21d46e4f874f78964161308e372730710b84b074c08181fd15cf728fc3b5b5e3"
+    },
+    {
+      "old_path": "assets/scenes/yam_chess_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_chess_scene.xml",
+      "sha256": "1ef7a685e39596f911a58c1f4cd7d1cc5b0df61fb5aa1cbcea12d897dec6bd7a"
+    },
+    {
+      "old_path": "assets/scenes/yam_conveyor_pick_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_conveyor_pick_scene.xml",
+      "sha256": "37591d3473cb2052d8590abc7aea1ca8f40294bf98e711b7ca97a2654b04a3f9"
+    },
+    {
+      "old_path": "assets/scenes/yam_count_into_opaque_box_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_count_into_opaque_box_scene.xml",
+      "sha256": "df0e798989d84b252f9c19f09de55c60e9b918e0531f4fbddd8ae44b6fa2e97e"
+    },
+    {
+      "old_path": "assets/scenes/yam_dishrack_base.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_dishrack_base.xml",
+      "sha256": "a4bb6a43cf3ef7b5d619a153ba67ea15fed11710cfaeed8f69024077e83666b0"
+    },
+    {
+      "old_path": "assets/scenes/yam_drawer_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_drawer_scene.xml",
+      "sha256": "ff4606c18c0162012b44631e98cbb4c41eaa356dbe49b84f2d2eb26c2519824a"
+    },
+    {
+      "old_path": "assets/scenes/yam_flexible_chess_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_flexible_chess_scene.xml",
+      "sha256": "85e6f4d7902c66319ac6ebb6c43adf7dad440fe594f5f8f3abd070b0b5bcc092"
+    },
+    {
+      "old_path": "assets/scenes/yam_grab_clutter_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_grab_clutter_scene.xml",
+      "sha256": "e687930a4cdbb0f54286d67ff3b0fb57c0b61a520642a8a99501064478877c8c"
+    },
+    {
+      "old_path": "assets/scenes/yam_inhand_transfer_base.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_inhand_transfer_base.xml",
+      "sha256": "539969e05b6342ac54c803d4f15932b96718e9b821d9ede3473f3370d9545150"
+    },
+    {
+      "old_path": "assets/scenes/yam_jenga_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_jenga_scene.xml",
+      "sha256": "88b03d43c47051bf14ad3d6efe6ed53fdbcf314d8e70a3edab12fb3e08ab58c6"
+    },
+    {
+      "old_path": "assets/scenes/yam_lego_blocks_sorting_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_lego_blocks_sorting_scene.xml",
+      "sha256": "c73718a97ab366daf3bd8bb1ed9127004c781d4659b51c5332eff7af24daf627"
+    },
+    {
+      "old_path": "assets/scenes/yam_marker_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_marker_scene.xml",
+      "sha256": "a4ffe029e929b0b0d73e80491242f62270674df723104925b27b4dd07d637069"
+    },
+    {
+      "old_path": "assets/scenes/yam_mug_flip_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_mug_flip_scene.xml",
+      "sha256": "29ccad405eae9e3a10939779af96e92a9bb5cada51ef7453f47cfcedb0ecf02f"
+    },
+    {
+      "old_path": "assets/scenes/yam_mug_tree_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_mug_tree_scene.xml",
+      "sha256": "2610af5fe762b11d99b41bb83b832eefeaff642ef94ed39ee4a4ae6ce004edb0"
+    },
+    {
+      "old_path": "assets/scenes/yam_multi_drawer_search_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_multi_drawer_search_scene.xml",
+      "sha256": "65031b4b200fb2624ee21bb87b65d7e6bed12342a4ebbaf822693e790999e45d"
+    },
+    {
+      "old_path": "assets/scenes/yam_nuts_bolts_sorting_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_nuts_bolts_sorting_scene.xml",
+      "sha256": "334cd7880808a8dd11377c0fb0a84c16fa06a8d3352baaf5610823e230daee35"
+    },
+    {
+      "old_path": "assets/scenes/yam_pour_screw_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_pour_screw_scene.xml",
+      "sha256": "4093c59daa3a948ea85eede38f76eb3633c42702dc80bfc50363bf46c2375b59"
+    },
+    {
+      "old_path": "assets/scenes/yam_put_bottles_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_put_bottles_scene.xml",
+      "sha256": "14cfc2e876ac419d5987c6dde3e727e8e13b722c6136e6bd817b32b19dab3579"
+    },
+    {
+      "old_path": "assets/scenes/yam_put_relative_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_put_relative_scene.xml",
+      "sha256": "9bda6a19505205b2f8a68a07d561b3635b43cc7b66d73d24a4d67950cac26e1f"
+    },
+    {
+      "old_path": "assets/scenes/yam_sweep_scene.xml",
+      "new_path": "assets/scenes/reference/legacy_yam/yam_sweep_scene.xml",
+      "sha256": "249985d080b20176d9cd13659919d1b180319070d41814dae1ce94b6dc26d050"
+    }
+  ]
+}

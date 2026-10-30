@@ -1,0 +1,194 @@
+{
+  "measurements": {
+    "task_dishrack/dish_rack/dish_rack_1/model.xml": {
+      "after": {
+        "max_mm": 9.796269126444987,
+        "p95_mm": 2.353651691317504,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_1/model.xml",
+      "before": {
+        "max_mm": 10.944605649686306,
+        "p95_mm": 3.4742895139073964,
+        "sample_count": 1024
+      },
+      "hulls_after": 109,
+      "hulls_before": 109,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_11/model.xml": {
+      "after": {
+        "max_mm": 13.598390395214206,
+        "p95_mm": 7.011162844461688,
+        "sample_count": 872
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_11/model.xml",
+      "before": {
+        "max_mm": 20.290864186474277,
+        "p95_mm": 8.483363380286024,
+        "sample_count": 815
+      },
+      "hulls_after": 91,
+      "hulls_before": 91,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_12/model.xml": {
+      "after": {
+        "max_mm": 11.569764505536547,
+        "p95_mm": 2.8812018026939703,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_12/model.xml",
+      "before": {
+        "max_mm": 22.234667900503595,
+        "p95_mm": 5.1992466840266145,
+        "sample_count": 1024
+      },
+      "hulls_after": 211,
+      "hulls_before": 211,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_2/model.xml": {
+      "after": {
+        "max_mm": 7.237999999999967,
+        "p95_mm": 5.492702175864696,
+        "sample_count": 882
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_2/model.xml",
+      "before": {
+        "max_mm": 20.664930049713046,
+        "p95_mm": 8.038546740053253,
+        "sample_count": 850
+      },
+      "hulls_after": 87,
+      "hulls_before": 87,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_3/model.xml": {
+      "after": {
+        "max_mm": 17.10088950606887,
+        "p95_mm": 7.172014278991554,
+        "sample_count": 726
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_3/model.xml",
+      "before": {
+        "max_mm": 17.43348414878721,
+        "p95_mm": 8.633062232621997,
+        "sample_count": 724
+      },
+      "hulls_after": 66,
+      "hulls_before": 66,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_4/model.xml": {
+      "after": {
+        "max_mm": 3.98067755775221,
+        "p95_mm": 3.1973998591737227,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_4/model.xml",
+      "before": {
+        "max_mm": 4.7636647149017595,
+        "p95_mm": 3.9493159647604257,
+        "sample_count": 986
+      },
+      "hulls_after": 93,
+      "hulls_before": 93,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_5/model.xml": {
+      "after": {
+        "max_mm": 13.600424046031122,
+        "p95_mm": 3.6135958727323887,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_5/model.xml",
+      "before": {
+        "max_mm": 15.189861890347927,
+        "p95_mm": 3.7925451211368655,
+        "sample_count": 1024
+      },
+      "hulls_after": 126,
+      "hulls_before": 126,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_6/model.xml": {
+      "after": {
+        "max_mm": 10.341360796941277,
+        "p95_mm": 2.753059558878831,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_6/model.xml",
+      "before": {
+        "max_mm": 11.586571656789214,
+        "p95_mm": 4.2929811501026744,
+        "sample_count": 1024
+      },
+      "hulls_after": 138,
+      "hulls_before": 138,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_7/model.xml": {
+      "after": {
+        "max_mm": 5.352392101278381,
+        "p95_mm": 2.1995738508375906,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_7/model.xml",
+      "before": {
+        "max_mm": 8.64240853271888,
+        "p95_mm": 3.952482741908946,
+        "sample_count": 1024
+      },
+      "hulls_after": 171,
+      "hulls_before": 171,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_8/model.xml": {
+      "after": {
+        "max_mm": 30.351780703493315,
+        "p95_mm": 1.8405558342972295,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_8/model.xml",
+      "before": {
+        "max_mm": 33.35412303385224,
+        "p95_mm": 2.548983231693678,
+        "sample_count": 1024
+      },
+      "hulls_after": 196,
+      "hulls_before": 196,
+      "method": "oriented source-surface box fit"
+    },
+    "task_dishrack/dish_rack/dish_rack_9/model.xml": {
+      "after": {
+        "max_mm": 12.980112311211972,
+        "p95_mm": 1.6870341257426393,
+        "sample_count": 1024
+      },
+      "asset": "task_dishrack/dish_rack/dish_rack_9/model.xml",
+      "before": {
+        "max_mm": 12.981224455837022,
+        "p95_mm": 1.8380001434134612,
+        "sample_count": 1024
+      },
+      "hulls_after": 222,
+      "hulls_before": 222,
+      "method": "oriented source-surface box fit"
+    }
+  },
+  "meshes": {},
+  "models": {
+    "task_dishrack/dish_rack/dish_rack_1/model.xml": "models/dish_rack_1.xml",
+    "task_dishrack/dish_rack/dish_rack_11/model.xml": "models/dish_rack_11.xml",
+    "task_dishrack/dish_rack/dish_rack_12/model.xml": "models/dish_rack_12.xml",
+    "task_dishrack/dish_rack/dish_rack_2/model.xml": "models/dish_rack_2.xml",
+    "task_dishrack/dish_rack/dish_rack_3/model.xml": "models/dish_rack_3.xml",
+    "task_dishrack/dish_rack/dish_rack_4/model.xml": "models/dish_rack_4.xml",
+    "task_dishrack/dish_rack/dish_rack_5/model.xml": "models/dish_rack_5.xml",
+    "task_dishrack/dish_rack/dish_rack_6/model.xml": "models/dish_rack_6.xml",
+    "task_dishrack/dish_rack/dish_rack_7/model.xml": "models/dish_rack_7.xml",
+    "task_dishrack/dish_rack/dish_rack_8/model.xml": "models/dish_rack_8.xml",
+    "task_dishrack/dish_rack/dish_rack_9/model.xml": "models/dish_rack_9.xml"
+  }
+}

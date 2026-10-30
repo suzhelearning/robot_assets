@@ -1,0 +1,79 @@
+{
+  "meshes": [
+    "f1e425fe697a3dc6/000.obj",
+    "f1e425fe697a3dc6/001.obj",
+    "f1e425fe697a3dc6/002.obj",
+    "f1e425fe697a3dc6/003.obj",
+    "f1e425fe697a3dc6/004.obj",
+    "f1e425fe697a3dc6/005.obj",
+    "f1e425fe697a3dc6/006.obj",
+    "f1e425fe697a3dc6/007.obj",
+    "f1e425fe697a3dc6/008.obj",
+    "f1e425fe697a3dc6/009.obj",
+    "f1e425fe697a3dc6/010.obj",
+    "f1e425fe697a3dc6/011.obj",
+    "f1e425fe697a3dc6/012.obj",
+    "f1e425fe697a3dc6/013.obj",
+    "f1e425fe697a3dc6/014.obj",
+    "f1e425fe697a3dc6/015.obj",
+    "f1e425fe697a3dc6/016.obj",
+    "f1e425fe697a3dc6/017.obj",
+    "f1e425fe697a3dc6/018.obj",
+    "f1e425fe697a3dc6/019.obj",
+    "f1e425fe697a3dc6/020.obj",
+    "f1e425fe697a3dc6/021.obj",
+    "f1e425fe697a3dc6/022.obj",
+    "f1e425fe697a3dc6/023.obj",
+    "f1e425fe697a3dc6/024.obj",
+    "f1e425fe697a3dc6/025.obj",
+    "f1e425fe697a3dc6/026.obj",
+    "f1e425fe697a3dc6/027.obj",
+    "f1e425fe697a3dc6/028.obj",
+    "f1e425fe697a3dc6/029.obj",
+    "f1e425fe697a3dc6/030.obj",
+    "f1e425fe697a3dc6/031.obj",
+    "f1e425fe697a3dc6/032.obj",
+    "f1e425fe697a3dc6/033.obj",
+    "f1e425fe697a3dc6/034.obj",
+    "f1e425fe697a3dc6/035.obj",
+    "f1e425fe697a3dc6/036.obj",
+    "f1e425fe697a3dc6/037.obj",
+    "f1e425fe697a3dc6/038.obj",
+    "f1e425fe697a3dc6/039.obj",
+    "f1e425fe697a3dc6/040.obj",
+    "f1e425fe697a3dc6/041.obj",
+    "f1e425fe697a3dc6/042.obj"
+  ],
+  "bounds": [
+    [
+      -0.021077897266572124,
+      -0.022433889890154605,
+      -0.057500001000000016
+    ],
+    [
+      0.021077897266572124,
+      0.022433889890154605,
+      0.057500001000000016
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.021077897266572124,
+      -0.022433889890154605,
+      -0.057500001000000016
+    ],
+    [
+      0.021077897266572124,
+      0.022433889890154605,
+      0.057500001000000016
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": false,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 934,
+    "p95": 1.5593302959953907,
+    "max": 4.296324367656402
+  }
+}

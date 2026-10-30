@@ -1,0 +1,48 @@
+{
+  "measurements": {},
+  "meshes": {},
+  "part_measurements": {
+    "bolt": {
+      "after": {
+        "max_mm": 0.46216798980740104,
+        "p95_mm": 0.43283370283480815
+      },
+      "before": {
+        "max_mm": 0.2190422039263004,
+        "p95_mm": 0.15917487245384163
+      },
+      "hulls": 2
+    },
+    "nut": {
+      "after": {
+        "max_mm": 0.5358107495301407,
+        "p95_mm": 0.5067373670474578
+      },
+      "before": {
+        "max_mm": 4.6699279300767795,
+        "p95_mm": 4.633853065182045
+      },
+      "hulls": 12
+    }
+  },
+  "parts": {
+    "bolt": [
+      "m20_bolt_0.obj",
+      "m20_bolt_1.obj"
+    ],
+    "nut": [
+      "m20_nut_0.obj",
+      "m20_nut_1.obj",
+      "m20_nut_2.obj",
+      "m20_nut_3.obj",
+      "m20_nut_4.obj",
+      "m20_nut_5.obj",
+      "m20_nut_6.obj",
+      "m20_nut_7.obj",
+      "m20_nut_8.obj",
+      "m20_nut_9.obj",
+      "m20_nut_10.obj",
+      "m20_nut_11.obj"
+    ]
+  }
+}

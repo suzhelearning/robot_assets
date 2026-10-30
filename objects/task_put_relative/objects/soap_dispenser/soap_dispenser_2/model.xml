@@ -1,0 +1,35 @@
+<mujoco model="soap_dispenser_12">
+  <asset>
+    <mesh file="visual/model_normalized_0.obj" name="model_normalized_0_vis" scale="0.113748759 0.113748759 0.113748759" refquat="0.7071067811865485 0.0 0.0 0.7071067811865481" />
+    <mesh file="visual/model_normalized_1.obj" name="model_normalized_1_vis" scale="0.113748759 0.113748759 0.113748759" refquat="0.7071067811865485 0.0 0.0 0.7071067811865481" />
+    <mesh file="visual/model_normalized_2.obj" name="model_normalized_2_vis" scale="0.113748759 0.113748759 0.113748759" refquat="0.7071067811865485 0.0 0.0 0.7071067811865481" />
+    <mesh file="visual/model_normalized_3.obj" name="model_normalized_3_vis" scale="0.113748759 0.113748759 0.113748759" refquat="0.7071067811865485 0.0 0.0 0.7071067811865481" />
+    <mesh file="visual/model_normalized_4.obj" name="model_normalized_4_vis" scale="0.113748759 0.113748759 0.113748759" refquat="0.7071067811865485 0.0 0.0 0.7071067811865481" />
+    <material name="Material.001" specular="0.5" shininess="0.135557988" rgba="0.000000 0.000000 0.000000 1.0" />
+    <material name="Material.002" specular="0.5" shininess="1.0" rgba="0.800000 0.800000 0.800000 1.0" />
+    <material name="Material.003" specular="0.5" shininess="0.25" rgba="0.800000 0.800000 0.800000 1.0" />
+    <material name="Material.004" specular="0.5" shininess="0.135423979" rgba="0.000000 0.000000 0.000000 1.0" />
+    <material name="Material.008" specular="0.5" shininess="0.206611176" rgba="1.000000 1.000000 1.000000 1.0" />
+  </asset>
+  <default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" density="1000.0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_0_vis" conaffinity="0" contype="0" group="1" material="Material.008" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_1_vis" conaffinity="0" contype="0" group="1" material="Material.001" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_2_vis" conaffinity="0" contype="0" group="1" material="Material.004" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_3_vis" conaffinity="0" contype="0" group="1" material="Material.002" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_4_vis" conaffinity="0" contype="0" group="1" material="Material.003" />
+        <geom class="region" name="reg_bbox" type="box" pos="-4.7205735e-08 3.41246277e-09 0" size="0.0163317812 0.016276484 0.0575" />
+        <geom name="put_relative_collision_proxy" class="collision" type="box" pos="-4.7205735e-08 3.41246277e-09 0" size="0.013392045 0.0133466923 0.0471500348" group="3" rgba="0 0.8 1 0.35" density="0" mass="0.028" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" />
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

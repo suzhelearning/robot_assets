@@ -1,0 +1,24 @@
+<mujoco model="donut_26">
+  <asset>
+    <mesh file="visual/model_normalized_0.obj" name="model_normalized_0_vis" scale="0.0866080163 0.0866080163 0.0866080163" refquat="0.7557912246191265 -0.3629437454255754 0.04475410028236704 -0.5431837009273124" />
+    <texture type="2d" name="image0" file="visual/image0.png" />
+    <material name="donut1roti" texture="image0" specular="0.5" shininess="0.350089655" />
+  </asset>
+  <default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" density="1000.0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_0_vis" conaffinity="0" contype="0" group="1" material="donut1roti" />
+        <geom class="region" name="reg_bbox" type="box" pos="-3.21242066e-07 6.17943847e-07 -3.81093864e-07" size="0.0448604321 0.045 0.0209769802" />
+        <geom name="put_relative_collision_proxy" class="collision" type="box" pos="-3.21241642e-07 6.17943385e-07 -3.81093556e-07" size="0.0367856001 0.036900019 0.0172011219" group="3" rgba="0 0.8 1 0.35" density="0" mass="0.02" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" />
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

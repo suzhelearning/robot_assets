@@ -1,0 +1,99 @@
+{
+  "meshes": [
+    "43cf3a3778ea9cf8/000.obj",
+    "43cf3a3778ea9cf8/001.obj",
+    "43cf3a3778ea9cf8/002.obj",
+    "43cf3a3778ea9cf8/003.obj",
+    "43cf3a3778ea9cf8/004.obj",
+    "43cf3a3778ea9cf8/005.obj",
+    "43cf3a3778ea9cf8/006.obj",
+    "43cf3a3778ea9cf8/007.obj",
+    "43cf3a3778ea9cf8/008.obj",
+    "43cf3a3778ea9cf8/009.obj",
+    "43cf3a3778ea9cf8/010.obj",
+    "43cf3a3778ea9cf8/011.obj",
+    "43cf3a3778ea9cf8/012.obj",
+    "43cf3a3778ea9cf8/013.obj",
+    "43cf3a3778ea9cf8/014.obj",
+    "43cf3a3778ea9cf8/015.obj",
+    "43cf3a3778ea9cf8/016.obj",
+    "43cf3a3778ea9cf8/017.obj",
+    "43cf3a3778ea9cf8/018.obj",
+    "43cf3a3778ea9cf8/019.obj",
+    "43cf3a3778ea9cf8/020.obj",
+    "43cf3a3778ea9cf8/021.obj",
+    "43cf3a3778ea9cf8/022.obj",
+    "43cf3a3778ea9cf8/023.obj",
+    "43cf3a3778ea9cf8/024.obj",
+    "43cf3a3778ea9cf8/025.obj",
+    "43cf3a3778ea9cf8/026.obj",
+    "43cf3a3778ea9cf8/027.obj",
+    "43cf3a3778ea9cf8/028.obj",
+    "43cf3a3778ea9cf8/029.obj",
+    "43cf3a3778ea9cf8/030.obj",
+    "43cf3a3778ea9cf8/031.obj",
+    "43cf3a3778ea9cf8/032.obj",
+    "43cf3a3778ea9cf8/033.obj",
+    "43cf3a3778ea9cf8/034.obj",
+    "43cf3a3778ea9cf8/035.obj",
+    "43cf3a3778ea9cf8/036.obj",
+    "43cf3a3778ea9cf8/037.obj",
+    "43cf3a3778ea9cf8/038.obj",
+    "43cf3a3778ea9cf8/039.obj",
+    "43cf3a3778ea9cf8/040.obj",
+    "43cf3a3778ea9cf8/041.obj",
+    "43cf3a3778ea9cf8/042.obj",
+    "43cf3a3778ea9cf8/043.obj",
+    "43cf3a3778ea9cf8/044.obj",
+    "43cf3a3778ea9cf8/045.obj",
+    "43cf3a3778ea9cf8/046.obj",
+    "43cf3a3778ea9cf8/047.obj",
+    "43cf3a3778ea9cf8/048.obj",
+    "43cf3a3778ea9cf8/049.obj",
+    "43cf3a3778ea9cf8/050.obj",
+    "43cf3a3778ea9cf8/051.obj",
+    "43cf3a3778ea9cf8/052.obj",
+    "43cf3a3778ea9cf8/053.obj",
+    "43cf3a3778ea9cf8/054.obj",
+    "43cf3a3778ea9cf8/055.obj",
+    "43cf3a3778ea9cf8/056.obj",
+    "43cf3a3778ea9cf8/057.obj",
+    "43cf3a3778ea9cf8/058.obj",
+    "43cf3a3778ea9cf8/059.obj",
+    "43cf3a3778ea9cf8/060.obj",
+    "43cf3a3778ea9cf8/061.obj",
+    "43cf3a3778ea9cf8/062.obj"
+  ],
+  "bounds": [
+    [
+      -0.038793,
+      -0.038793,
+      -0.0558495
+    ],
+    [
+      0.038793,
+      0.038793,
+      0.0558495
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.038793,
+      -0.038793,
+      -0.0558495
+    ],
+    [
+      0.038793,
+      0.038793,
+      0.0558495
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": false,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 1.4468885395092337,
+    "max": 9.179495095810031
+  }
+}

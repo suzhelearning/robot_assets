@@ -1,0 +1,82 @@
+{
+  "meshes": [
+    "3ab2ea684dffb764/000.obj",
+    "3ab2ea684dffb764/001.obj",
+    "3ab2ea684dffb764/002.obj",
+    "3ab2ea684dffb764/003.obj",
+    "3ab2ea684dffb764/004.obj",
+    "3ab2ea684dffb764/005.obj",
+    "3ab2ea684dffb764/006.obj",
+    "3ab2ea684dffb764/007.obj",
+    "3ab2ea684dffb764/008.obj",
+    "3ab2ea684dffb764/009.obj",
+    "3ab2ea684dffb764/010.obj",
+    "3ab2ea684dffb764/011.obj",
+    "3ab2ea684dffb764/012.obj",
+    "3ab2ea684dffb764/013.obj",
+    "3ab2ea684dffb764/014.obj",
+    "3ab2ea684dffb764/015.obj",
+    "3ab2ea684dffb764/016.obj",
+    "3ab2ea684dffb764/017.obj",
+    "3ab2ea684dffb764/018.obj",
+    "3ab2ea684dffb764/019.obj",
+    "3ab2ea684dffb764/020.obj",
+    "3ab2ea684dffb764/021.obj",
+    "3ab2ea684dffb764/022.obj",
+    "3ab2ea684dffb764/023.obj",
+    "3ab2ea684dffb764/024.obj",
+    "3ab2ea684dffb764/025.obj",
+    "3ab2ea684dffb764/026.obj",
+    "3ab2ea684dffb764/027.obj",
+    "3ab2ea684dffb764/028.obj",
+    "3ab2ea684dffb764/029.obj",
+    "3ab2ea684dffb764/030.obj",
+    "3ab2ea684dffb764/031.obj",
+    "3ab2ea684dffb764/032.obj",
+    "3ab2ea684dffb764/033.obj",
+    "3ab2ea684dffb764/034.obj",
+    "3ab2ea684dffb764/035.obj",
+    "3ab2ea684dffb764/036.obj",
+    "3ab2ea684dffb764/037.obj",
+    "3ab2ea684dffb764/038.obj",
+    "3ab2ea684dffb764/039.obj",
+    "3ab2ea684dffb764/040.obj",
+    "3ab2ea684dffb764/041.obj",
+    "3ab2ea684dffb764/042.obj",
+    "3ab2ea684dffb764/043.obj",
+    "3ab2ea684dffb764/044.obj",
+    "3ab2ea684dffb764/045.obj"
+  ],
+  "bounds": [
+    [
+      -0.0149742897151138,
+      -0.01137458814073225,
+      -0.0495470825
+    ],
+    [
+      0.0149742897151138,
+      0.01137458814073225,
+      0.0495470825
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.0149742897151138,
+      -0.01137458814073225,
+      -0.0495470825
+    ],
+    [
+      0.0149742897151138,
+      0.01137458814073225,
+      0.0495470825
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": false,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 768,
+    "p95": 1.1609884177312344,
+    "max": 2.2144268806214336
+  }
+}

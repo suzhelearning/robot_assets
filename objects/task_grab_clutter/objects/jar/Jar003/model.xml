@@ -1,0 +1,39 @@
+<mujoco model="model">
+  <compiler angle="radian" />
+  <asset>
+    <mesh file="visual/Clear.obj" name="Jar003_Clear_vis" scale="0.538879488 0.538879488 0.538879488" />
+    <mesh file="visual/Prop.obj" name="Jar003_Prop_vis" scale="0.538879488 0.538879488 0.538879488" />
+    <material name="Jar003_Clear_material" rgba="0.241276815533638 0.241276815533638 0.241276815533638 0.2" shininess="-1023.0" specular="0.3103448502657381" />
+    <texture file="visual/T_BC001.png" name="Jar003_Prop_material" type="2d" />
+    <material name="Jar003_Prop_material" rgba="1 1 1 1.0" texture="Jar003_Prop_material" shininess="-1023.0" specular="0.3103448502657381" />
+  </asset>
+  <default>
+    <default class="visual">
+      <geom conaffinity="0" contype="0" group="1" type="mesh" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" />
+    </default>
+    <default class="spawn">
+      <geom group="0" rgba="1 1 1 0.5" contype="0" conaffinity="0" />
+      <site group="0" rgba="1 1 1 0.5" />
+    </default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" mass="0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom mesh="Jar003_Clear_vis" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" class="visual" material="Jar003_Clear_material" />
+        <body name="Jar003_Prop">
+          <geom mesh="Jar003_Prop_vis" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" class="visual" material="Jar003_Prop_material" />
+        </body>
+        <geom class="region" name="reg_bbox" type="box" pos="-2.15551795e-06 1.02925982e-06 -8.99928745e-07" size="0.0524736326 0.0525 0.0463122893" />
+        <geom name="put_relative_collision_proxy" class="collision" type="box" pos="-2.15551795e-06 1.02925982e-06 -8.99928745e-07" size="0.0404159616 0.0404159616 0.0379760769" group="3" rgba="0 0.8 1 0.35" density="0" mass="0.03" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" />
+      </body>
+      <site name="anchor_site" pos="0 0 0.0473891484" size="0.00269439744" rgba="0 1 0 0" />
+    </body>
+  </worldbody>
+  <actuator />
+</mujoco>

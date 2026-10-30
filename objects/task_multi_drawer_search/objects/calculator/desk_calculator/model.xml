@@ -1,0 +1,19 @@
+<mujoco model="office_calculator">
+  <asset>
+    <mesh name="office_calculator_visual" file="visual/model.obj" scale="1 1 1.79641"/>
+    <texture name="office_calculator_texture" type="2d" file="visual/material_0.png"/>
+    <material name="office_calculator_material" texture="office_calculator_texture" specular="0.15" shininess="0.12"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="2" density="0"/></default>
+    <default class="collision"><geom group="3" density="0" rgba="0 0 0 0"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0"/></default>
+  </default>
+  <worldbody>
+    <body><body name="object">
+      <geom name="visual" type="mesh" mesh="office_calculator_visual" material="office_calculator_material" class="visual"/>
+      <geom name="reg_bbox" type="box" pos="0 0 0" size="0.03748 0.050 0.012" class="region"/>
+      <geom type="box" pos="0 0 0" size="0.037 0.049 0.012" class="collision"/>
+    </body></body>
+  </worldbody>
+</mujoco>

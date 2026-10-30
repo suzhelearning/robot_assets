@@ -1,0 +1,24 @@
+<mujoco model="cupcake_1">
+  <asset>
+    <mesh file="visual/model_normalized_0.obj" name="model_normalized_0_vis" scale="0.0943719056 0.0943719056 0.0943719056" refquat="1.0 0.0 0.0 0.0" />
+    <texture type="2d" name="image0" file="visual/image0.png" />
+    <material name="initialShadingGroup.003" texture="image0" specular="0.5" shininess="0.0" />
+  </asset>
+  <default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" density="1000.0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_0_vis" conaffinity="0" contype="0" group="1" material="initialShadingGroup.003" />
+        <geom class="region" name="reg_bbox" type="box" pos="1.67510137e-07 -2.75032761e-05 -0.000205000319" size="0.0303673922 0.0302419247 0.0475" />
+        <geom name="put_relative_collision_proxy" class="collision" type="box" pos="1.675097e-07 -2.750326e-05 -0.0002050005" size="0.024901305 0.02479842 0.03895" group="3" rgba="0 0.8 1 0.35" density="0" mass="0.022" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" />
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

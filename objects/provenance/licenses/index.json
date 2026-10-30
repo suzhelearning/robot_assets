@@ -1,0 +1,84 @@
+{
+  "catalog_path": "assets/objects/provenance/catalog.json",
+  "entries": [
+    {
+      "attribution_files": [
+        {
+          "path": "assets/objects/task_bins/README.md",
+          "sha256": "f0e6f288dba50f775b0eb995ad948b990869ed77aa8be2689d0a1717455ba87d"
+        }
+      ],
+      "declared_license": "CC-BY-4.0",
+      "id": "cc-by-4.0-bins",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "limitations": [
+        "No full CC license text is bundled here. Scope is only the two explicitly attributed visual OBJ files."
+      ],
+      "original_license_text": null,
+      "source_ids": [
+        "bins:low_poly_plastic_crate",
+        "bins:stackable_box"
+      ],
+      "status": "local attribution declaration"
+    },
+    {
+      "attribution_files": [
+        {
+          "path": "assets/objects/task_multi_drawer_search/objects/OFFICE_ATTRIBUTIONS.md",
+          "sha256": "a23931f2d55a8639ffaa5939eaf2671822db8ddc35ecff90c67335a76244b2ff"
+        }
+      ],
+      "declared_license": "CC-BY-4.0",
+      "id": "cc-by-4.0-office",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "limitations": [
+        "Only eight listed office model subtrees are covered by the declaration; no live-page verification performed for this catalog."
+      ],
+      "original_license_text": null,
+      "source_ids": [
+        "office:calculator/desk_calculator",
+        "office:eraser/worn_eraser",
+        "office:marker/office_marker",
+        "office:notebook/spiral_notebook",
+        "office:pencil_sharpener/table_sharpener",
+        "office:scissors/scissors_gso",
+        "office:stapler/red_stapler",
+        "office:tape_roll/tape_roll_gso"
+      ],
+      "status": "local attribution declaration"
+    },
+    {
+      "attribution_files": [
+        {
+          "path": "assets/objects/task_multi_drawer_search/drawer/short_cabinet/README.md",
+          "sha256": "ae6e651e58cf4623eebe05fd6acfdf129af18b2ffa40f01e1325cc4fee590c17"
+        }
+      ],
+      "copyright_notice": "Copyright (c) 2023 Lifelong Robot Learning",
+      "declared_license": "MIT",
+      "id": "mit-libero-cabinet",
+      "license_url": null,
+      "limitations": [
+        "Does not assign MIT to the whole multi-drawer task or its other objects."
+      ],
+      "original_license_text": {
+        "path": "assets/objects/task_multi_drawer_search/drawer/short_cabinet/LICENSE",
+        "sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6"
+      },
+      "source_ids": [
+        "cabinet:short_cabinet"
+      ],
+      "status": "original local license and source declaration retained"
+    }
+  ],
+  "format": "spd_object_licenses/v1",
+  "limitations": [
+    "Links preserve original license and attribution evidence; no original files replaced or edited.",
+    "No license text was invented or downloaded; absent full text remains null.",
+    "Source IDs resolve through catalog.json and its nested-scope override semantics; declarations do not extend to whole tasks."
+  ],
+  "scope": {
+    "mode": "original-file reference index; originals unchanged",
+    "root": "assets/objects"
+  }
+}

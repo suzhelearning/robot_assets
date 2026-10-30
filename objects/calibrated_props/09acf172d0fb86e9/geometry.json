@@ -1,0 +1,69 @@
+{
+  "meshes": [
+    "09acf172d0fb86e9/000.obj",
+    "09acf172d0fb86e9/001.obj",
+    "09acf172d0fb86e9/002.obj",
+    "09acf172d0fb86e9/003.obj",
+    "09acf172d0fb86e9/004.obj",
+    "09acf172d0fb86e9/005.obj",
+    "09acf172d0fb86e9/006.obj",
+    "09acf172d0fb86e9/007.obj",
+    "09acf172d0fb86e9/008.obj",
+    "09acf172d0fb86e9/009.obj",
+    "09acf172d0fb86e9/010.obj",
+    "09acf172d0fb86e9/011.obj",
+    "09acf172d0fb86e9/012.obj",
+    "09acf172d0fb86e9/013.obj",
+    "09acf172d0fb86e9/014.obj",
+    "09acf172d0fb86e9/015.obj",
+    "09acf172d0fb86e9/016.obj",
+    "09acf172d0fb86e9/017.obj",
+    "09acf172d0fb86e9/018.obj",
+    "09acf172d0fb86e9/019.obj",
+    "09acf172d0fb86e9/020.obj",
+    "09acf172d0fb86e9/021.obj",
+    "09acf172d0fb86e9/022.obj",
+    "09acf172d0fb86e9/023.obj",
+    "09acf172d0fb86e9/024.obj",
+    "09acf172d0fb86e9/025.obj",
+    "09acf172d0fb86e9/026.obj",
+    "09acf172d0fb86e9/027.obj",
+    "09acf172d0fb86e9/028.obj",
+    "09acf172d0fb86e9/029.obj",
+    "09acf172d0fb86e9/030.obj",
+    "09acf172d0fb86e9/031.obj",
+    "09acf172d0fb86e9/032.obj"
+  ],
+  "bounds": [
+    [
+      -0.019732,
+      -0.047485,
+      -0.018585
+    ],
+    [
+      0.019732,
+      0.047485,
+      0.018585
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.019732,
+      -0.047485,
+      -0.018585
+    ],
+    [
+      0.019732,
+      0.047485,
+      0.018585
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 1.4896071759731864,
+    "max": 4.744099043871242
+  }
+}

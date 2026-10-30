@@ -1,0 +1,374 @@
+{
+  "meshes": {
+    "marker/meshes/marker_collision_001.obj": [
+      "calibrated_collision/43cb373cd472b75b23f9.obj",
+      "calibrated_collision/09d195cbe36c4eda6426.obj",
+      "calibrated_collision/b283e1263bbf43a73177.obj"
+    ],
+    "marker/meshes/marker_collision_002.obj": [
+      "calibrated_collision/4a5bf70ffabb8b3c80ea.obj",
+      "calibrated_collision/d024048d1860d829da07.obj",
+      "calibrated_collision/90a5952021b6ea0eb738.obj",
+      "calibrated_collision/5f7ca598676dbd9c7aa6.obj"
+    ],
+    "marker/meshes/marker_collision_003.obj": [
+      "calibrated_collision/d03fd9ed2530a840fd08.obj",
+      "calibrated_collision/c28b7d354ca0a65c109d.obj",
+      "calibrated_collision/1ece161437c7193449da.obj"
+    ],
+    "marker/meshes/marker_collision_004.obj": [
+      "calibrated_collision/47f51425e418e7e9f764.obj",
+      "calibrated_collision/70e7a0c479dcf3d1980f.obj",
+      "calibrated_collision/911af395ebbbe88422e1.obj"
+    ],
+    "marker/meshes/marker_collision_005.obj": [
+      "calibrated_collision/2e1f0e2b429ef153c035.obj",
+      "calibrated_collision/11fed02ac371e53a0df4.obj",
+      "calibrated_collision/63c1b3ceb92f30792e3c.obj"
+    ],
+    "marker/meshes/marker_collision_006.obj": [
+      "calibrated_collision/39faf71c7affd94b3018.obj",
+      "calibrated_collision/650912b79aed32eb26a4.obj",
+      "calibrated_collision/efabca5c2a9e02e9e356.obj"
+    ],
+    "marker/meshes/marker_collision_007.obj": [
+      "calibrated_collision/dc9196cab0f7549a8ebf.obj",
+      "calibrated_collision/92e93f9f1ab0fee3b402.obj",
+      "calibrated_collision/7e0df98fcdec841203e7.obj"
+    ],
+    "marker/meshes/marker_collision_008.obj": [
+      "calibrated_collision/9c0011f4058cabdff9cc.obj",
+      "calibrated_collision/1fb34726e7f0a88d69d7.obj"
+    ],
+    "marker/meshes/marker_collision_009.obj": [
+      "calibrated_collision/4cf4bc13e641fa02b4eb.obj",
+      "calibrated_collision/7648213ae908a716e625.obj",
+      "calibrated_collision/2f4a48095eab07b90580.obj"
+    ],
+    "marker/meshes/marker_collision_010.obj": [
+      "calibrated_collision/8f40bb0cfc1b1985a615.obj",
+      "calibrated_collision/f252a4da86bdb4f2998a.obj"
+    ],
+    "marker/meshes/marker_collision_011.obj": [
+      "calibrated_collision/18b870f2164412ea929a.obj",
+      "calibrated_collision/6bc548c2a1cc25832222.obj",
+      "calibrated_collision/e3fa8ba3d2a5311ea797.obj"
+    ],
+    "marker/meshes/marker_collision_012.obj": [
+      "calibrated_collision/23419c723c7154a6934f.obj",
+      "calibrated_collision/e85f17903c8dc225fc78.obj",
+      "calibrated_collision/2b4d14aaa571b0e2a5d7.obj"
+    ],
+    "marker/meshes/marker_collision_013.obj": [
+      "calibrated_collision/25e0dcf344aa727d0983.obj",
+      "calibrated_collision/7e9e07c53364baaec7c5.obj",
+      "calibrated_collision/7160c0b250988289aca6.obj"
+    ],
+    "marker/meshes/marker_collision_014.obj": [
+      "calibrated_collision/7201dd7f467bd35963d0.obj",
+      "calibrated_collision/19eed35c1b797f7d258c.obj",
+      "calibrated_collision/e517863000b86a06bc02.obj"
+    ],
+    "marker/meshes/marker_collision_015.obj": [
+      "calibrated_collision/647731b50dada71ef1d5.obj",
+      "calibrated_collision/65d1a51527cc9f40fdc7.obj",
+      "calibrated_collision/fde0a501714f413f85bd.obj"
+    ],
+    "marker/meshes/marker_collision_016.obj": [
+      "calibrated_collision/c583c0c5cd1ba79b95df.obj",
+      "calibrated_collision/3858a14b0fc9332794f4.obj",
+      "calibrated_collision/bc51a89c90c853181b55.obj"
+    ],
+    "marker/meshes/cap_collision_001.obj": [
+      "calibrated_collision/e4e819bfd451bfc1dbfe.obj",
+      "calibrated_collision/e4bb713b8eb7190daa1d.obj",
+      "calibrated_collision/c8daa1172c99d9db2076.obj",
+      "calibrated_collision/0b75532e314810791072.obj"
+    ],
+    "marker/meshes/cap_collision_002.obj": [
+      "calibrated_collision/1dc6b1849cfccdc2dc9e.obj",
+      "calibrated_collision/b43bf25b90e02ca5194e.obj",
+      "calibrated_collision/9feb8c0602ceaa9468dc.obj",
+      "calibrated_collision/17831e4e351174241df0.obj"
+    ],
+    "marker/meshes/cap_collision_003.obj": [
+      "calibrated_collision/db2afedaa174733d99f9.obj",
+      "calibrated_collision/38cb2f32782ea90e462b.obj",
+      "calibrated_collision/ecafe473d2a898923327.obj",
+      "calibrated_collision/7b368f846965a12372d5.obj"
+    ],
+    "marker/meshes/cap_collision_004.obj": [
+      "calibrated_collision/73e531c85af05822fa92.obj",
+      "calibrated_collision/84772583a3ea73543a71.obj",
+      "calibrated_collision/272c260bc5c0db26e473.obj",
+      "calibrated_collision/e535fc76a23a6519bb01.obj"
+    ],
+    "marker/meshes/cap_collision_005.obj": [
+      "calibrated_collision/f2a6832480fb33ac6f9d.obj",
+      "calibrated_collision/19ccab8a6fdf254cd579.obj",
+      "calibrated_collision/eb699b87197725c9f366.obj",
+      "calibrated_collision/83dadc9b109d5e2d5113.obj"
+    ],
+    "marker/meshes/cap_collision_006.obj": [
+      "calibrated_collision/e2c3ea703d169aa2bd5f.obj",
+      "calibrated_collision/14133713e04c1196518f.obj",
+      "calibrated_collision/4d746d9fc9386fe66dff.obj",
+      "calibrated_collision/2b8aaf95654c56e44d6b.obj"
+    ],
+    "marker/meshes/cap_collision_007.obj": [
+      "calibrated_collision/49b7435bb3affcd314fd.obj",
+      "calibrated_collision/848481b6dd1671752ee9.obj",
+      "calibrated_collision/36f725accb389a5f0e30.obj",
+      "calibrated_collision/0622d675e40c2e344428.obj"
+    ],
+    "marker/meshes/cap_collision_008.obj": [
+      "calibrated_collision/fddeab7de977ef92c4a8.obj",
+      "calibrated_collision/cf48dc7510a247a40d5b.obj",
+      "calibrated_collision/32b6f677c93139968ae5.obj",
+      "calibrated_collision/ee75302d89aeb80744d0.obj"
+    ],
+    "marker/meshes/cap_collision_009.obj": [
+      "calibrated_collision/7d446daa0a0dc9415274.obj",
+      "calibrated_collision/7757a8ef60990b35339b.obj",
+      "calibrated_collision/0cabb0a99d155b1a4c27.obj",
+      "calibrated_collision/c92cc8023fcb1376e262.obj"
+    ]
+  },
+  "measurements": {
+    "marker": {
+      "before": {
+        "sample_count": 128,
+        "max_mm": 2.2307090730502734,
+        "p95_mm": 1.565019051692795
+      },
+      "after": {
+        "sample_count": 1024,
+        "max_mm": 2.056617503464258,
+        "p95_mm": 0.42057817068971254
+      },
+      "asset": "marker",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hulls_before": 16,
+      "hulls_after": 47,
+      "piece_limit": 64,
+      "visual_bounds_m": [
+        [
+          -0.010795,
+          4.8e-05,
+          -0.010795
+        ],
+        [
+          0.010795,
+          0.130035,
+          0.010795
+        ]
+      ],
+      "collision_bounds_m": [
+        [
+          -0.010795,
+          4.8e-05,
+          -0.010795
+        ],
+        [
+          0.010795,
+          0.130035,
+          0.010795
+        ]
+      ],
+      "piece_volumes": {
+        "43cb373cd472b75b23f9.obj": 9.153737803692669e-07,
+        "09d195cbe36c4eda6426.obj": 8.807089401957066e-08,
+        "b283e1263bbf43a73177.obj": 2.2953082014916025e-07,
+        "4a5bf70ffabb8b3c80ea.obj": 3.701678699636981e-07,
+        "d024048d1860d829da07.obj": 2.422864709724686e-07,
+        "90a5952021b6ea0eb738.obj": 3.936660109307949e-07,
+        "5f7ca598676dbd9c7aa6.obj": 1.832170866187352e-07,
+        "d03fd9ed2530a840fd08.obj": 9.435356139540125e-07,
+        "c28b7d354ca0a65c109d.obj": 8.806959513570736e-08,
+        "1ece161437c7193449da.obj": 2.2907557358926191e-07,
+        "47f51425e418e7e9f764.obj": 4.7102731087255146e-08,
+        "70e7a0c479dcf3d1980f.obj": 2.476532787986862e-08,
+        "911af395ebbbe88422e1.obj": 5.698504587416639e-08,
+        "2e1f0e2b429ef153c035.obj": 1.0395105579785495e-06,
+        "11fed02ac371e53a0df4.obj": 8.80708940195705e-08,
+        "63c1b3ceb92f30792e3c.obj": 2.2851665870164563e-07,
+        "39faf71c7affd94b3018.obj": 4.6409758117574055e-08,
+        "650912b79aed32eb26a4.obj": 2.507062634897555e-09,
+        "efabca5c2a9e02e9e356.obj": 8.641510030317799e-08,
+        "dc9196cab0f7549a8ebf.obj": 9.66802723220808e-07,
+        "92e93f9f1ab0fee3b402.obj": 8.806959513570762e-08,
+        "7e0df98fcdec841203e7.obj": 2.2790093647732139e-07,
+        "9c0011f4058cabdff9cc.obj": 4.617815061976158e-08,
+        "1fb34726e7f0a88d69d7.obj": 5.356716789373256e-09,
+        "4cf4bc13e641fa02b4eb.obj": 9.784264110657361e-07,
+        "7648213ae908a716e625.obj": 8.807089401957066e-08,
+        "2f4a48095eab07b90580.obj": 2.2790100323606057e-07,
+        "8f40bb0cfc1b1985a615.obj": 5.793458987689534e-08,
+        "f252a4da86bdb4f2998a.obj": 4.9233460243705846e-09,
+        "18b870f2164412ea929a.obj": 9.466550203143411e-07,
+        "6bc548c2a1cc25832222.obj": 8.806959513570793e-08,
+        "e3fa8ba3d2a5311ea797.obj": 2.2851659194290708e-07,
+        "23419c723c7154a6934f.obj": 2.8102790777869957e-08,
+        "e85f17903c8dc225fc78.obj": 1.5633046316767955e-09,
+        "2b4d14aaa571b0e2a5d7.obj": 9.92734876552312e-09,
+        "25e0dcf344aa727d0983.obj": 1.0686766936297443e-06,
+        "7e9e07c53364baaec7c5.obj": 8.807089401957062e-08,
+        "7160c0b250988289aca6.obj": 2.2907564034800044e-07,
+        "7201dd7f467bd35963d0.obj": 4.058060821778032e-09,
+        "19eed35c1b797f7d258c.obj": 3.46097994387097e-09,
+        "e517863000b86a06bc02.obj": 2.909510545016917e-08,
+        "647731b50dada71ef1d5.obj": 7.140038548384722e-07,
+        "65d1a51527cc9f40fdc7.obj": 8.806959513570762e-08,
+        "fde0a501714f413f85bd.obj": 2.2953075339042107e-07,
+        "c583c0c5cd1ba79b95df.obj": 7.093130529140385e-09,
+        "3858a14b0fc9332794f4.obj": 8.611151465352732e-09,
+        "bc51a89c90c853181b55.obj": 1.3116033573247019e-08
+      },
+      "source_meshes": [
+        "marker/meshes/marker_collision_001.obj",
+        "marker/meshes/marker_collision_002.obj",
+        "marker/meshes/marker_collision_003.obj",
+        "marker/meshes/marker_collision_004.obj",
+        "marker/meshes/marker_collision_005.obj",
+        "marker/meshes/marker_collision_006.obj",
+        "marker/meshes/marker_collision_007.obj",
+        "marker/meshes/marker_collision_008.obj",
+        "marker/meshes/marker_collision_009.obj",
+        "marker/meshes/marker_collision_010.obj",
+        "marker/meshes/marker_collision_011.obj",
+        "marker/meshes/marker_collision_012.obj",
+        "marker/meshes/marker_collision_013.obj",
+        "marker/meshes/marker_collision_014.obj",
+        "marker/meshes/marker_collision_015.obj",
+        "marker/meshes/marker_collision_016.obj"
+      ],
+      "original_volumes": [
+        4.021180158615e-06,
+        1.2354056607999977e-07,
+        4.021277357695498e-06,
+        1.2353673035899975e-07,
+        4.021794747224999e-06,
+        1.2356206491133312e-07,
+        4.0217988887955e-06,
+        1.2356287064266646e-07,
+        4.022106234231e-06,
+        1.235635434183331e-07,
+        4.0216839474315e-06,
+        1.2355379166999976e-07,
+        4.0214667450675e-06,
+        1.2354787364333312e-07,
+        4.0215044282459995e-06,
+        1.2355806124633313e-07
+      ]
+    },
+    "cap": {
+      "before": {
+        "sample_count": 144,
+        "max_mm": 0.3221810789683323,
+        "p95_mm": 0.15191144280025004
+      },
+      "after": {
+        "sample_count": 1024,
+        "max_mm": 1.4067587255027643,
+        "p95_mm": 0.7711883867122225
+      },
+      "asset": "cap",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hulls_before": 9,
+      "hulls_after": 36,
+      "piece_limit": 64,
+      "visual_bounds_m": [
+        [
+          -0.010325,
+          0.106985,
+          -0.010325
+        ],
+        [
+          0.010325,
+          0.134745,
+          0.010325
+        ]
+      ],
+      "collision_bounds_m": [
+        [
+          -0.010325,
+          0.106985,
+          -0.010325
+        ],
+        [
+          0.010325,
+          0.134745,
+          0.010325
+        ]
+      ],
+      "piece_volumes": {
+        "e4e819bfd451bfc1dbfe.obj": 7.326521114351656e-08,
+        "e4bb713b8eb7190daa1d.obj": 5.4828878095689817e-08,
+        "c8daa1172c99d9db2076.obj": 5.4828878095689817e-08,
+        "0b75532e314810791072.obj": 7.326521114351656e-08,
+        "1dc6b1849cfccdc2dc9e.obj": 8.743135629521678e-08,
+        "b43bf25b90e02ca5194e.obj": 1.6779978296370166e-07,
+        "9feb8c0602ceaa9468dc.obj": 1.3514554395738545e-07,
+        "17831e4e351174241df0.obj": 1.5463392085401044e-07,
+        "db2afedaa174733d99f9.obj": 8.743133801242479e-08,
+        "38cb2f32782ea90e462b.obj": 1.7714829632446466e-07,
+        "ecafe473d2a898923327.obj": 1.351476068993633e-07,
+        "7b368f846965a12372d5.obj": 1.5800760937445268e-07,
+        "73e531c85af05822fa92.obj": 8.743133801242479e-08,
+        "84772583a3ea73543a71.obj": 1.7714856380575054e-07,
+        "272c260bc5c0db26e473.obj": 1.3514782622141144e-07,
+        "e535fc76a23a6519bb01.obj": 1.5800760937445268e-07,
+        "f2a6832480fb33ac6f9d.obj": 8.74313562952168e-08,
+        "19ccab8a6fdf254cd579.obj": 1.7714857936988767e-07,
+        "eb699b87197725c9f366.obj": 1.3514777284297628e-07,
+        "83dadc9b109d5e2d5113.obj": 1.546339208540105e-07,
+        "e2c3ea703d169aa2bd5f.obj": 8.743133801242484e-08,
+        "14133713e04c1196518f.obj": 1.6780231686297386e-07,
+        "4d746d9fc9386fe66dff.obj": 1.3514782622141144e-07,
+        "2b8aaf95654c56e44d6b.obj": 1.580076093744527e-07,
+        "49b7435bb3affcd314fd.obj": 8.743135629521678e-08,
+        "848481b6dd1671752ee9.obj": 1.9192370693335334e-07,
+        "36f725accb389a5f0e30.obj": 1.351475608971539e-07,
+        "0622d675e40c2e344428.obj": 1.5463392085401044e-07,
+        "fddeab7de977ef92c4a8.obj": 8.743135629521678e-08,
+        "cf48dc7510a247a40d5b.obj": 1.7714602990647845e-07,
+        "32b6f677c93139968ae5.obj": 1.3514554395738545e-07,
+        "ee75302d89aeb80744d0.obj": 1.546339208540105e-07,
+        "7d446daa0a0dc9415274.obj": 8.743133801242481e-08,
+        "7757a8ef60990b35339b.obj": 1.9192395860339387e-07,
+        "0cabb0a99d155b1a4c27.obj": 1.3514782622141144e-07,
+        "c92cc8023fcb1376e262.obj": 1.5800760937445268e-07
+      },
+      "source_meshes": [
+        "marker/meshes/cap_collision_001.obj",
+        "marker/meshes/cap_collision_002.obj",
+        "marker/meshes/cap_collision_003.obj",
+        "marker/meshes/cap_collision_004.obj",
+        "marker/meshes/cap_collision_005.obj",
+        "marker/meshes/cap_collision_006.obj",
+        "marker/meshes/cap_collision_007.obj",
+        "marker/meshes/cap_collision_008.obj",
+        "marker/meshes/cap_collision_009.obj"
+      ],
+      "original_volumes": [
+        2.2211995244633426e-07,
+        4.014208579151666e-07,
+        4.014595199521666e-07,
+        4.014751541936665e-07,
+        4.014612125716666e-07,
+        4.014176770773332e-07,
+        4.014434473284999e-07,
+        4.0140933816449986e-07,
+        4.0144027734799986e-07
+      ]
+    }
+  }
+}

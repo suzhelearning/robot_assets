@@ -1,0 +1,36 @@
+<mujoco model="model">
+  <compiler angle="radian" />
+  <asset>
+    <mesh file="visual/HotdogBun012.obj" name="HotdogBun012_vis" scale="0.74895162 0.74895162 0.74895162" />
+    <texture file="visual/T_BC001.png" name="HotdogBun012_material" type="2d" />
+    <material name="HotdogBun012_material" rgba="1 1 1 1.0" texture="HotdogBun012_material" shininess="-1023.0" specular="0.3103448502657381" />
+    <mesh file="collision_coacd/HotdogBun012_coacd_00.obj" name="conveyor_collision_coacd_000" scale="0.74895162 0.74895162 0.74895162" />
+    <mesh file="collision_coacd/HotdogBun012_coacd_01.obj" name="conveyor_collision_coacd_001" scale="0.74895162 0.74895162 0.74895162" />
+  </asset>
+  <default>
+    <default class="visual">
+      <geom conaffinity="0" contype="0" group="1" type="mesh" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" />
+    </default>
+    <default class="spawn">
+      <geom group="0" rgba="1 1 1 0.5" contype="0" conaffinity="0" />
+      <site group="0" rgba="1 1 1 0.5" />
+    </default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" mass="0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom mesh="HotdogBun012_vis" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" class="visual" material="HotdogBun012_material" />
+        <geom class="region" name="reg_bbox" type="box" pos="8.7664787e-06 -6.5570714e-06 -3.7035658e-06" size="0.020505655 0.055 0.021667024" />
+        <geom name="conveyor_collision_coacd_000" class="collision" type="mesh" mesh="conveyor_collision_coacd_000" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0085" />
+        <geom name="conveyor_collision_coacd_001" class="collision" type="mesh" mesh="conveyor_collision_coacd_001" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0085" />
+      </body>
+    </body>
+  </worldbody>
+  <actuator />
+</mujoco>

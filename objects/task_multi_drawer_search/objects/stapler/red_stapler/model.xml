@@ -1,0 +1,19 @@
+<mujoco model="office_stapler">
+  <asset>
+    <mesh name="office_stapler_visual" file="visual/model.obj"/>
+    <texture name="office_stapler_texture" type="2d" file="visual/stapler_u1_v1.png"/>
+    <material name="office_stapler_material" texture="office_stapler_texture" specular="0.25" shininess="0.25"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="2" density="0"/></default>
+    <default class="collision"><geom group="3" density="0" rgba="0 0 0 0"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0"/></default>
+  </default>
+  <worldbody>
+    <body><body name="object">
+      <geom name="visual" type="mesh" mesh="office_stapler_visual" material="office_stapler_material" class="visual"/>
+      <geom name="reg_bbox" type="box" pos="0 0 0" size="0.01547 0.050 0.01216" class="region"/>
+      <geom type="box" pos="0 0 0" size="0.0155 0.049 0.012" class="collision"/>
+    </body></body>
+  </worldbody>
+</mujoco>

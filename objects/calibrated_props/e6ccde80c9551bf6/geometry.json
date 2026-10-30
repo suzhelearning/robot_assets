@@ -1,0 +1,82 @@
+{
+  "meshes": [
+    "e6ccde80c9551bf6/000.obj",
+    "e6ccde80c9551bf6/001.obj",
+    "e6ccde80c9551bf6/002.obj",
+    "e6ccde80c9551bf6/003.obj",
+    "e6ccde80c9551bf6/004.obj",
+    "e6ccde80c9551bf6/005.obj",
+    "e6ccde80c9551bf6/006.obj",
+    "e6ccde80c9551bf6/007.obj",
+    "e6ccde80c9551bf6/008.obj",
+    "e6ccde80c9551bf6/009.obj",
+    "e6ccde80c9551bf6/010.obj",
+    "e6ccde80c9551bf6/011.obj",
+    "e6ccde80c9551bf6/012.obj",
+    "e6ccde80c9551bf6/013.obj",
+    "e6ccde80c9551bf6/014.obj",
+    "e6ccde80c9551bf6/015.obj",
+    "e6ccde80c9551bf6/016.obj",
+    "e6ccde80c9551bf6/017.obj",
+    "e6ccde80c9551bf6/018.obj",
+    "e6ccde80c9551bf6/019.obj",
+    "e6ccde80c9551bf6/020.obj",
+    "e6ccde80c9551bf6/021.obj",
+    "e6ccde80c9551bf6/022.obj",
+    "e6ccde80c9551bf6/023.obj",
+    "e6ccde80c9551bf6/024.obj",
+    "e6ccde80c9551bf6/025.obj",
+    "e6ccde80c9551bf6/026.obj",
+    "e6ccde80c9551bf6/027.obj",
+    "e6ccde80c9551bf6/028.obj",
+    "e6ccde80c9551bf6/029.obj",
+    "e6ccde80c9551bf6/030.obj",
+    "e6ccde80c9551bf6/031.obj",
+    "e6ccde80c9551bf6/032.obj",
+    "e6ccde80c9551bf6/033.obj",
+    "e6ccde80c9551bf6/034.obj",
+    "e6ccde80c9551bf6/035.obj",
+    "e6ccde80c9551bf6/036.obj",
+    "e6ccde80c9551bf6/037.obj",
+    "e6ccde80c9551bf6/038.obj",
+    "e6ccde80c9551bf6/039.obj",
+    "e6ccde80c9551bf6/040.obj",
+    "e6ccde80c9551bf6/041.obj",
+    "e6ccde80c9551bf6/042.obj",
+    "e6ccde80c9551bf6/043.obj",
+    "e6ccde80c9551bf6/044.obj",
+    "e6ccde80c9551bf6/045.obj"
+  ],
+  "bounds": [
+    [
+      -0.029834,
+      -0.020352,
+      -0.055907
+    ],
+    [
+      0.029834,
+      0.020352,
+      0.055907
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.029834,
+      -0.020352,
+      -0.055907
+    ],
+    [
+      0.029834,
+      0.020352,
+      0.055907
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": false,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 1.4729189288081914,
+    "max": 2.040357733478222
+  }
+}

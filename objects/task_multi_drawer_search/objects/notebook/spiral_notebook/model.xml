@@ -1,0 +1,19 @@
+<mujoco model="office_notebook">
+  <asset>
+    <mesh name="office_notebook_visual" file="visual/model.obj" scale="1 1 1.81269"/>
+    <texture name="office_notebook_texture" type="2d" file="visual/wire_176026026.png"/>
+    <material name="office_notebook_material" texture="office_notebook_texture" specular="0.12" shininess="0.08"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="2" density="0"/></default>
+    <default class="collision"><geom group="3" density="0" rgba="0 0 0 0"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0"/></default>
+  </default>
+  <worldbody>
+    <body><body name="object">
+      <geom name="visual" type="mesh" mesh="office_notebook_visual" material="office_notebook_material" class="visual"/>
+      <geom name="reg_bbox" type="box" pos="0 0 0" size="0.04462 0.060 0.012" class="region"/>
+      <geom type="box" pos="0 0 0" size="0.044 0.059 0.012" class="collision"/>
+    </body></body>
+  </worldbody>
+</mujoco>

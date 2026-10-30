@@ -1,0 +1,597 @@
+{
+  "purpose": "Latest wrist-rooted hand models for the unchanged native retargeter.",
+  "implementation": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting",
+  "source_urdf": "assets/robots/simulation/tianji_wuji2/urdf/tianji_wuji2.urdf",
+  "source_urdf_sha256": "5234d46f3f5f17f9d68bd5a4378158ef48ee08b886542246c01871cd9a01cda7",
+  "model_integrity": "Complete wrist subtrees copied without changing joint origins, axes, limits, inertias or tip/IMU frames; only mesh paths are rewritten. Upstream mounting frames and arms are excluded to preserve the optimizer's wrist-local input convention.",
+  "model_license": "User-provided full robot package has no separate license declaration. Existing LICENSE and legacy provenance are retained, not asserted as a new model license.",
+  "runtime_configuration": "config/{left,right}.yaml and all optimizer parameters remain unchanged; each new worker loads the selected URDF and derives geometry and limits at startup.",
+  "hands": {
+    "left": {
+      "root": "l_wrist",
+      "links": 32,
+      "joints": 31,
+      "active_joints": 20,
+      "meshes": 26
+    },
+    "right": {
+      "root": "r_wrist",
+      "links": 32,
+      "joints": 31,
+      "active_joints": 20,
+      "meshes": 26
+    }
+  },
+  "files": [
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/urdf/tianji_wuji2.urdf",
+      "source_root_link": "l_wrist",
+      "destination": "urdf/left.urdf",
+      "sha256": "3fbfcb7e0538f78d62f9951a174f58c42fa1cf847589d97ef15c87107887d528"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_index_finger_distal.STL",
+      "destination": "meshes/left/l_index_finger_distal.STL",
+      "sha256": "47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_index_finger_middle.STL",
+      "destination": "meshes/left/l_index_finger_middle.STL",
+      "sha256": "5af2f99b93fb63669ce398a0bb8bded708e167dfbe95c4e1e9e484fc560f2560"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_index_finger_proximal.STL",
+      "destination": "meshes/left/l_index_finger_proximal.STL",
+      "sha256": "89e49d06793eedd081e59fadded28badd027a6f99b7bfe6554ebc2e7ed01e142"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_index_finger_proximal_abd.STL",
+      "destination": "meshes/left/l_index_finger_proximal_abd.STL",
+      "sha256": "78f4806eec50b94779e2e987de7e6bab5ad7ea3d6e8a964a883993f7728a37ea"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_index_finger_tip_sensor_frame.STL",
+      "destination": "meshes/left/l_index_finger_tip_sensor_frame.STL",
+      "sha256": "4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_middle_finger_distal.STL",
+      "destination": "meshes/left/l_middle_finger_distal.STL",
+      "sha256": "47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_middle_finger_middle.STL",
+      "destination": "meshes/left/l_middle_finger_middle.STL",
+      "sha256": "b3bb4726751b29238baa84d5dfd4120c0567a3589674b4bf873ddb47bc520a4b"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_middle_finger_proximal.STL",
+      "destination": "meshes/left/l_middle_finger_proximal.STL",
+      "sha256": "8eea0513ad131808b5d214199aa92aca987eb63285abcb819864f71697072f88"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_middle_finger_proximal_abd.STL",
+      "destination": "meshes/left/l_middle_finger_proximal_abd.STL",
+      "sha256": "78f372e549967c39eb564b34ed6d04cd54217d16d9ca05b1563ee8cb6ef6e240"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_middle_finger_tip_sensor_frame.STL",
+      "destination": "meshes/left/l_middle_finger_tip_sensor_frame.STL",
+      "sha256": "4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_pinky_distal.STL",
+      "destination": "meshes/left/l_pinky_distal.STL",
+      "sha256": "19f4f22a89dcd60f7655ac9cd7c43d4f0ec696065ca9bcf36573de0106ab9675"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_pinky_middle.STL",
+      "destination": "meshes/left/l_pinky_middle.STL",
+      "sha256": "63061786518fd016e4a1430866811423ca1bf1bd7f1c25c0b1afdbbd127a1882"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_pinky_proximal.STL",
+      "destination": "meshes/left/l_pinky_proximal.STL",
+      "sha256": "41939a3da70824bc50821eb2f20734a2f32228ddd85c646f6676a1bc66ad1813"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_pinky_proximal_abd.STL",
+      "destination": "meshes/left/l_pinky_proximal_abd.STL",
+      "sha256": "25fc27d8ec8dfd75b3bbc43d154de3cd16c16d3f232684099a11e604232a5224"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_pinky_tip_sensor_frame.STL",
+      "destination": "meshes/left/l_pinky_tip_sensor_frame.STL",
+      "sha256": "b85eff25ea1c9df6cf8f10e2eaecea7bda2836435fe99df37d1f96823e4a3da7"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_ring_finger_distal.STL",
+      "destination": "meshes/left/l_ring_finger_distal.STL",
+      "sha256": "b149433ff04d032efb86b9ab600ba55a45717b7629aa392a70ec346841e52d7d"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_ring_finger_middle.STL",
+      "destination": "meshes/left/l_ring_finger_middle.STL",
+      "sha256": "65969a58aba7af89f847e2c431de67066a4d7728e53ac71ef74c97c04ebd228d"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_ring_finger_proximal.STL",
+      "destination": "meshes/left/l_ring_finger_proximal.STL",
+      "sha256": "b8962bc4ac95acb90b75ce883274a19c8884ee74b924d09fd961d0ce8847cae9"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_ring_finger_proximal_abd.STL",
+      "destination": "meshes/left/l_ring_finger_proximal_abd.STL",
+      "sha256": "9b7aab081a9d1cc29f24891417d6ab03ee36f4a716a632528ec777963553fff9"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_ring_finger_tip_sensor_frame.STL",
+      "destination": "meshes/left/l_ring_finger_tip_sensor_frame.STL",
+      "sha256": "cf69841d299dc170d3303aec327929a859f7bc2a91514165f13a2eb5fe43ca85"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_thumb_distal.STL",
+      "destination": "meshes/left/l_thumb_distal.STL",
+      "sha256": "0d89c323bf1608b2ee42b003286e4707cdfe267b7ff65db437b336ade758749c"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_thumb_middle.STL",
+      "destination": "meshes/left/l_thumb_middle.STL",
+      "sha256": "3a84286a4de13ad95771fcc43a277ece2a0c5bcf2476ea04f2292f8a022c70d0"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_thumb_proximal.STL",
+      "destination": "meshes/left/l_thumb_proximal.STL",
+      "sha256": "5144d8ab958dcacbd70b12d413624ab5c74faab5fb3406502c1aa45f931802d0"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_thumb_proximal_abd.STL",
+      "destination": "meshes/left/l_thumb_proximal_abd.STL",
+      "sha256": "539f4df7100751ecf3463138023fb78535fc1114e73dccba2c1f3262e7ce13e7"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_thumb_tip_sensor_frame.STL",
+      "destination": "meshes/left/l_thumb_tip_sensor_frame.STL",
+      "sha256": "e0b34bb387e3217b3f2dedf37c0980fb92693e0de617be613fb3e9dcb692a1db"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/left_hand/l_wrist.STL",
+      "destination": "meshes/left/l_wrist.STL",
+      "sha256": "cc3944120241f19effa9a95a7edb9b2cfd00f2796305d78c05b563962d6f5361"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/urdf/tianji_wuji2.urdf",
+      "source_root_link": "r_wrist",
+      "destination": "urdf/right.urdf",
+      "sha256": "9ecdd99fc410177b0673419e788377f741b39373ae2f6aa5e50088ea901566e8"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_index_finger_distal.STL",
+      "destination": "meshes/right/r_index_finger_distal.STL",
+      "sha256": "7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_index_finger_middle.STL",
+      "destination": "meshes/right/r_index_finger_middle.STL",
+      "sha256": "9ba4bd6449d5c60255c1bbe1cdf3ec1bd7f9f0413f45f9ee20ca1e97165b5a93"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_index_finger_proximal.STL",
+      "destination": "meshes/right/r_index_finger_proximal.STL",
+      "sha256": "d07ffb4a0f107d53837b068ee3aafd30b58a2775271beabc26911ac8d4288ef3"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_index_finger_proximal_abd.STL",
+      "destination": "meshes/right/r_index_finger_proximal_abd.STL",
+      "sha256": "373722f52678f818a311d7c5a4ec6ac711038cfbf36536c082325f9315853cb5"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_index_finger_tip_sensor_frame.STL",
+      "destination": "meshes/right/r_index_finger_tip_sensor_frame.STL",
+      "sha256": "d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_middle_finger_distal.STL",
+      "destination": "meshes/right/r_middle_finger_distal.STL",
+      "sha256": "7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_middle_finger_middle.STL",
+      "destination": "meshes/right/r_middle_finger_middle.STL",
+      "sha256": "5f88e7c641888fdc7fbae7c3b613b691b8ae4fc35af473b2daf40bead9198178"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_middle_finger_proximal.STL",
+      "destination": "meshes/right/r_middle_finger_proximal.STL",
+      "sha256": "039bee058e2e24fa083c77c7512d30782aecced1654897c6b9fd7b3b68866f6c"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_middle_finger_proximal_abd.STL",
+      "destination": "meshes/right/r_middle_finger_proximal_abd.STL",
+      "sha256": "91e3f149f9cabc198b903881661db428fa17860af7f79b5f0a4e8ff555616d6e"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_middle_finger_tip_sensor_frame.STL",
+      "destination": "meshes/right/r_middle_finger_tip_sensor_frame.STL",
+      "sha256": "d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_pinky_distal.STL",
+      "destination": "meshes/right/r_pinky_distal.STL",
+      "sha256": "6832e7482d550cec79298ac1c1a304fcfc64ce0e3c925948d04e62a6242b9dae"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_pinky_middle.STL",
+      "destination": "meshes/right/r_pinky_middle.STL",
+      "sha256": "609cc6cef5df1bd4a92ec8a889c670643a45f8fc559d124622b96ebc77f76122"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_pinky_proximal.STL",
+      "destination": "meshes/right/r_pinky_proximal.STL",
+      "sha256": "c88defaf8c670dc4a12a489e653ee4732a79a32780046dbe3fe6d98d1a686680"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_pinky_proximal_abd.STL",
+      "destination": "meshes/right/r_pinky_proximal_abd.STL",
+      "sha256": "0d9493bc1a62162c89a1be7673d8d91ebc9f20383847d66e46ac35a3645f9701"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_pinky_tip_sensor_frame.STL",
+      "destination": "meshes/right/r_pinky_tip_sensor_frame.STL",
+      "sha256": "22f19f242d73f10231f420ce91ef5ba4dd6d53d2b9c7a15e68b5da0ba1f7a359"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_ring_finger_distal.STL",
+      "destination": "meshes/right/r_ring_finger_distal.STL",
+      "sha256": "7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_ring_finger_middle.STL",
+      "destination": "meshes/right/r_ring_finger_middle.STL",
+      "sha256": "6fbcf92b159a2d9e3b097f459ac5df73577cda5ca2b62020284de287f49323e4"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_ring_finger_proximal.STL",
+      "destination": "meshes/right/r_ring_finger_proximal.STL",
+      "sha256": "da1870bfe85621550c6081c944b91e4dafc7721a73f46be6a77f0c15dd0b214a"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_ring_finger_proximal_abd.STL",
+      "destination": "meshes/right/r_ring_finger_proximal_abd.STL",
+      "sha256": "df3787ff168f4c0fa21c77296fe34418240e8c8d357c1ede99c96cf2f89d32f0"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_ring_finger_tip_sensor_frame.STL",
+      "destination": "meshes/right/r_ring_finger_tip_sensor_frame.STL",
+      "sha256": "d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_thumb_distal.STL",
+      "destination": "meshes/right/r_thumb_distal.STL",
+      "sha256": "273878b0f78e35ffd5e3ad416cb4c79368c6fc43a886ec047760c5f21a55b04d"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_thumb_middle.STL",
+      "destination": "meshes/right/r_thumb_middle.STL",
+      "sha256": "a04ebd10f24534121672721011c95d26a0c8f734ee65481c49b962fd0b573ea7"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_thumb_proximal.STL",
+      "destination": "meshes/right/r_thumb_proximal.STL",
+      "sha256": "e3e9e7c1266c6d3e38287b074e38162bf508626de14d54e995e40e1d56d7247e"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_thumb_proximal_abd.STL",
+      "destination": "meshes/right/r_thumb_proximal_abd.STL",
+      "sha256": "2aaafd9ba420bf2b40d2e262f8328ba4937e647021a0ea188aa3620bde0d135a"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_thumb_tip_sensor_frame.STL",
+      "destination": "meshes/right/r_thumb_tip_sensor_frame.STL",
+      "sha256": "4bb06fa7ee605b72a21f62debe43fe711e57da3fcc45c89ab2644ee476b0a4af"
+    },
+    {
+      "source": "assets/robots/simulation/tianji_wuji2/meshes/right_hand/r_wrist.STL",
+      "destination": "meshes/right/r_wrist.STL",
+      "sha256": "ece3f36af8ed61079d0061dd9d9b11e5eae76ce9640287d0975c1522f8731fc6"
+    }
+  ],
+  "legacy_beta1_provenance": {
+    "purpose": "Canonical runtime resource package for the existing native hand retargeter; not the simulation hand and not a model upgrade.",
+    "implementation": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting",
+    "upstream_source_commit": "5875d0b9d1557a4eca118387cf79e99f3c14cb1d",
+    "upstream_model_commit_declared_by_vendor": "8271644a78d69ed9a4adcf9165d882c64ad33dfa",
+    "asset_license": "MIT, as declared by the preserved source package.xml",
+    "asset_license_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/package.xml",
+    "immutable_references": "Vendored URDF and YAML snapshots remain unchanged as provenance only; production NativeHandWorker passes both central config paths explicitly. Legacy mesh package is preserved under assets/robots/reference/legacy/wuji-retargeting.",
+    "model_integrity": "Runtime URDFs and all 42 referenced meshes are byte-identical copies. Existing vendored source_manifest.json URDF hashes differ from actual snapshot bytes; files below record actual source bytes, with original declarations preserved separately.",
+    "vendor_declared_urdf_sha256": {
+      "left.urdf": "cec0a7eb6a34fd82e200def7b75c1d477fad790b2de903aec58e59991994c471",
+      "right.urdf": "1ae70be3f5e64532203e599eaa98d2af368d0214be9c949a358b7abaa8b6265a"
+    },
+    "runtime_configuration": "config/{left,right}.yaml resolves ../urdf/{left,right}.urdf. Pinocchio uses URDF kinematics without MJCF; unused upstream mjcf_path entries were removed. Shared resource resolution honors SPD_ASSETS_ROOT.",
+    "files": [
+      {
+        "source": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/urdf/left.urdf",
+        "destination": "urdf/left.urdf",
+        "sha256": "5895446e39ebe6382dca366b95e04ec76bbc1b0b7a56d272386cd2a0983b757a"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_distal.STL",
+        "destination": "meshes/left/l_index_finger_distal.STL",
+        "sha256": "88073f1d4223a746dea7aa271abe3a33db72baeb7bcc3c69fe5e67496898b603",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_middle.STL",
+        "destination": "meshes/left/l_index_finger_middle.STL",
+        "sha256": "c7f8ca28f2fa973d4279acd49b07322053eb6dd8404a8f503f43ba8ee1a30c03",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_proximal.STL",
+        "destination": "meshes/left/l_index_finger_proximal.STL",
+        "sha256": "bf935ef489598daa56b49cb0ac6aeb5c9b2827ce8476803332f427eecee64c7a",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_proximal_abd.STL",
+        "destination": "meshes/left/l_index_finger_proximal_abd.STL",
+        "sha256": "49e25d1cf82ae9585cc0473783ed6a1c3253ac01b0c001c9d237c19980fe030e",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_index_finger_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_distal.STL",
+        "destination": "meshes/left/l_middle_finger_distal.STL",
+        "sha256": "e9fbb382b15a11b8f47ad7992722c387e2b917636a154623eb6717d210848ae3",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_middle.STL",
+        "destination": "meshes/left/l_middle_finger_middle.STL",
+        "sha256": "1bbeb7aed7685f8cb37f94996bfb53d611f6db7ff3c8cc13e83a7f8d9d6048ab",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_proximal.STL",
+        "destination": "meshes/left/l_middle_finger_proximal.STL",
+        "sha256": "8094b18da5c57109c90179116dc780c1ee984a957e0ef88cb09e50faa87bb931",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_proximal_abd.STL",
+        "destination": "meshes/left/l_middle_finger_proximal_abd.STL",
+        "sha256": "9c27f542865f96d5ca0b00e01e8004ecba0860040d8abbd10dc72c980f433a61",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_middle_finger_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_distal.STL",
+        "destination": "meshes/left/l_pinky_distal.STL",
+        "sha256": "cdaaf5601c0d8b3ac94da35e6e1ddc5ea21e1593e9a1d7e2988dd97d9a040745",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_middle.STL",
+        "destination": "meshes/left/l_pinky_middle.STL",
+        "sha256": "c19b3b46d170a87e08beb309307fcbcc11b89fc52061f6d8ad63a6692c0c33d5",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_proximal.STL",
+        "destination": "meshes/left/l_pinky_proximal.STL",
+        "sha256": "df5bbe36bbd592c8913ea3c6c31af5cda0011f801de184815672b2fbe4f429b1",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_proximal_abd.STL",
+        "destination": "meshes/left/l_pinky_proximal_abd.STL",
+        "sha256": "af1e1a26483fac1b030b3bec7fe6a96b1705c8b1f1410095ecb6fb09751ad641",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_pinky_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_distal.STL",
+        "destination": "meshes/left/l_ring_finger_distal.STL",
+        "sha256": "9a6d8d6ff2baa590fce40ad8e29f3d133bb8ef718ef4cfbeb24c71c39512b49e",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_middle.STL",
+        "destination": "meshes/left/l_ring_finger_middle.STL",
+        "sha256": "48f08ce36e752b1b8c922b93dfc2df9a30270250b8a9aeb62bad890d7f177a37",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_proximal.STL",
+        "destination": "meshes/left/l_ring_finger_proximal.STL",
+        "sha256": "6379c0f29351b3a59fbc80cdab021a441710050bfc000aa83d315f91884a5204",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_proximal_abd.STL",
+        "destination": "meshes/left/l_ring_finger_proximal_abd.STL",
+        "sha256": "6190e180e0f58f745b709eb9feb6dd822affb69827a9f9ad9791d2fbf57b1534",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_ring_finger_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_distal.STL",
+        "destination": "meshes/left/l_thumb_distal.STL",
+        "sha256": "fc9ca88a403dedbe2afa8fd25fe1c622d986bc290cab2803cfd6806198e00e75",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_middle.STL",
+        "destination": "meshes/left/l_thumb_middle.STL",
+        "sha256": "33cafea989a21445ceb51fee5bc6777b23c6ded88183ad2103946108efdbc292",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_proximal.STL",
+        "destination": "meshes/left/l_thumb_proximal.STL",
+        "sha256": "115227446584dd51e3ae77113063f97dc9e88cf4ce5db201eef2b81c17dd939c",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_proximal_abd.STL",
+        "destination": "meshes/left/l_thumb_proximal_abd.STL",
+        "sha256": "3528478e63b18ee73b4170d03b6cf2df5bbf00f31bca2c1b03eccdfde0f5caa4",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_thumb_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_wrist.STL",
+        "destination": "meshes/left/l_wrist.STL",
+        "sha256": "b37d7bbcb3c8888e7179f27e8c87e436358adad9cf30d7cb86bc46ee696a7ee8",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/left/l_wrist.STL"
+      },
+      {
+        "source": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/urdf/right.urdf",
+        "destination": "urdf/right.urdf",
+        "sha256": "7151853afe9cc0e9c2bfd6e0830b4c5e3b97f8feda1a7383e3c14cda465fe47c"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_distal.STL",
+        "destination": "meshes/right/r_index_finger_distal.STL",
+        "sha256": "778ca04891678c9d124817cb66d74c5deb0d00bff78d927f15fa26a8a2585a1b",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_middle.STL",
+        "destination": "meshes/right/r_index_finger_middle.STL",
+        "sha256": "dc42d5c512f1d124fe7160f78e72c11161053e794036a80963a8f4a4492f01cf",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_proximal.STL",
+        "destination": "meshes/right/r_index_finger_proximal.STL",
+        "sha256": "0f924f11cf7ce9a431ca3f2395762e65cc44a036128a2ccb80638996b64c8a06",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_proximal_abd.STL",
+        "destination": "meshes/right/r_index_finger_proximal_abd.STL",
+        "sha256": "f46cf96ed29ab98143a43eb4aee0cc727a739b8f2e104e54896f8d2c5570927c",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_index_finger_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_distal.STL",
+        "destination": "meshes/right/r_middle_finger_distal.STL",
+        "sha256": "e3097f0b48ccc87ea371b71a4fca9a94f09f84aff25a3fd0f757699eaeacf787",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_middle.STL",
+        "destination": "meshes/right/r_middle_finger_middle.STL",
+        "sha256": "f9294d81a3795fd63a55abf0c00ca43326a09b8e43b8308fc92135e0ae9fdb07",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_proximal.STL",
+        "destination": "meshes/right/r_middle_finger_proximal.STL",
+        "sha256": "9b552c22b645272ed0f2a3728cbf3fd5c2cb9541c2d6970521e94394cf17bc29",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_proximal_abd.STL",
+        "destination": "meshes/right/r_middle_finger_proximal_abd.STL",
+        "sha256": "ff459d71637c3a5fddac62f85f86c485f273ab079092233a9a29d0affb9db502",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_middle_finger_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_distal.STL",
+        "destination": "meshes/right/r_pinky_distal.STL",
+        "sha256": "1ffc4d7591623a895d81de76c0db30af2199d64e4506371dd561829989461390",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_middle.STL",
+        "destination": "meshes/right/r_pinky_middle.STL",
+        "sha256": "12466b870cf8cc47aacdc02a535474d65bce3bf128840a8e471c4fede43d57ee",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_proximal.STL",
+        "destination": "meshes/right/r_pinky_proximal.STL",
+        "sha256": "6a5696573c69e37467e3ba3b722d92ecd0078f0e18ae8e1e2c49ad118800ea8b",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_proximal_abd.STL",
+        "destination": "meshes/right/r_pinky_proximal_abd.STL",
+        "sha256": "321e9e615166eab4cd87ad4bc8609a7c19944fd7200f957d11bb020fa255bb72",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_pinky_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_distal.STL",
+        "destination": "meshes/right/r_ring_finger_distal.STL",
+        "sha256": "8659910ddc8b5275576363946a337f13cd60cde3abdda091adf58a7948547be3",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_middle.STL",
+        "destination": "meshes/right/r_ring_finger_middle.STL",
+        "sha256": "c7cbabcc9dfe6eba74af3255554757b4d18d49566711eb6717f7e656ac882002",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_proximal.STL",
+        "destination": "meshes/right/r_ring_finger_proximal.STL",
+        "sha256": "650b7aac177e26a2d42cc7f14aee79d3e4a9d344e8de688e2b6fb18ba5bdf50b",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_proximal_abd.STL",
+        "destination": "meshes/right/r_ring_finger_proximal_abd.STL",
+        "sha256": "1a90fcaa2aae3569d8343d4be31a489d630d302f3a0feebc531fc60a9dd2a2fb",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_ring_finger_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_distal.STL",
+        "destination": "meshes/right/r_thumb_distal.STL",
+        "sha256": "f19c6077ca17e52f2801593880684c0347370669e9661d47c163f0b56eea99e4",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_distal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_middle.STL",
+        "destination": "meshes/right/r_thumb_middle.STL",
+        "sha256": "a3e9851cd3aed770fb0ed2b05b2ceca86980af1bfef2fbc8e1925e9a6110f56f",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_middle.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_proximal.STL",
+        "destination": "meshes/right/r_thumb_proximal.STL",
+        "sha256": "e5f4c7dbffeddf626e5d6c7883e10a6c1de0e2d8213a9122dba5ee29a488345f",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_proximal.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_proximal_abd.STL",
+        "destination": "meshes/right/r_thumb_proximal_abd.STL",
+        "sha256": "d9e28b15b054ede554f23524c32f430fefa3622eb9fa10016c39fec10a2638e8",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_thumb_proximal_abd.STL"
+      },
+      {
+        "source": "assets/robots/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_wrist.STL",
+        "destination": "meshes/right/r_wrist.STL",
+        "sha256": "748cf6a16bc5bfedf9c7e2ee489459f726740680db1449221133be570f9ee505",
+        "preserved_source": "assets/robots/reference/legacy/wuji-retargeting/wuji_retargeting/wuji-description/hand2/hand2_beta1/body/meshes/right/r_wrist.STL"
+      },
+      {
+        "source": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting/example/config/adaptive_analytical_manus_wuji_hand_2_left.yaml",
+        "destination": "config/left.yaml",
+        "source_sha256": "9bbcd8bbe898a6b942aa972f6aaa28e9ec69ebdf7ed6ecb89fe48553fbb05770",
+        "sha256": "3772b746f3dc463c5089b690dbad0bb405db070849f1a839dd50f0dddc2b4a5f",
+        "transformation": "optimizer.urdf_path changed to ../urdf/left.urdf; unused optimizer.mjcf_path removed; all numeric settings unchanged"
+      },
+      {
+        "source": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting/example/config/adaptive_analytical_manus_wuji_hand_2_right.yaml",
+        "destination": "config/right.yaml",
+        "source_sha256": "4f45c09d8f9847e3e2f44c30a9c91ad7532452e4911d6870ddb7b5c7a303c94b",
+        "sha256": "7ad5a738ad25c596496982fdc328ece344c738af997febb3bdd232fc42999e0b",
+        "transformation": "optimizer.urdf_path changed to ../urdf/right.urdf; unused optimizer.mjcf_path removed; all numeric settings unchanged"
+      },
+      {
+        "source": "scripts/wuji_hand_native/third_party/wuji_hand_retargeting/LICENSE",
+        "destination": "LICENSE",
+        "sha256": "6029a37194b858c8d3b456ff4be3dca4c42ae94992b17a54cfd947b4fb9bcd78"
+      }
+    ]
+  }
+}

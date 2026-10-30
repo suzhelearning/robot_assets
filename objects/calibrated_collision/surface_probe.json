@@ -1,0 +1,58 @@
+{
+  "measurements": {
+    "task_mug_flip/mug/mug_0/model.xml": {
+      "after": {
+        "max_mm": 6.544850230660435,
+        "p95_mm": 2.333115976547078,
+        "sample_count": 1024
+      },
+      "asset": "task_mug_flip/mug/mug_0/model.xml",
+      "before": {
+        "max_mm": 7.1467018252409575,
+        "p95_mm": 2.9157157462537597,
+        "sample_count": 750
+      },
+      "hulls_after": 32,
+      "hulls_before": 32,
+      "scale": [
+        0.10500000000000001,
+        0.10500000000000001,
+        0.10500000000000001
+      ]
+    }
+  },
+  "meshes": {
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_0.obj": "75cf4b0d43bcdea72822.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_1.obj": "0ff00ca11756dc69c4d0.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_10.obj": "8dcc91f5cc5a354a66fb.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_11.obj": "63bb318ed1e01af69893.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_12.obj": "c73cabc508a126362ca2.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_13.obj": "23dedce2213ef0043848.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_14.obj": "9d69239aeb33c8a56347.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_15.obj": "9cd72d98dd8230781082.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_16.obj": "6637664b53415df5e00c.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_17.obj": "729c423eb0e751ac644c.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_18.obj": "665bbbdbeda8a49a9e66.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_19.obj": "bd84d859c572dcaf3b45.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_2.obj": "520a5ffc3065f2287846.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_20.obj": "0227bab1e26a07379d6e.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_21.obj": "25ef54beeec4bcab2a6c.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_22.obj": "2dc324fd4227932f3bf7.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_23.obj": "f9067a8b76ff213a122c.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_24.obj": "43072be5fc66de66f22a.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_25.obj": "d90c972ea6df4d52ed35.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_26.obj": "987fce5b6a794d2f0510.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_27.obj": "17509b0a560e75f1f46f.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_28.obj": "27fe3aff881d7c9c5d39.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_29.obj": "6971ac23cdd867c87403.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_3.obj": "03692027a614c128b246.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_30.obj": "fc42c7f02a11d69d09a2.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_31.obj": "45249e4803355327f2c4.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_4.obj": "2fb22f1af52da6bf8c77.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_5.obj": "9e16bf63a458ac63d19c.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_6.obj": "51c0a5994872f1497484.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_7.obj": "3f7b8cbd9039d2798aa8.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_8.obj": "98e827b77d6b12251376.obj",
+    "task_mug_flip/mug/mug_0/collision/model_normalized_collision_9.obj": "44a2d6fc56d3738c4434.obj"
+  }
+}

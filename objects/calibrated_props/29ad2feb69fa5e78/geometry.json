@@ -1,0 +1,100 @@
+{
+  "meshes": [
+    "29ad2feb69fa5e78/000.obj",
+    "29ad2feb69fa5e78/001.obj",
+    "29ad2feb69fa5e78/002.obj",
+    "29ad2feb69fa5e78/003.obj",
+    "29ad2feb69fa5e78/004.obj",
+    "29ad2feb69fa5e78/005.obj",
+    "29ad2feb69fa5e78/006.obj",
+    "29ad2feb69fa5e78/007.obj",
+    "29ad2feb69fa5e78/008.obj",
+    "29ad2feb69fa5e78/009.obj",
+    "29ad2feb69fa5e78/010.obj",
+    "29ad2feb69fa5e78/011.obj",
+    "29ad2feb69fa5e78/012.obj",
+    "29ad2feb69fa5e78/013.obj",
+    "29ad2feb69fa5e78/014.obj",
+    "29ad2feb69fa5e78/015.obj",
+    "29ad2feb69fa5e78/016.obj",
+    "29ad2feb69fa5e78/017.obj",
+    "29ad2feb69fa5e78/018.obj",
+    "29ad2feb69fa5e78/019.obj",
+    "29ad2feb69fa5e78/020.obj",
+    "29ad2feb69fa5e78/021.obj",
+    "29ad2feb69fa5e78/022.obj",
+    "29ad2feb69fa5e78/023.obj",
+    "29ad2feb69fa5e78/024.obj",
+    "29ad2feb69fa5e78/025.obj",
+    "29ad2feb69fa5e78/026.obj",
+    "29ad2feb69fa5e78/027.obj",
+    "29ad2feb69fa5e78/028.obj",
+    "29ad2feb69fa5e78/029.obj",
+    "29ad2feb69fa5e78/030.obj",
+    "29ad2feb69fa5e78/031.obj",
+    "29ad2feb69fa5e78/032.obj",
+    "29ad2feb69fa5e78/033.obj",
+    "29ad2feb69fa5e78/034.obj",
+    "29ad2feb69fa5e78/035.obj",
+    "29ad2feb69fa5e78/036.obj",
+    "29ad2feb69fa5e78/037.obj",
+    "29ad2feb69fa5e78/038.obj",
+    "29ad2feb69fa5e78/039.obj",
+    "29ad2feb69fa5e78/040.obj",
+    "29ad2feb69fa5e78/041.obj",
+    "29ad2feb69fa5e78/042.obj",
+    "29ad2feb69fa5e78/043.obj",
+    "29ad2feb69fa5e78/044.obj",
+    "29ad2feb69fa5e78/045.obj",
+    "29ad2feb69fa5e78/046.obj",
+    "29ad2feb69fa5e78/047.obj",
+    "29ad2feb69fa5e78/048.obj",
+    "29ad2feb69fa5e78/049.obj",
+    "29ad2feb69fa5e78/050.obj",
+    "29ad2feb69fa5e78/051.obj",
+    "29ad2feb69fa5e78/052.obj",
+    "29ad2feb69fa5e78/053.obj",
+    "29ad2feb69fa5e78/054.obj",
+    "29ad2feb69fa5e78/055.obj",
+    "29ad2feb69fa5e78/056.obj",
+    "29ad2feb69fa5e78/057.obj",
+    "29ad2feb69fa5e78/058.obj",
+    "29ad2feb69fa5e78/059.obj",
+    "29ad2feb69fa5e78/060.obj",
+    "29ad2feb69fa5e78/061.obj",
+    "29ad2feb69fa5e78/062.obj",
+    "29ad2feb69fa5e78/063.obj"
+  ],
+  "bounds": [
+    [
+      -0.052478240059391994,
+      -0.052502489636352,
+      -0.046313189276928
+    ],
+    [
+      0.052478240059391994,
+      0.052502489636352,
+      0.046313189276928
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.052478240059391994,
+      -0.052502489636352,
+      -0.046313189276928
+    ],
+    [
+      0.052478240059391994,
+      0.052502489636352,
+      0.046313189276928
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 4.207093724311033,
+    "max": 9.838799102119829
+  }
+}

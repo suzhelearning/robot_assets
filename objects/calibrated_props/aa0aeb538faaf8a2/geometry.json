@@ -1,0 +1,100 @@
+{
+  "meshes": [
+    "aa0aeb538faaf8a2/000.obj",
+    "aa0aeb538faaf8a2/001.obj",
+    "aa0aeb538faaf8a2/002.obj",
+    "aa0aeb538faaf8a2/003.obj",
+    "aa0aeb538faaf8a2/004.obj",
+    "aa0aeb538faaf8a2/005.obj",
+    "aa0aeb538faaf8a2/006.obj",
+    "aa0aeb538faaf8a2/007.obj",
+    "aa0aeb538faaf8a2/008.obj",
+    "aa0aeb538faaf8a2/009.obj",
+    "aa0aeb538faaf8a2/010.obj",
+    "aa0aeb538faaf8a2/011.obj",
+    "aa0aeb538faaf8a2/012.obj",
+    "aa0aeb538faaf8a2/013.obj",
+    "aa0aeb538faaf8a2/014.obj",
+    "aa0aeb538faaf8a2/015.obj",
+    "aa0aeb538faaf8a2/016.obj",
+    "aa0aeb538faaf8a2/017.obj",
+    "aa0aeb538faaf8a2/018.obj",
+    "aa0aeb538faaf8a2/019.obj",
+    "aa0aeb538faaf8a2/020.obj",
+    "aa0aeb538faaf8a2/021.obj",
+    "aa0aeb538faaf8a2/022.obj",
+    "aa0aeb538faaf8a2/023.obj",
+    "aa0aeb538faaf8a2/024.obj",
+    "aa0aeb538faaf8a2/025.obj",
+    "aa0aeb538faaf8a2/026.obj",
+    "aa0aeb538faaf8a2/027.obj",
+    "aa0aeb538faaf8a2/028.obj",
+    "aa0aeb538faaf8a2/029.obj",
+    "aa0aeb538faaf8a2/030.obj",
+    "aa0aeb538faaf8a2/031.obj",
+    "aa0aeb538faaf8a2/032.obj",
+    "aa0aeb538faaf8a2/033.obj",
+    "aa0aeb538faaf8a2/034.obj",
+    "aa0aeb538faaf8a2/035.obj",
+    "aa0aeb538faaf8a2/036.obj",
+    "aa0aeb538faaf8a2/037.obj",
+    "aa0aeb538faaf8a2/038.obj",
+    "aa0aeb538faaf8a2/039.obj",
+    "aa0aeb538faaf8a2/040.obj",
+    "aa0aeb538faaf8a2/041.obj",
+    "aa0aeb538faaf8a2/042.obj",
+    "aa0aeb538faaf8a2/043.obj",
+    "aa0aeb538faaf8a2/044.obj",
+    "aa0aeb538faaf8a2/045.obj",
+    "aa0aeb538faaf8a2/046.obj",
+    "aa0aeb538faaf8a2/047.obj",
+    "aa0aeb538faaf8a2/048.obj",
+    "aa0aeb538faaf8a2/049.obj",
+    "aa0aeb538faaf8a2/050.obj",
+    "aa0aeb538faaf8a2/051.obj",
+    "aa0aeb538faaf8a2/052.obj",
+    "aa0aeb538faaf8a2/053.obj",
+    "aa0aeb538faaf8a2/054.obj",
+    "aa0aeb538faaf8a2/055.obj",
+    "aa0aeb538faaf8a2/056.obj",
+    "aa0aeb538faaf8a2/057.obj",
+    "aa0aeb538faaf8a2/058.obj",
+    "aa0aeb538faaf8a2/059.obj",
+    "aa0aeb538faaf8a2/060.obj",
+    "aa0aeb538faaf8a2/061.obj",
+    "aa0aeb538faaf8a2/062.obj",
+    "aa0aeb538faaf8a2/063.obj"
+  ],
+  "bounds": [
+    [
+      -0.062147,
+      -0.073054,
+      -0.034738
+    ],
+    [
+      0.062147,
+      0.073054,
+      0.034738
+    ]
+  ],
+  "visual_bounds": [
+    [
+      -0.062147,
+      -0.073054,
+      -0.034738
+    ],
+    [
+      0.062147,
+      0.073054,
+      0.034738
+    ]
+  ],
+  "bounds_error_mm": 0.0,
+  "source_watertight": true,
+  "method": "surface_partition_v1",
+  "surface_error_mm": {
+    "sample_count": 1024,
+    "p95": 2.602840976858765,
+    "max": 6.282365392854327
+  }
+}

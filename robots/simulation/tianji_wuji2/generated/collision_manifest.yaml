@@ -1,0 +1,1357 @@
+records:
+- collision_index: 0
+  link: Link1_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link1_L.STL
+    sha256: 86854ac8c4f17dac5116b6e9a4d036bca1ccf5d4b9ed04cb8285a7d006cfde28
+    source_sha256: 86854ac8c4f17dac5116b6e9a4d036bca1ccf5d4b9ed04cb8285a7d006cfde28
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link1_L.STL
+  source_sha256: 86854ac8c4f17dac5116b6e9a4d036bca1ccf5d4b9ed04cb8285a7d006cfde28
+- collision_index: 0
+  link: Link1_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link1_R.STL
+    sha256: 86854ac8c4f17dac5116b6e9a4d036bca1ccf5d4b9ed04cb8285a7d006cfde28
+    source_sha256: 86854ac8c4f17dac5116b6e9a4d036bca1ccf5d4b9ed04cb8285a7d006cfde28
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link1_R.STL
+  source_sha256: 86854ac8c4f17dac5116b6e9a4d036bca1ccf5d4b9ed04cb8285a7d006cfde28
+- collision_index: 0
+  link: Link2_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link2_L.STL
+    sha256: 4776a6a2086ddc61b1643aff93386e545baccef2751db29d863fe027a76f325e
+    source_sha256: 4776a6a2086ddc61b1643aff93386e545baccef2751db29d863fe027a76f325e
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link2_L.STL
+  source_sha256: 4776a6a2086ddc61b1643aff93386e545baccef2751db29d863fe027a76f325e
+- collision_index: 0
+  link: Link2_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link2_R.STL
+    sha256: 53eb9fc69c939d2ebd4f32c1df341c1c42bc3d9d0911db0c9fcee70aa2701b34
+    source_sha256: 53eb9fc69c939d2ebd4f32c1df341c1c42bc3d9d0911db0c9fcee70aa2701b34
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link2_R.STL
+  source_sha256: 53eb9fc69c939d2ebd4f32c1df341c1c42bc3d9d0911db0c9fcee70aa2701b34
+- collision_index: 0
+  link: Link3_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link3_L.STL
+    sha256: d58f1039bd3eb2ccc1a1959b89d2de7ae714344ad8cb8b78ef97b92dcd317d26
+    source_sha256: d58f1039bd3eb2ccc1a1959b89d2de7ae714344ad8cb8b78ef97b92dcd317d26
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link3_L.STL
+  source_sha256: d58f1039bd3eb2ccc1a1959b89d2de7ae714344ad8cb8b78ef97b92dcd317d26
+- collision_index: 0
+  link: Link3_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link3_R.STL
+    sha256: 122456d8fc3e81694f352fc1f29d0bc19066f7f3d7572857a1be1e7c030dec9c
+    source_sha256: 122456d8fc3e81694f352fc1f29d0bc19066f7f3d7572857a1be1e7c030dec9c
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link3_R.STL
+  source_sha256: 122456d8fc3e81694f352fc1f29d0bc19066f7f3d7572857a1be1e7c030dec9c
+- collision_index: 0
+  link: Link4_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link4_L.STL
+    sha256: 77f18566339f38acac1785fae517b05ff1e5247b95404ce26536d215bbed9cd7
+    source_sha256: 77f18566339f38acac1785fae517b05ff1e5247b95404ce26536d215bbed9cd7
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link4_L.STL
+  source_sha256: 77f18566339f38acac1785fae517b05ff1e5247b95404ce26536d215bbed9cd7
+- collision_index: 0
+  link: Link4_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link4_R.STL
+    sha256: 77f18566339f38acac1785fae517b05ff1e5247b95404ce26536d215bbed9cd7
+    source_sha256: 77f18566339f38acac1785fae517b05ff1e5247b95404ce26536d215bbed9cd7
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link4_R.STL
+  source_sha256: 77f18566339f38acac1785fae517b05ff1e5247b95404ce26536d215bbed9cd7
+- collision_index: 0
+  link: Link5_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link5_L.STL
+    sha256: 573f15ee62b0a9b2d62aceeb756800fd86969a685535e91416b73d51f1c57613
+    source_sha256: 573f15ee62b0a9b2d62aceeb756800fd86969a685535e91416b73d51f1c57613
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link5_L.STL
+  source_sha256: 573f15ee62b0a9b2d62aceeb756800fd86969a685535e91416b73d51f1c57613
+- collision_index: 0
+  link: Link5_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link5_R.STL
+    sha256: 2de51a340695c89b2fd58b1171dfacc4d85aa4e6cd50879e021a2d0bde8599a8
+    source_sha256: 2de51a340695c89b2fd58b1171dfacc4d85aa4e6cd50879e021a2d0bde8599a8
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link5_R.STL
+  source_sha256: 2de51a340695c89b2fd58b1171dfacc4d85aa4e6cd50879e021a2d0bde8599a8
+- collision_index: 0
+  link: Link6_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link6_L.STL
+    sha256: b6b7570d8ebf1d2acb01baf8941b892f5a5f72aaa05503ab8340da8a2a7b2c13
+    source_sha256: b6b7570d8ebf1d2acb01baf8941b892f5a5f72aaa05503ab8340da8a2a7b2c13
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link6_L.STL
+  source_sha256: b6b7570d8ebf1d2acb01baf8941b892f5a5f72aaa05503ab8340da8a2a7b2c13
+- collision_index: 0
+  link: Link6_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link6_R.STL
+    sha256: 49722d14b9ac34a84a41c95f49bd0b2a8859d4a05f66b247822bf36b0a703cd5
+    source_sha256: 49722d14b9ac34a84a41c95f49bd0b2a8859d4a05f66b247822bf36b0a703cd5
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link6_R.STL
+  source_sha256: 49722d14b9ac34a84a41c95f49bd0b2a8859d4a05f66b247822bf36b0a703cd5
+- collision_index: 0
+  link: Link7_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link7_L.STL
+    sha256: 126cc7d41c37049ce34d2636bfe2d460c21e3429ed080877d1c5e983109ef798
+    source_sha256: 126cc7d41c37049ce34d2636bfe2d460c21e3429ed080877d1c5e983109ef798
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link7_L.STL
+  source_sha256: 126cc7d41c37049ce34d2636bfe2d460c21e3429ed080877d1c5e983109ef798
+- collision_index: 0
+  link: Link7_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/Link7_R.STL
+    sha256: 6eb75b059ff383e90a153be840bcce84b23d8f8afd074b1bc9dfec1b18c2351f
+    source_sha256: 6eb75b059ff383e90a153be840bcce84b23d8f8afd074b1bc9dfec1b18c2351f
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/Link7_R.STL
+  source_sha256: 6eb75b059ff383e90a153be840bcce84b23d8f8afd074b1bc9dfec1b18c2351f
+- collision_index: 0
+  link: TCP_Link_L
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/TCP_Link_L.STL
+    sha256: 131ee3817f88b2f8e72f7f4831b8779f4dfae2afabaf170a7a0a7306a2e2e309
+    source_sha256: 131ee3817f88b2f8e72f7f4831b8779f4dfae2afabaf170a7a0a7306a2e2e309
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/TCP_Link_L.STL
+  source_sha256: 131ee3817f88b2f8e72f7f4831b8779f4dfae2afabaf170a7a0a7306a2e2e309
+- collision_index: 0
+  link: TCP_Link_R
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/TCP_Link_R.STL
+    sha256: 131ee3817f88b2f8e72f7f4831b8779f4dfae2afabaf170a7a0a7306a2e2e309
+    source_sha256: 131ee3817f88b2f8e72f7f4831b8779f4dfae2afabaf170a7a0a7306a2e2e309
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/TCP_Link_R.STL
+  source_sha256: 131ee3817f88b2f8e72f7f4831b8779f4dfae2afabaf170a7a0a7306a2e2e309
+- collision_index: 0
+  link: base_link
+  mode: source-components
+  piece_count: 120
+  pieces:
+  - file: collision/base_link_00_component_000_67dc95cfe1cde714.stl
+    sha256: 67dc95cfe1cde7145eb87af882b5cc8d9dbd60ec195cb98460793caad8da5d9d
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_001_bc8f0a8b848c20e8.stl
+    sha256: bc8f0a8b848c20e8bb0c6349f1c5d9c0ede24eae9e8aeb81b1371695293e390f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_002_fccfc2f1618111a5.stl
+    sha256: fccfc2f1618111a5169e36eb56d561b058a17ebd5f65b16e5e5d1de8e28399bd
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_003_574532520d153328.stl
+    sha256: 574532520d153328f2ba17bb83db81e064cd6ea5120a6a6d873cff51024861dc
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_004_0fab60bc4bea585a.stl
+    sha256: 0fab60bc4bea585af53ef3943ac69d396d32bc5112ac2a73ce75cbbbadd9743a
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_005_9410219c32beedd5.stl
+    sha256: 9410219c32beedd598b58467d524ea023148b7ac69e12d1d3c563322f0bc110d
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_006_5c622d2351034dd6.stl
+    sha256: 5c622d2351034dd6b7490c0969f8373c8e0f5d8d0d831b7b6f0ead57d03a6c1b
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_007_51a66c0a0143c0c0.stl
+    sha256: 51a66c0a0143c0c0263ac1c82cb31bb6688c3ef7f131c2938c9f60b563b0653d
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_008_bdb934441f562e4d.stl
+    sha256: bdb934441f562e4d66b51edc1afaa7532bc57cae62d1a0c2b2e9552abd43c768
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_009_0bd54f9acd46dec7.stl
+    sha256: 0bd54f9acd46dec7b88e3345f74924260ade20bd50a5092cc49842639d6a00eb
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_010_596d394c433403cc.stl
+    sha256: 596d394c433403ccb403d08fa96be0abd541cb6e70a8917a0d7860577c2eccd3
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_011_35e629029519f5e9.stl
+    sha256: 35e629029519f5e99ff59e01da14d70f23f681586f543f63da450c7c7b5dfd8e
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_012_84c32f2ac10b4ed3.stl
+    sha256: 84c32f2ac10b4ed3ff82326d0366e37503fde8470d6271fa6d1683e0460d85b8
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_013_23bcddbacd0ef015.stl
+    sha256: 23bcddbacd0ef01506c3ea9ac0e03534840d2b5f4e4fb369635ceffd619ebd97
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_014_a9c0b38c5aebd04e.stl
+    sha256: a9c0b38c5aebd04e03f8807d039338ec6edbc3bcaac73bf33ffd6e7f324583c9
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_015_64f56e885c890cc5.stl
+    sha256: 64f56e885c890cc572156a01e15a4c86b9c403e269bc2e26c90c5a17686435f9
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_016_0ea2fe69156d6b02.stl
+    sha256: 0ea2fe69156d6b02366de47b104728964c5e6bd803e86b932ddc2d95cfa57177
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_017_d11ab642e1959f3c.stl
+    sha256: d11ab642e1959f3c7e76bd8c8cf222df3eb19d1290090577d407d0899425dd67
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_018_530b8eee7ed42b33.stl
+    sha256: 530b8eee7ed42b330ce378dcf3f683f845ec0bcc2765e7ba62be21e9b4f0a70f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_019_abebacf2812bbb24.stl
+    sha256: abebacf2812bbb241f168703cdcb6df5c2ee72bd3a635acdd244e716f6fa4b81
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_020_23c906cada74c114.stl
+    sha256: 23c906cada74c114d2c0d256ed901b44b9ffd27300b32b69461a9c11722b47be
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_021_63a9e35440f05274.stl
+    sha256: 63a9e35440f052749108f15f5f457d3ba2f1d02af8c3396fb15f065b6a7cab64
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_022_bd2aedd890f23cdc.stl
+    sha256: bd2aedd890f23cdceda767684ad08d3bc04bfe38ec2d4d08847ed6fa832304af
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_023_7faf1993ac7f5465.stl
+    sha256: 7faf1993ac7f5465ac7905c34c632c35261a88be8c784b7087b1f5ce53471b21
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_024_bd19edf8e60b4b84.stl
+    sha256: bd19edf8e60b4b847669483fe6e05976fcf604f64738fc58ae1a00ee21f394e0
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_025_5dc84ab889ff5195.stl
+    sha256: 5dc84ab889ff5195df3bfecbb788470467668616052cf1ccd2db6f683554718c
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_026_392454603e9599bd.stl
+    sha256: 392454603e9599bdfa03b1bb544aad44300b4f840bb66652762b6bb7879d2db1
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_027_fc983ee9aa4e07a3.stl
+    sha256: fc983ee9aa4e07a34ee67d2f7c28893d86a7233112402e5f9df32092fba80df1
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_028_75726c1c32e142e0.stl
+    sha256: 75726c1c32e142e08c365db9873a1cfcacc41a835861346dfcba82e719a6e1ad
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_029_f9cf3d7a3be87e48.stl
+    sha256: f9cf3d7a3be87e48ef23901b7339c82e340eb9209082adf75e827e91a6c43455
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_030_a7b7829d667183ee.stl
+    sha256: a7b7829d667183ee2a0847d1979eb584a38538425c2da27c75f5b91e0602e77e
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_031_de7722cc4e708a19.stl
+    sha256: de7722cc4e708a19569df5092d926215cc0d5664e51c0738baeb1541123afa63
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_032_273b8bde0e421b37.stl
+    sha256: 273b8bde0e421b37e5eeeea22d2affd949cfae300b401f5c03e001f93d23c6e5
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_033_40b77ef387b4b96d.stl
+    sha256: 40b77ef387b4b96d5bc7ae9c9cae7554c6659a15b8764b5ef75db4d132fa125c
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_034_909318b5d037c3c7.stl
+    sha256: 909318b5d037c3c7e122f6c820c8b0809ba11843f0887e3fcde8ff33db723c80
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_035_3063e4c8c400a515.stl
+    sha256: 3063e4c8c400a515159872ea92361224560d01d7935a5821a1daa53a3fd5f1b5
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_036_2d1a4b3410b60296.stl
+    sha256: 2d1a4b3410b6029603d60a37ffdcf92f6d56395806fb885e8ec460d9e6d2d9bd
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_037_96e0d5f9c56eec1e.stl
+    sha256: 96e0d5f9c56eec1ee138aa10bffa42dd2d018df5b6c038a979ce22a5cb7d87a1
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_038_ba7cfb2869997e95.stl
+    sha256: ba7cfb2869997e954562693e13b04bba198bad89597b0a9fb4aa73af644bba1c
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_039_eced99e7c61a31f9.stl
+    sha256: eced99e7c61a31f95ad0b9ea809cb0ec872a909deffeb545d00d5f78c5acf328
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_040_ee44af820bad185d.stl
+    sha256: ee44af820bad185d0c0c25081e28d70e0a731e17e5bb79a5e59a8fb3c1eec8fd
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_041_0eaeea37a1da71d5.stl
+    sha256: 0eaeea37a1da71d592d8ad15665ea4da696927ee1ea69ed29175e0327394d68e
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_042_41bacc47900b4689.stl
+    sha256: 41bacc47900b468972604123c86aa568ce359670ed8aa71375ae435d9ecc45e4
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_043_0d9f38f179fb225e.stl
+    sha256: 0d9f38f179fb225ef6a4fbefc42f39a798761f710e711301b2b2a5847eb35d41
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_044_d21df95961e9a9b4.stl
+    sha256: d21df95961e9a9b4a796f076db882ce2323ee4da4c644aaf6c0357c71ba6f0dd
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_045_b829fedb32aef2cb.stl
+    sha256: b829fedb32aef2cb3ffb544909374fa345711286b01d3948fae255052949bb6e
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_046_eed9210ed78cf410.stl
+    sha256: eed9210ed78cf4100546b1b5af389abc3e2705141e3ec1e4773e6932f3729f1b
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_047_7960b3d438fb9035.stl
+    sha256: 7960b3d438fb9035dcf51faabf0e2b02cdc844a17ab09de1152a1236960da850
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_048_25eb213dd4ceb374.stl
+    sha256: 25eb213dd4ceb3743615f008cd26baf033a7e4add71d50951da698262743eb52
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_049_7a4d4271860a6dfa.stl
+    sha256: 7a4d4271860a6dfa93e61ec974eade275e4b125e8644b27c7d566ea2c5eb3f98
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_050_4e3297924418a208.stl
+    sha256: 4e3297924418a208a4142c73d6039a2071090b25c615bd1602e0e56cedeb4899
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_051_765c1c03975dfa15.stl
+    sha256: 765c1c03975dfa15f437a9dc4e5ea2330cd5ed271dc3ab8a31c658e55ce5697d
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_052_1d2f3b38721eb168.stl
+    sha256: 1d2f3b38721eb16836404d7d018dc8bbb9bab59e87f5d2de5a35eddf60691846
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_053_9411e3a6b08a6895.stl
+    sha256: 9411e3a6b08a6895a1a74c6d55ae7e0e114fe30ff6c8265ec82f32fe8ec50877
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_054_d48168acdeaea0c5.stl
+    sha256: d48168acdeaea0c5bdfe77ace8963af0b0f0594ce41017257028de85b6d4b90b
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_055_e4946a570033e268.stl
+    sha256: e4946a570033e268cf822ca24b09e008a9551cc6866dbad639b2a283bced21cd
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_056_a53b1582507dfa83.stl
+    sha256: a53b1582507dfa831e555a45d0760d6aee4d41a0f0f8694f5c45aac0080430d7
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_057_4509c36a8c3cdc44.stl
+    sha256: 4509c36a8c3cdc44fbd7ed567692b434ca52af766dcb30d4a00d3202af65d6d6
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_058_569e513998d95509.stl
+    sha256: 569e513998d9550970859ed4115395dad0d8135171afc8742a227b0b540439c4
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_059_d789d88ce86650f4.stl
+    sha256: d789d88ce86650f4243e7cfdb91e273460f179cae9cb2bf98e03b627c8375ce0
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_060_5d86f1cb86c64ef6.stl
+    sha256: 5d86f1cb86c64ef65f2e2ad75cdfb03695160e705e67f7995f02921d0e6c8ee4
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_061_9ad1e3836d4f1ca5.stl
+    sha256: 9ad1e3836d4f1ca5f72af15a8c713bc4032aa1c0a16f9f1be3ee5925f0589046
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_062_459556b82353eaf9.stl
+    sha256: 459556b82353eaf93c96923fcc51e913a66eb0d2899f91b4b26894f878997b80
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_063_a3a5309b962b393a.stl
+    sha256: a3a5309b962b393a37bf21fd64ca2c26efc552594c6abbe51310da40c99f8688
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_064_cf4c186a673d70a5.stl
+    sha256: cf4c186a673d70a59507cbbe156798c6f4bc9dd39fc9f9a7c14fe20055d7da40
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_065_444fdb8b79aaf8e0.stl
+    sha256: 444fdb8b79aaf8e070719db16d13cbe609225129cc34f2fb6fb56aba6c9770ea
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_066_ee200ac75365ae2f.stl
+    sha256: ee200ac75365ae2ff6cf59cd58ccd39eb192aadd4f3fa5be91ce343555e09c19
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_067_a4759dbade25cf93.stl
+    sha256: a4759dbade25cf93f6f410beadd0fd1903b51603c04c6177fe9219c327dfc00f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_068_f99afa5b20ef3cae.stl
+    sha256: f99afa5b20ef3caeb395a17c7d97630e734ca5d173dc6eee96b29fc3750c3bef
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_069_13d2031b78d2c111.stl
+    sha256: 13d2031b78d2c1119ec116fad27024a3995d35b2e394e0b2c8e04b7867d1d11c
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_070_7655506b6eb3e42d.stl
+    sha256: 7655506b6eb3e42d5b6110fde80325d4689b971aee395b354bf11743e57d6dd2
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_071_13acac78a7bc150b.stl
+    sha256: 13acac78a7bc150b9d5aa63769decb108cb626febe1e7ce2e8b4a55e0770a2e3
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_072_27fcab4bdf06fc73.stl
+    sha256: 27fcab4bdf06fc73a9bd498e656dc5cf2ab1dd63caafb92b91c497cad70fdbe9
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_073_8816af975a475efe.stl
+    sha256: 8816af975a475efeeab48b5eb62f8930fb0b0561b3c5138a781aeb3bf47db799
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_074_c76c8eb984bbf945.stl
+    sha256: c76c8eb984bbf9454fdb762c8e3d30a3facbd8c96ea7274296756777ba789642
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_075_ac67fa024f2888fc.stl
+    sha256: ac67fa024f2888fc4ef73dfbeb09577f2a76c8e479946a4ce9307fbb118c5551
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_076_01b5c495718f1bee.stl
+    sha256: 01b5c495718f1beef359476f5e3192c4c485a9c64e5c53a2b800d3765e1955e3
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_077_58d587c9b8eea299.stl
+    sha256: 58d587c9b8eea299514c185269f121c754d332c997f489044cd5619569e56734
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_078_df453b01d38ed3e2.stl
+    sha256: df453b01d38ed3e2b05039d56198c14516034281a7c644caede11a50c67f3ef0
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_079_05c0ce4d5a241452.stl
+    sha256: 05c0ce4d5a24145233cda83e686a126603fb0c2134902380941bb55f4223a98f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_080_ca6b831211b23cf6.stl
+    sha256: ca6b831211b23cf611cd2904204e8c7c53145c67978c9a3056c25d603f3c226b
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_081_52b46f4c25d95a02.stl
+    sha256: 52b46f4c25d95a02aa89d174d7f363531f62731ee7b353fee22d7b67cb1499a0
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_082_950774c0d48fadac.stl
+    sha256: 950774c0d48fadac051822fa7efe7e5cfcd77134802ca038006b78ed4220f511
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_083_f93d12d70da41d7e.stl
+    sha256: f93d12d70da41d7e4891310a9cae7d0657b689b44fa93af79cf1c31031e5e60f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_084_26618a7b279428a2.stl
+    sha256: 26618a7b279428a2d2cda5285a85c32081af34769fed6b8fa29fc59491512bbe
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_085_a871b4b80f7a44b4.stl
+    sha256: a871b4b80f7a44b4b918273ea01dd5e4785a3d13c45232b54034cd19f97a511f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_086_7970bb47acf8dc36.stl
+    sha256: 7970bb47acf8dc369911034ae8b8662df7a4c2b20825e89d234ffa97b179a639
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_087_a0bde32d17164add.stl
+    sha256: a0bde32d17164add390eaa90b9320bdb6265aa6cc88e4f1abe8d9c4d8903aca4
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_088_5f723f715c84bb07.stl
+    sha256: 5f723f715c84bb077a91ad638b07dc44efc50b286e9734806c493c7a02548815
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_089_2db750e9a613b63a.stl
+    sha256: 2db750e9a613b63a11d54ed58f573e54efe9e94ae9501459e3ee76e72d990933
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_090_d24f340199791ec9.stl
+    sha256: d24f340199791ec96ca9d6d794ac96d9adad0f6d9587d5ddab9c4d73c428d696
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_091_56257d2de7ac148a.stl
+    sha256: 56257d2de7ac148a250efb1f81975b78c52af1f05f33f52fb2980fe2dd835392
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_092_f68417170389095c.stl
+    sha256: f68417170389095cf701a4424e4769a3cdb990e2e47c7ee5223a632b71a066af
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_093_f0cc31c5dc5985b8.stl
+    sha256: f0cc31c5dc5985b8c4bce7e1a3a65ee2eccc0c4272c3ab2ad455384386a6f0a2
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_094_45808d0af25e138b.stl
+    sha256: 45808d0af25e138bc5392b7c30b0019f29bd1794325f203c0321566532bd3ded
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_095_8483a0c387fdaab1.stl
+    sha256: 8483a0c387fdaab1a929c6ba5e43f3a7064e72b7ab609e5e0bec6c0b02785b7d
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_096_e60116b8acd6b56d.stl
+    sha256: e60116b8acd6b56d39f5c61ac312bb2fa3accfff5d2cb9084019cdd45630127e
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_097_a0435e0b0398afa5.stl
+    sha256: a0435e0b0398afa5cf36a510085cf8ab3671a0ff940e5eb9a34cf3246b02be79
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_098_858472a9672b7c80.stl
+    sha256: 858472a9672b7c80819f579009e536bf7b51b9cbba95ee26987a455a26944b1d
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_099_78a44a3424937269.stl
+    sha256: 78a44a3424937269694fb368a8f7dc8a1a2baeca29963992d1bcd11e1914a414
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_100_ec8fbc7aded5449d.stl
+    sha256: ec8fbc7aded5449df819c9a22461532c1f6f02156b3e6254dbe818db4fc09d13
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_101_718e78136ae281b2.stl
+    sha256: 718e78136ae281b2e1824c403872c17f9966965f996fbd2f41ebac7cbe59812e
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_102_1c4b67cf3d735987.stl
+    sha256: 1c4b67cf3d735987e3215252fef0f49527080dde2de2b021782ff7940b5943b8
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_103_2204bc16aa9dfb73.stl
+    sha256: 2204bc16aa9dfb7346ca587e66e3d8c152d8890a2dbd1019ea3cdafe51bfbf68
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_104_97c4a16a32a77b65.stl
+    sha256: 97c4a16a32a77b651aed29e8528c86d7174ad52695326dfe39095ed2f896563a
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_105_7ec76701b47a2050.stl
+    sha256: 7ec76701b47a2050f1ffaa166f4d20bf6858b755f7d83c727cbfd5bad1767658
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_106_174a68e7ced5f550.stl
+    sha256: 174a68e7ced5f550225029e9c3ebc7606cef80a72e0370c2a9a36b9c40cbbd0f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_107_968efc0f51ea2c55.stl
+    sha256: 968efc0f51ea2c55858aaa3d4fff086e3cfc959b50ea091e814d0a77dcbe606c
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_108_b1cf27d173bb5a01.stl
+    sha256: b1cf27d173bb5a01788d8f2c8e9166e0a0bfd6d377c750b9a00db00dba31500a
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_109_5a8e1187ea7b841f.stl
+    sha256: 5a8e1187ea7b841fce88805372f65363963218b56c6612663acb36b5d5dce1cd
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_110_691114c7bb2b14c5.stl
+    sha256: 691114c7bb2b14c526ba598cb3d80e82ebf9840ad74b6bf0a3667a11c47323be
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_111_f1b471f00ec8170d.stl
+    sha256: f1b471f00ec8170d65ce142786ff64b0314350693f7aa82dee59f2b76cb9eebf
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_112_866ee779fd42145a.stl
+    sha256: 866ee779fd42145ab85bc11b838f509c9ee4cacd2b1653f5a9368bfc970e52c1
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_113_b83441ac54d46548.stl
+    sha256: b83441ac54d465488fe5eec919d44bbc8d8d1973ece9ffb73b8d718166340db2
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_114_17cd6c4eda521586.stl
+    sha256: 17cd6c4eda5215863f9a7a46a4461cb884f2312bdc275c5b37c2febb5c49b12b
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_115_889b6cb295767488.stl
+    sha256: 889b6cb295767488b0308bd7bb5749feec3bc88cd6e399fb01219ab8dca4363f
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_116_5ac7f93a51d6fafd.stl
+    sha256: 5ac7f93a51d6fafd48f9c4aeca83dbc00839e431a431d2b6065f7a71fa541d44
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_117_1d24a25fdc748d6b.stl
+    sha256: 1d24a25fdc748d6b6cc0e06bee53e23aee55419e579b8c96a56952db0931870c
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_118_e47a83ba19e919a6.stl
+    sha256: e47a83ba19e919a603723d25885080b46933f65c8ba7b64a622087118002ffb7
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  - file: collision/base_link_00_component_119_7a2719efe39503ed.stl
+    sha256: 7a2719efe39503ed31f7663b9a357c363f58d3c4cba488fbd61d9068355122b5
+    source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/arm/base_link.STL
+  source_sha256: e6873c44e122f957a1795ca3427cdcd7bba937ea7874dd7c0e2e6137eafdcca1
+- collision_index: 0
+  link: l_index_finger_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_index_finger_distal.STL
+    sha256: 47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574
+    source_sha256: 47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_index_finger_distal.STL
+  source_sha256: 47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574
+- collision_index: 0
+  link: l_index_finger_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_index_finger_middle.STL
+    sha256: 5af2f99b93fb63669ce398a0bb8bded708e167dfbe95c4e1e9e484fc560f2560
+    source_sha256: 5af2f99b93fb63669ce398a0bb8bded708e167dfbe95c4e1e9e484fc560f2560
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_index_finger_middle.STL
+  source_sha256: 5af2f99b93fb63669ce398a0bb8bded708e167dfbe95c4e1e9e484fc560f2560
+- collision_index: 0
+  link: l_index_finger_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_index_finger_proximal.STL
+    sha256: 89e49d06793eedd081e59fadded28badd027a6f99b7bfe6554ebc2e7ed01e142
+    source_sha256: 89e49d06793eedd081e59fadded28badd027a6f99b7bfe6554ebc2e7ed01e142
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_index_finger_proximal.STL
+  source_sha256: 89e49d06793eedd081e59fadded28badd027a6f99b7bfe6554ebc2e7ed01e142
+- collision_index: 0
+  link: l_index_finger_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_index_finger_proximal_abd.STL
+    sha256: 78f4806eec50b94779e2e987de7e6bab5ad7ea3d6e8a964a883993f7728a37ea
+    source_sha256: 78f4806eec50b94779e2e987de7e6bab5ad7ea3d6e8a964a883993f7728a37ea
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_index_finger_proximal_abd.STL
+  source_sha256: 78f4806eec50b94779e2e987de7e6bab5ad7ea3d6e8a964a883993f7728a37ea
+- collision_index: 0
+  link: l_index_finger_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_index_finger_tip_sensor_frame.STL
+    sha256: 4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71
+    source_sha256: 4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_index_finger_tip_sensor_frame.STL
+  source_sha256: 4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71
+- collision_index: 0
+  link: l_middle_finger_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_middle_finger_distal.STL
+    sha256: 47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574
+    source_sha256: 47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_middle_finger_distal.STL
+  source_sha256: 47630a76817e938ec60141a1f100cf022394d9d2db7d96bb3ca6c258356e6574
+- collision_index: 0
+  link: l_middle_finger_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_middle_finger_middle.STL
+    sha256: b3bb4726751b29238baa84d5dfd4120c0567a3589674b4bf873ddb47bc520a4b
+    source_sha256: b3bb4726751b29238baa84d5dfd4120c0567a3589674b4bf873ddb47bc520a4b
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_middle_finger_middle.STL
+  source_sha256: b3bb4726751b29238baa84d5dfd4120c0567a3589674b4bf873ddb47bc520a4b
+- collision_index: 0
+  link: l_middle_finger_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_middle_finger_proximal.STL
+    sha256: 8eea0513ad131808b5d214199aa92aca987eb63285abcb819864f71697072f88
+    source_sha256: 8eea0513ad131808b5d214199aa92aca987eb63285abcb819864f71697072f88
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_middle_finger_proximal.STL
+  source_sha256: 8eea0513ad131808b5d214199aa92aca987eb63285abcb819864f71697072f88
+- collision_index: 0
+  link: l_middle_finger_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_middle_finger_proximal_abd.STL
+    sha256: 78f372e549967c39eb564b34ed6d04cd54217d16d9ca05b1563ee8cb6ef6e240
+    source_sha256: 78f372e549967c39eb564b34ed6d04cd54217d16d9ca05b1563ee8cb6ef6e240
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_middle_finger_proximal_abd.STL
+  source_sha256: 78f372e549967c39eb564b34ed6d04cd54217d16d9ca05b1563ee8cb6ef6e240
+- collision_index: 0
+  link: l_middle_finger_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_middle_finger_tip_sensor_frame.STL
+    sha256: 4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71
+    source_sha256: 4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_middle_finger_tip_sensor_frame.STL
+  source_sha256: 4961c77d85083321feae6fdd4134084c7ac40b438cb416f74b29a77b20f14a71
+- collision_index: 0
+  link: l_mount
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_mount.STL
+    sha256: db56d3547765b5a679698bbe2c0444ced492449e6ed9f5720fe78da33e94465a
+    source_sha256: db56d3547765b5a679698bbe2c0444ced492449e6ed9f5720fe78da33e94465a
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_mount.STL
+  source_sha256: db56d3547765b5a679698bbe2c0444ced492449e6ed9f5720fe78da33e94465a
+- collision_index: 0
+  link: l_pinky_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_pinky_distal.STL
+    sha256: 19f4f22a89dcd60f7655ac9cd7c43d4f0ec696065ca9bcf36573de0106ab9675
+    source_sha256: 19f4f22a89dcd60f7655ac9cd7c43d4f0ec696065ca9bcf36573de0106ab9675
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_pinky_distal.STL
+  source_sha256: 19f4f22a89dcd60f7655ac9cd7c43d4f0ec696065ca9bcf36573de0106ab9675
+- collision_index: 0
+  link: l_pinky_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_pinky_middle.STL
+    sha256: 63061786518fd016e4a1430866811423ca1bf1bd7f1c25c0b1afdbbd127a1882
+    source_sha256: 63061786518fd016e4a1430866811423ca1bf1bd7f1c25c0b1afdbbd127a1882
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_pinky_middle.STL
+  source_sha256: 63061786518fd016e4a1430866811423ca1bf1bd7f1c25c0b1afdbbd127a1882
+- collision_index: 0
+  link: l_pinky_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_pinky_proximal.STL
+    sha256: 41939a3da70824bc50821eb2f20734a2f32228ddd85c646f6676a1bc66ad1813
+    source_sha256: 41939a3da70824bc50821eb2f20734a2f32228ddd85c646f6676a1bc66ad1813
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_pinky_proximal.STL
+  source_sha256: 41939a3da70824bc50821eb2f20734a2f32228ddd85c646f6676a1bc66ad1813
+- collision_index: 0
+  link: l_pinky_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_pinky_proximal_abd.STL
+    sha256: 25fc27d8ec8dfd75b3bbc43d154de3cd16c16d3f232684099a11e604232a5224
+    source_sha256: 25fc27d8ec8dfd75b3bbc43d154de3cd16c16d3f232684099a11e604232a5224
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_pinky_proximal_abd.STL
+  source_sha256: 25fc27d8ec8dfd75b3bbc43d154de3cd16c16d3f232684099a11e604232a5224
+- collision_index: 0
+  link: l_pinky_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_pinky_tip_sensor_frame.STL
+    sha256: b85eff25ea1c9df6cf8f10e2eaecea7bda2836435fe99df37d1f96823e4a3da7
+    source_sha256: b85eff25ea1c9df6cf8f10e2eaecea7bda2836435fe99df37d1f96823e4a3da7
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_pinky_tip_sensor_frame.STL
+  source_sha256: b85eff25ea1c9df6cf8f10e2eaecea7bda2836435fe99df37d1f96823e4a3da7
+- collision_index: 0
+  link: l_ring_finger_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_ring_finger_distal.STL
+    sha256: b149433ff04d032efb86b9ab600ba55a45717b7629aa392a70ec346841e52d7d
+    source_sha256: b149433ff04d032efb86b9ab600ba55a45717b7629aa392a70ec346841e52d7d
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_ring_finger_distal.STL
+  source_sha256: b149433ff04d032efb86b9ab600ba55a45717b7629aa392a70ec346841e52d7d
+- collision_index: 0
+  link: l_ring_finger_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_ring_finger_middle.STL
+    sha256: 65969a58aba7af89f847e2c431de67066a4d7728e53ac71ef74c97c04ebd228d
+    source_sha256: 65969a58aba7af89f847e2c431de67066a4d7728e53ac71ef74c97c04ebd228d
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_ring_finger_middle.STL
+  source_sha256: 65969a58aba7af89f847e2c431de67066a4d7728e53ac71ef74c97c04ebd228d
+- collision_index: 0
+  link: l_ring_finger_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_ring_finger_proximal.STL
+    sha256: b8962bc4ac95acb90b75ce883274a19c8884ee74b924d09fd961d0ce8847cae9
+    source_sha256: b8962bc4ac95acb90b75ce883274a19c8884ee74b924d09fd961d0ce8847cae9
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_ring_finger_proximal.STL
+  source_sha256: b8962bc4ac95acb90b75ce883274a19c8884ee74b924d09fd961d0ce8847cae9
+- collision_index: 0
+  link: l_ring_finger_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_ring_finger_proximal_abd.STL
+    sha256: 9b7aab081a9d1cc29f24891417d6ab03ee36f4a716a632528ec777963553fff9
+    source_sha256: 9b7aab081a9d1cc29f24891417d6ab03ee36f4a716a632528ec777963553fff9
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_ring_finger_proximal_abd.STL
+  source_sha256: 9b7aab081a9d1cc29f24891417d6ab03ee36f4a716a632528ec777963553fff9
+- collision_index: 0
+  link: l_ring_finger_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_ring_finger_tip_sensor_frame.STL
+    sha256: cf69841d299dc170d3303aec327929a859f7bc2a91514165f13a2eb5fe43ca85
+    source_sha256: cf69841d299dc170d3303aec327929a859f7bc2a91514165f13a2eb5fe43ca85
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_ring_finger_tip_sensor_frame.STL
+  source_sha256: cf69841d299dc170d3303aec327929a859f7bc2a91514165f13a2eb5fe43ca85
+- collision_index: 0
+  link: l_thumb_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_thumb_distal.STL
+    sha256: 0d89c323bf1608b2ee42b003286e4707cdfe267b7ff65db437b336ade758749c
+    source_sha256: 0d89c323bf1608b2ee42b003286e4707cdfe267b7ff65db437b336ade758749c
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_thumb_distal.STL
+  source_sha256: 0d89c323bf1608b2ee42b003286e4707cdfe267b7ff65db437b336ade758749c
+- collision_index: 0
+  link: l_thumb_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_thumb_middle.STL
+    sha256: 3a84286a4de13ad95771fcc43a277ece2a0c5bcf2476ea04f2292f8a022c70d0
+    source_sha256: 3a84286a4de13ad95771fcc43a277ece2a0c5bcf2476ea04f2292f8a022c70d0
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_thumb_middle.STL
+  source_sha256: 3a84286a4de13ad95771fcc43a277ece2a0c5bcf2476ea04f2292f8a022c70d0
+- collision_index: 0
+  link: l_thumb_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_thumb_proximal.STL
+    sha256: 5144d8ab958dcacbd70b12d413624ab5c74faab5fb3406502c1aa45f931802d0
+    source_sha256: 5144d8ab958dcacbd70b12d413624ab5c74faab5fb3406502c1aa45f931802d0
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_thumb_proximal.STL
+  source_sha256: 5144d8ab958dcacbd70b12d413624ab5c74faab5fb3406502c1aa45f931802d0
+- collision_index: 0
+  link: l_thumb_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_thumb_proximal_abd.STL
+    sha256: 539f4df7100751ecf3463138023fb78535fc1114e73dccba2c1f3262e7ce13e7
+    source_sha256: 539f4df7100751ecf3463138023fb78535fc1114e73dccba2c1f3262e7ce13e7
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_thumb_proximal_abd.STL
+  source_sha256: 539f4df7100751ecf3463138023fb78535fc1114e73dccba2c1f3262e7ce13e7
+- collision_index: 0
+  link: l_thumb_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_thumb_tip_sensor_frame.STL
+    sha256: e0b34bb387e3217b3f2dedf37c0980fb92693e0de617be613fb3e9dcb692a1db
+    source_sha256: e0b34bb387e3217b3f2dedf37c0980fb92693e0de617be613fb3e9dcb692a1db
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_thumb_tip_sensor_frame.STL
+  source_sha256: e0b34bb387e3217b3f2dedf37c0980fb92693e0de617be613fb3e9dcb692a1db
+- collision_index: 0
+  link: l_wrist
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/l_wrist.STL
+    sha256: cc3944120241f19effa9a95a7edb9b2cfd00f2796305d78c05b563962d6f5361
+    source_sha256: cc3944120241f19effa9a95a7edb9b2cfd00f2796305d78c05b563962d6f5361
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/left_hand/l_wrist.STL
+  source_sha256: cc3944120241f19effa9a95a7edb9b2cfd00f2796305d78c05b563962d6f5361
+- collision_index: 0
+  link: r_index_finger_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_index_finger_distal.STL
+    sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+    source_sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_index_finger_distal.STL
+  source_sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+- collision_index: 0
+  link: r_index_finger_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_index_finger_middle.STL
+    sha256: 9ba4bd6449d5c60255c1bbe1cdf3ec1bd7f9f0413f45f9ee20ca1e97165b5a93
+    source_sha256: 9ba4bd6449d5c60255c1bbe1cdf3ec1bd7f9f0413f45f9ee20ca1e97165b5a93
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_index_finger_middle.STL
+  source_sha256: 9ba4bd6449d5c60255c1bbe1cdf3ec1bd7f9f0413f45f9ee20ca1e97165b5a93
+- collision_index: 0
+  link: r_index_finger_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_index_finger_proximal.STL
+    sha256: d07ffb4a0f107d53837b068ee3aafd30b58a2775271beabc26911ac8d4288ef3
+    source_sha256: d07ffb4a0f107d53837b068ee3aafd30b58a2775271beabc26911ac8d4288ef3
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_index_finger_proximal.STL
+  source_sha256: d07ffb4a0f107d53837b068ee3aafd30b58a2775271beabc26911ac8d4288ef3
+- collision_index: 0
+  link: r_index_finger_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_index_finger_proximal_abd.STL
+    sha256: 373722f52678f818a311d7c5a4ec6ac711038cfbf36536c082325f9315853cb5
+    source_sha256: 373722f52678f818a311d7c5a4ec6ac711038cfbf36536c082325f9315853cb5
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_index_finger_proximal_abd.STL
+  source_sha256: 373722f52678f818a311d7c5a4ec6ac711038cfbf36536c082325f9315853cb5
+- collision_index: 0
+  link: r_index_finger_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_index_finger_tip_sensor_frame.STL
+    sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+    source_sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_index_finger_tip_sensor_frame.STL
+  source_sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+- collision_index: 0
+  link: r_middle_finger_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_middle_finger_distal.STL
+    sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+    source_sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_middle_finger_distal.STL
+  source_sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+- collision_index: 0
+  link: r_middle_finger_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_middle_finger_middle.STL
+    sha256: 5f88e7c641888fdc7fbae7c3b613b691b8ae4fc35af473b2daf40bead9198178
+    source_sha256: 5f88e7c641888fdc7fbae7c3b613b691b8ae4fc35af473b2daf40bead9198178
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_middle_finger_middle.STL
+  source_sha256: 5f88e7c641888fdc7fbae7c3b613b691b8ae4fc35af473b2daf40bead9198178
+- collision_index: 0
+  link: r_middle_finger_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_middle_finger_proximal.STL
+    sha256: 039bee058e2e24fa083c77c7512d30782aecced1654897c6b9fd7b3b68866f6c
+    source_sha256: 039bee058e2e24fa083c77c7512d30782aecced1654897c6b9fd7b3b68866f6c
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_middle_finger_proximal.STL
+  source_sha256: 039bee058e2e24fa083c77c7512d30782aecced1654897c6b9fd7b3b68866f6c
+- collision_index: 0
+  link: r_middle_finger_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_middle_finger_proximal_abd.STL
+    sha256: 91e3f149f9cabc198b903881661db428fa17860af7f79b5f0a4e8ff555616d6e
+    source_sha256: 91e3f149f9cabc198b903881661db428fa17860af7f79b5f0a4e8ff555616d6e
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_middle_finger_proximal_abd.STL
+  source_sha256: 91e3f149f9cabc198b903881661db428fa17860af7f79b5f0a4e8ff555616d6e
+- collision_index: 0
+  link: r_middle_finger_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_middle_finger_tip_sensor_frame.STL
+    sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+    source_sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_middle_finger_tip_sensor_frame.STL
+  source_sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+- collision_index: 0
+  link: r_mount
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_mount.STL
+    sha256: 302c1a168417f2c84abc30a148ff6ce364ce6621340f15190c8f53cfe50d6268
+    source_sha256: 302c1a168417f2c84abc30a148ff6ce364ce6621340f15190c8f53cfe50d6268
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_mount.STL
+  source_sha256: 302c1a168417f2c84abc30a148ff6ce364ce6621340f15190c8f53cfe50d6268
+- collision_index: 0
+  link: r_pinky_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_pinky_distal.STL
+    sha256: 6832e7482d550cec79298ac1c1a304fcfc64ce0e3c925948d04e62a6242b9dae
+    source_sha256: 6832e7482d550cec79298ac1c1a304fcfc64ce0e3c925948d04e62a6242b9dae
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_pinky_distal.STL
+  source_sha256: 6832e7482d550cec79298ac1c1a304fcfc64ce0e3c925948d04e62a6242b9dae
+- collision_index: 0
+  link: r_pinky_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_pinky_middle.STL
+    sha256: 609cc6cef5df1bd4a92ec8a889c670643a45f8fc559d124622b96ebc77f76122
+    source_sha256: 609cc6cef5df1bd4a92ec8a889c670643a45f8fc559d124622b96ebc77f76122
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_pinky_middle.STL
+  source_sha256: 609cc6cef5df1bd4a92ec8a889c670643a45f8fc559d124622b96ebc77f76122
+- collision_index: 0
+  link: r_pinky_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_pinky_proximal.STL
+    sha256: c88defaf8c670dc4a12a489e653ee4732a79a32780046dbe3fe6d98d1a686680
+    source_sha256: c88defaf8c670dc4a12a489e653ee4732a79a32780046dbe3fe6d98d1a686680
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_pinky_proximal.STL
+  source_sha256: c88defaf8c670dc4a12a489e653ee4732a79a32780046dbe3fe6d98d1a686680
+- collision_index: 0
+  link: r_pinky_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_pinky_proximal_abd.STL
+    sha256: 0d9493bc1a62162c89a1be7673d8d91ebc9f20383847d66e46ac35a3645f9701
+    source_sha256: 0d9493bc1a62162c89a1be7673d8d91ebc9f20383847d66e46ac35a3645f9701
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_pinky_proximal_abd.STL
+  source_sha256: 0d9493bc1a62162c89a1be7673d8d91ebc9f20383847d66e46ac35a3645f9701
+- collision_index: 0
+  link: r_pinky_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_pinky_tip_sensor_frame.STL
+    sha256: 22f19f242d73f10231f420ce91ef5ba4dd6d53d2b9c7a15e68b5da0ba1f7a359
+    source_sha256: 22f19f242d73f10231f420ce91ef5ba4dd6d53d2b9c7a15e68b5da0ba1f7a359
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_pinky_tip_sensor_frame.STL
+  source_sha256: 22f19f242d73f10231f420ce91ef5ba4dd6d53d2b9c7a15e68b5da0ba1f7a359
+- collision_index: 0
+  link: r_ring_finger_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_ring_finger_distal.STL
+    sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+    source_sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_ring_finger_distal.STL
+  source_sha256: 7b11dd372a4a155e2bf1305c7d3cf0bacfbfd526f6659c467ccf35efd7553b7d
+- collision_index: 0
+  link: r_ring_finger_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_ring_finger_middle.STL
+    sha256: 6fbcf92b159a2d9e3b097f459ac5df73577cda5ca2b62020284de287f49323e4
+    source_sha256: 6fbcf92b159a2d9e3b097f459ac5df73577cda5ca2b62020284de287f49323e4
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_ring_finger_middle.STL
+  source_sha256: 6fbcf92b159a2d9e3b097f459ac5df73577cda5ca2b62020284de287f49323e4
+- collision_index: 0
+  link: r_ring_finger_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_ring_finger_proximal.STL
+    sha256: da1870bfe85621550c6081c944b91e4dafc7721a73f46be6a77f0c15dd0b214a
+    source_sha256: da1870bfe85621550c6081c944b91e4dafc7721a73f46be6a77f0c15dd0b214a
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_ring_finger_proximal.STL
+  source_sha256: da1870bfe85621550c6081c944b91e4dafc7721a73f46be6a77f0c15dd0b214a
+- collision_index: 0
+  link: r_ring_finger_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_ring_finger_proximal_abd.STL
+    sha256: df3787ff168f4c0fa21c77296fe34418240e8c8d357c1ede99c96cf2f89d32f0
+    source_sha256: df3787ff168f4c0fa21c77296fe34418240e8c8d357c1ede99c96cf2f89d32f0
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_ring_finger_proximal_abd.STL
+  source_sha256: df3787ff168f4c0fa21c77296fe34418240e8c8d357c1ede99c96cf2f89d32f0
+- collision_index: 0
+  link: r_ring_finger_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_ring_finger_tip_sensor_frame.STL
+    sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+    source_sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_ring_finger_tip_sensor_frame.STL
+  source_sha256: d5a13c52478576aa461d9739957bcf4612b359be58e449bb199a9ad01cb75cb6
+- collision_index: 0
+  link: r_thumb_distal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_thumb_distal.STL
+    sha256: 273878b0f78e35ffd5e3ad416cb4c79368c6fc43a886ec047760c5f21a55b04d
+    source_sha256: 273878b0f78e35ffd5e3ad416cb4c79368c6fc43a886ec047760c5f21a55b04d
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_thumb_distal.STL
+  source_sha256: 273878b0f78e35ffd5e3ad416cb4c79368c6fc43a886ec047760c5f21a55b04d
+- collision_index: 0
+  link: r_thumb_middle
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_thumb_middle.STL
+    sha256: a04ebd10f24534121672721011c95d26a0c8f734ee65481c49b962fd0b573ea7
+    source_sha256: a04ebd10f24534121672721011c95d26a0c8f734ee65481c49b962fd0b573ea7
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_thumb_middle.STL
+  source_sha256: a04ebd10f24534121672721011c95d26a0c8f734ee65481c49b962fd0b573ea7
+- collision_index: 0
+  link: r_thumb_proximal
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_thumb_proximal.STL
+    sha256: e3e9e7c1266c6d3e38287b074e38162bf508626de14d54e995e40e1d56d7247e
+    source_sha256: e3e9e7c1266c6d3e38287b074e38162bf508626de14d54e995e40e1d56d7247e
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_thumb_proximal.STL
+  source_sha256: e3e9e7c1266c6d3e38287b074e38162bf508626de14d54e995e40e1d56d7247e
+- collision_index: 0
+  link: r_thumb_proximal_abd
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_thumb_proximal_abd.STL
+    sha256: 2aaafd9ba420bf2b40d2e262f8328ba4937e647021a0ea188aa3620bde0d135a
+    source_sha256: 2aaafd9ba420bf2b40d2e262f8328ba4937e647021a0ea188aa3620bde0d135a
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_thumb_proximal_abd.STL
+  source_sha256: 2aaafd9ba420bf2b40d2e262f8328ba4937e647021a0ea188aa3620bde0d135a
+- collision_index: 0
+  link: r_thumb_tip_sensor_frame
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_thumb_tip_sensor_frame.STL
+    sha256: 4bb06fa7ee605b72a21f62debe43fe711e57da3fcc45c89ab2644ee476b0a4af
+    source_sha256: 4bb06fa7ee605b72a21f62debe43fe711e57da3fcc45c89ab2644ee476b0a4af
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_thumb_tip_sensor_frame.STL
+  source_sha256: 4bb06fa7ee605b72a21f62debe43fe711e57da3fcc45c89ab2644ee476b0a4af
+- collision_index: 0
+  link: r_wrist
+  mode: raw
+  piece_count: 1
+  pieces:
+  - file: meshes/r_wrist.STL
+    sha256: ece3f36af8ed61079d0061dd9d9b11e5eae76ce9640287d0975c1522f8731fc6
+    source_sha256: ece3f36af8ed61079d0061dd9d9b11e5eae76ce9640287d0975c1522f8731fc6
+  scale:
+  - 1.0
+  - 1.0
+  - 1.0
+  source_filename: ../meshes/right_hand/r_wrist.STL
+  source_sha256: ece3f36af8ed61079d0061dd9d9b11e5eae76ce9640287d0975c1522f8731fc6
+settings:
+  mode: raw
+  split_root_components: true
+source_urdf_sha256: 5234d46f3f5f17f9d68bd5a4378158ef48ee08b886542246c01871cd9a01cda7
+version: 1

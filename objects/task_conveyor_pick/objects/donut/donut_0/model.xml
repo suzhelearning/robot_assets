@@ -1,0 +1,147 @@
+<mujoco model="donut_11">
+  <asset>
+    <mesh file="visual/model_normalized_0.obj" name="model_normalized_0_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_1.obj" name="model_normalized_1_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_2.obj" name="model_normalized_2_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_3.obj" name="model_normalized_3_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_4.obj" name="model_normalized_4_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_5.obj" name="model_normalized_5_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_6.obj" name="model_normalized_6_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_7.obj" name="model_normalized_7_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_8.obj" name="model_normalized_8_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="visual/model_normalized_9.obj" name="model_normalized_9_vis" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <material name="Material.030" specular="0.5" shininess="0.25" rgba="0.076580 0.010038 0.000000 1.0" />
+    <material name="Material.031" specular="0.5" shininess="0.25" rgba="0.800000 0.073747 0.092156 1.0" />
+    <material name="Material.032" specular="0.5" shininess="0.25" rgba="0.800000 0.800000 0.800000 1.0" />
+    <material name="Material.033" specular="0.5" shininess="0.25" rgba="0.800000 0.213830 0.026317 1.0" />
+    <material name="Material.034" specular="0.5" shininess="0.25" rgba="0.222194 0.800000 0.027312 1.0" />
+    <material name="Material.035" specular="0.5" shininess="0.25" rgba="0.800000 0.120380 0.660224 1.0" />
+    <material name="Material.036" specular="0.5" shininess="0.25" rgba="0.168194 0.777143 0.800000 1.0" />
+    <material name="Material.037" specular="0.5" shininess="0.25" rgba="0.800000 0.800000 0.800000 1.0" />
+    <material name="Material.038" specular="0.5" shininess="0.25" rgba="0.035599 0.069545 0.800000 1.0" />
+    <material name="material.004" specular="0.5" shininess="0.25" rgba="0.800000 0.242728 0.075687 1.0" />
+    <mesh file="collision_coacd/model_normalized_0_coacd_00.obj" name="conveyor_collision_coacd_000" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_0_coacd_01.obj" name="conveyor_collision_coacd_001" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_1_coacd_00.obj" name="conveyor_collision_coacd_002" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_1_coacd_01.obj" name="conveyor_collision_coacd_003" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_1_coacd_02.obj" name="conveyor_collision_coacd_004" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_1_coacd_03.obj" name="conveyor_collision_coacd_005" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_1_coacd_04.obj" name="conveyor_collision_coacd_006" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_2_coacd_00.obj" name="conveyor_collision_coacd_007" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_2_coacd_01.obj" name="conveyor_collision_coacd_008" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_2_coacd_02.obj" name="conveyor_collision_coacd_009" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_2_coacd_03.obj" name="conveyor_collision_coacd_010" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_3_coacd_00.obj" name="conveyor_collision_coacd_011" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_4_coacd_00.obj" name="conveyor_collision_coacd_012" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_4_coacd_01.obj" name="conveyor_collision_coacd_013" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_4_coacd_02.obj" name="conveyor_collision_coacd_014" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_4_coacd_03.obj" name="conveyor_collision_coacd_015" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_4_coacd_04.obj" name="conveyor_collision_coacd_016" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_4_coacd_05.obj" name="conveyor_collision_coacd_017" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_5_coacd_00.obj" name="conveyor_collision_coacd_018" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_5_coacd_01.obj" name="conveyor_collision_coacd_019" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_5_coacd_02.obj" name="conveyor_collision_coacd_020" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_5_coacd_03.obj" name="conveyor_collision_coacd_021" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_5_coacd_04.obj" name="conveyor_collision_coacd_022" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_5_coacd_05.obj" name="conveyor_collision_coacd_023" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_6_coacd_00.obj" name="conveyor_collision_coacd_024" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_6_coacd_01.obj" name="conveyor_collision_coacd_025" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_6_coacd_02.obj" name="conveyor_collision_coacd_026" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_6_coacd_03.obj" name="conveyor_collision_coacd_027" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_7_coacd_00.obj" name="conveyor_collision_coacd_028" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_7_coacd_01.obj" name="conveyor_collision_coacd_029" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_7_coacd_02.obj" name="conveyor_collision_coacd_030" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_7_coacd_03.obj" name="conveyor_collision_coacd_031" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_7_coacd_04.obj" name="conveyor_collision_coacd_032" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_00.obj" name="conveyor_collision_coacd_033" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_01.obj" name="conveyor_collision_coacd_034" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_02.obj" name="conveyor_collision_coacd_035" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_03.obj" name="conveyor_collision_coacd_036" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_04.obj" name="conveyor_collision_coacd_037" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_05.obj" name="conveyor_collision_coacd_038" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_06.obj" name="conveyor_collision_coacd_039" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_8_coacd_07.obj" name="conveyor_collision_coacd_040" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_00.obj" name="conveyor_collision_coacd_041" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_01.obj" name="conveyor_collision_coacd_042" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_02.obj" name="conveyor_collision_coacd_043" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_03.obj" name="conveyor_collision_coacd_044" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_04.obj" name="conveyor_collision_coacd_045" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_05.obj" name="conveyor_collision_coacd_046" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_06.obj" name="conveyor_collision_coacd_047" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+    <mesh file="collision_coacd/model_normalized_9_coacd_07.obj" name="conveyor_collision_coacd_048" scale="0.10499999999999997 0.10499999999999997 0.10499999999999997" refquat="1.0 0.0 0.0 0.0" />
+  </asset>
+  <default>
+    <default class="region">
+      <geom group="1" conaffinity="0" contype="0" rgba="0 1 0 0" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.5 0 0 0.5" density="1000.0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_0_vis" conaffinity="0" contype="0" group="1" material="Material.038" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_1_vis" conaffinity="0" contype="0" group="1" material="Material.037" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_2_vis" conaffinity="0" contype="0" group="1" material="Material.036" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_3_vis" conaffinity="0" contype="0" group="1" material="Material.035" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_4_vis" conaffinity="0" contype="0" group="1" material="Material.034" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_5_vis" conaffinity="0" contype="0" group="1" material="Material.033" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_6_vis" conaffinity="0" contype="0" group="1" material="Material.032" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_7_vis" conaffinity="0" contype="0" group="1" material="Material.031" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_8_vis" conaffinity="0" contype="0" group="1" material="Material.030" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="model_normalized_9_vis" conaffinity="0" contype="0" group="1" material="material.004" />
+        <geom class="region" name="reg_bbox" type="box" pos="5.482575e-06 2.41605e-06 -6.9345675e-05" size="0.048683186 0.053026677 0.022625245" />
+        <geom name="conveyor_collision_coacd_000" class="collision" type="mesh" mesh="conveyor_collision_coacd_000" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_001" class="collision" type="mesh" mesh="conveyor_collision_coacd_001" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_002" class="collision" type="mesh" mesh="conveyor_collision_coacd_002" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_003" class="collision" type="mesh" mesh="conveyor_collision_coacd_003" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_004" class="collision" type="mesh" mesh="conveyor_collision_coacd_004" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_005" class="collision" type="mesh" mesh="conveyor_collision_coacd_005" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_006" class="collision" type="mesh" mesh="conveyor_collision_coacd_006" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_007" class="collision" type="mesh" mesh="conveyor_collision_coacd_007" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_008" class="collision" type="mesh" mesh="conveyor_collision_coacd_008" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_009" class="collision" type="mesh" mesh="conveyor_collision_coacd_009" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_010" class="collision" type="mesh" mesh="conveyor_collision_coacd_010" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_011" class="collision" type="mesh" mesh="conveyor_collision_coacd_011" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_012" class="collision" type="mesh" mesh="conveyor_collision_coacd_012" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_013" class="collision" type="mesh" mesh="conveyor_collision_coacd_013" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_014" class="collision" type="mesh" mesh="conveyor_collision_coacd_014" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_015" class="collision" type="mesh" mesh="conveyor_collision_coacd_015" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_016" class="collision" type="mesh" mesh="conveyor_collision_coacd_016" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_017" class="collision" type="mesh" mesh="conveyor_collision_coacd_017" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_018" class="collision" type="mesh" mesh="conveyor_collision_coacd_018" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_019" class="collision" type="mesh" mesh="conveyor_collision_coacd_019" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_020" class="collision" type="mesh" mesh="conveyor_collision_coacd_020" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_021" class="collision" type="mesh" mesh="conveyor_collision_coacd_021" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_022" class="collision" type="mesh" mesh="conveyor_collision_coacd_022" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_023" class="collision" type="mesh" mesh="conveyor_collision_coacd_023" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_024" class="collision" type="mesh" mesh="conveyor_collision_coacd_024" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_025" class="collision" type="mesh" mesh="conveyor_collision_coacd_025" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_026" class="collision" type="mesh" mesh="conveyor_collision_coacd_026" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_027" class="collision" type="mesh" mesh="conveyor_collision_coacd_027" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_028" class="collision" type="mesh" mesh="conveyor_collision_coacd_028" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_029" class="collision" type="mesh" mesh="conveyor_collision_coacd_029" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_030" class="collision" type="mesh" mesh="conveyor_collision_coacd_030" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_031" class="collision" type="mesh" mesh="conveyor_collision_coacd_031" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_032" class="collision" type="mesh" mesh="conveyor_collision_coacd_032" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_033" class="collision" type="mesh" mesh="conveyor_collision_coacd_033" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_034" class="collision" type="mesh" mesh="conveyor_collision_coacd_034" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_035" class="collision" type="mesh" mesh="conveyor_collision_coacd_035" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_036" class="collision" type="mesh" mesh="conveyor_collision_coacd_036" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_037" class="collision" type="mesh" mesh="conveyor_collision_coacd_037" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_038" class="collision" type="mesh" mesh="conveyor_collision_coacd_038" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_039" class="collision" type="mesh" mesh="conveyor_collision_coacd_039" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_040" class="collision" type="mesh" mesh="conveyor_collision_coacd_040" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_041" class="collision" type="mesh" mesh="conveyor_collision_coacd_041" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_042" class="collision" type="mesh" mesh="conveyor_collision_coacd_042" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_043" class="collision" type="mesh" mesh="conveyor_collision_coacd_043" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_044" class="collision" type="mesh" mesh="conveyor_collision_coacd_044" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_045" class="collision" type="mesh" mesh="conveyor_collision_coacd_045" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_046" class="collision" type="mesh" mesh="conveyor_collision_coacd_046" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_047" class="collision" type="mesh" mesh="conveyor_collision_coacd_047" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+        <geom name="conveyor_collision_coacd_048" class="collision" type="mesh" mesh="conveyor_collision_coacd_048" group="3" rgba="0 0.8 1 0.35" density="0" condim="6" friction="3.0 0.03 0.003" solimp="0.998 0.998 0.001" solref="0.004 1" priority="1" mass="0.0004081632653" />
+      </body>
+    </body>
+  </worldbody>
+</mujoco>
